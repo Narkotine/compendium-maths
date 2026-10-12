@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 352" width="540" height="352" font-family="Arial, Helvetica, sans-serif">
+<title>Trouver un triangle rectangle caché dans un triangle isocèle et dans un losange</title>
+<rect width="540" height="352" fill="white"/>
+<polygon points="130,86 70,230 190,230" fill="#fafafa" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="130,86 130,230 190,230" fill="#fdebd0" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="130,86 70,230 190,230" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="130" y1="86" x2="130" y2="230" stroke="#1f4e79" stroke-width="2" stroke-dasharray="6 4"/>
+<polyline points="141,230 141,219 130,219" fill="none" stroke="#222" stroke-width="1.5"/>
+<line x1="130" y1="86" x2="190" y2="230" stroke="#c0392b" stroke-width="3.5"/>
+<text x="130" y="78" font-size="15" fill="#222" text-anchor="middle" font-weight="bold">A</text>
+<text x="60" y="248" font-size="15" fill="#222" text-anchor="middle" font-weight="bold">B</text>
+<text x="200" y="248" font-size="15" fill="#222" text-anchor="middle" font-weight="bold">C</text>
+<text x="130" y="250" font-size="15" fill="#222" text-anchor="middle" font-weight="bold">H</text>
+<text x="174" y="158" font-size="14" fill="#c0392b" text-anchor="start" font-weight="normal">13</text>
+<text x="86" y="158" font-size="14" fill="#666" text-anchor="end" font-weight="normal">13</text>
+<text x="160" y="250" font-size="14" fill="#1f4e79" text-anchor="middle" font-weight="normal">5</text>
+<text x="100" y="250" font-size="14" fill="#1f4e79" text-anchor="middle" font-weight="normal">5</text>
+<text x="138" y="170" font-size="14" fill="#1f4e79" text-anchor="start" font-weight="normal">h ?</text>
+<line x1="97" y1="224" x2="103" y2="236" stroke="#222" stroke-width="1.5"/>
+<line x1="157" y1="224" x2="163" y2="236" stroke="#222" stroke-width="1.5"/>
+<text x="130" y="300" font-size="13" fill="#222" text-anchor="middle" font-weight="normal">Triangle isocèle : la hauteur [AH]</text>
+<text x="130" y="318" font-size="13" fill="#222" text-anchor="middle" font-weight="normal">coupe la base en son milieu.</text>
+<text x="130" y="336" font-size="13" fill="#c0392b" text-anchor="middle" font-weight="bold">AHC est rectangle en H.</text>
+<polygon points="390,150 435,150 390,42" fill="#fdebd0" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="390,42 435,150 390,258 345,150" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="390" y1="42" x2="390" y2="258" stroke="#1f4e79" stroke-width="1.8" stroke-dasharray="6 4"/>
+<line x1="345" y1="150" x2="435" y2="150" stroke="#1f4e79" stroke-width="1.8" stroke-dasharray="6 4"/>
+<polyline points="400,150 400,140 390,140" fill="none" stroke="#222" stroke-width="1.5"/>
+<line x1="390" y1="42" x2="435" y2="150" stroke="#c0392b" stroke-width="3.5"/>
+<text x="390" y="34" font-size="15" fill="#222" text-anchor="middle" font-weight="bold">N</text>
+<text x="447" y="155" font-size="15" fill="#222" text-anchor="middle" font-weight="bold">E</text>
+<text x="390" y="278" font-size="15" fill="#222" text-anchor="middle" font-weight="bold">S</text>
+<text x="333" y="155" font-size="15" fill="#222" text-anchor="middle" font-weight="bold">W</text>
+<text x="380" y="168" font-size="14" fill="#222" text-anchor="end" font-weight="bold">O</text>
+<text x="412" y="168" font-size="14" fill="#1f4e79" text-anchor="middle" font-weight="normal">5</text>
+<text x="380" y="100" font-size="14" fill="#1f4e79" text-anchor="end" font-weight="normal">12</text>
+<text x="424.5" y="96" font-size="14" fill="#c0392b" text-anchor="start" font-weight="bold">côté ?</text>
+<text x="400" y="300" font-size="13" fill="#222" text-anchor="middle" font-weight="normal">Losange : les diagonales se coupent</text>
+<text x="400" y="318" font-size="13" fill="#222" text-anchor="middle" font-weight="normal">en leur milieu, à angle droit.</text>
+<text x="400" y="336" font-size="13" fill="#c0392b" text-anchor="middle" font-weight="bold">OEN est rectangle en O.</text>
+</svg>

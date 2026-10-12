@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 290" width="790" height="290" font-family="Arial, Helvetica, sans-serif">
+<title>Preuve de la somme des angles d’un triangle : la parallèle à (BC) passant par A reporte les angles b et c (alternes-internes) ; avec a, ils forment un angle plat</title>
+<rect width="790" height="290" fill="white"/>
+<polygon points="300,60 90,220 430,220" fill="#dbe8f5" stroke="#222" stroke-width="2.2" stroke-linejoin="round"/>
+<line x1="40" y1="60" x2="560" y2="60" stroke="#666" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="7 5"/>
+<text x="565" y="64" font-size="13.2" fill="#666" text-anchor="start" font-weight="normal">parallèle à (BC) passant par A</text>
+<text x="300" y="48" font-size="17.6" fill="#222" text-anchor="middle" font-weight="bold">A</text>
+<text x="76" y="226" font-size="17.6" fill="#222" text-anchor="middle" font-weight="bold">B</text>
+<text x="444" y="226" font-size="17.6" fill="#222" text-anchor="middle" font-weight="bold">C</text>
+<path d="M90,220 L124,220 A34,34 0 0 0 117,199.4 Z" fill="#fdebd0" stroke="#c0392b" stroke-width="1.8"/>
+<path d="M430,220 L408.6,193.6 A34,34 0 0 0 396,220 Z" fill="#c9dcf0" stroke="#1f4e79" stroke-width="1.8"/>
+<path d="M300,60 L276.1,78.2 A30,30 0 0 0 318.9,83.3 Z" fill="#e3f1e4" stroke="#2e7d32" stroke-width="1.8"/>
+<path d="M300,60 L266,60 A34,34 0 0 0 273,80.6 Z" fill="#fdebd0" stroke="#c0392b" stroke-width="1.8"/>
+<path d="M300,60 L321.4,86.4 A34,34 0 0 0 334,60 Z" fill="#c9dcf0" stroke="#1f4e79" stroke-width="1.8"/>
+<text x="142" y="210" font-size="15.4" fill="#c0392b" text-anchor="middle" font-weight="bold" font-style="italic">b</text>
+<text x="380" y="210" font-size="15.4" fill="#1f4e79" text-anchor="middle" font-weight="bold" font-style="italic">c</text>
+<text x="296" y="110" font-size="15.4" fill="#2e7d32" text-anchor="middle" font-weight="bold" font-style="italic">a</text>
+<text x="236" y="82" font-size="15.4" fill="#c0392b" text-anchor="middle" font-weight="bold" font-style="italic">b</text>
+<text x="362" y="82" font-size="15.4" fill="#1f4e79" text-anchor="middle" font-weight="bold" font-style="italic">c</text>
+<text x="320" y="270" font-size="15.4" fill="#222" text-anchor="middle" font-weight="bold">En A, les trois angles b, a, c forment un angle plat : a + b + c = 180°.</text>
+</svg>

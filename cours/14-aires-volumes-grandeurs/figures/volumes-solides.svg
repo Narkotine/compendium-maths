@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 540" width="700" height="540" font-family="Arial, Helvetica, sans-serif">
+<title>Volumes des solides : pavé, prisme et cylindre (base × hauteur) ; pyramide et cône (base × hauteur ÷ 3) ; boule (4/3 π R³). Les bases sont en bleu.</title>
+<rect width="700" height="540" fill="white"/>
+<text x="20" y="26" font-size="15.8" fill="#1f4e79" text-anchor="start" font-weight="bold">V = aire de la base × hauteur</text>
+<text x="20" y="300" font-size="15.8" fill="#c0392b" text-anchor="start" font-weight="bold">V = aire de la base × hauteur ÷ 3</text>
+<polygon points="40,200 142,200 166,176 64,176" fill="#dbe8f5" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<line x1="166" y1="176" x2="64" y2="176" stroke="#222" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="40" y1="200" x2="64" y2="176" stroke="#222" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="64" y1="176" x2="64" y2="67.2" stroke="#222" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="40" y1="200" x2="142" y2="200" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="142" y1="200" x2="166" y2="176" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="40" y1="91.2" x2="142" y2="91.2" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="142" y1="91.2" x2="166" y2="67.2" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="166" y1="67.2" x2="64" y2="67.2" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="40" y1="91.2" x2="64" y2="67.2" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="142" y1="200" x2="142" y2="91.2" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="40" y1="200" x2="40" y2="91.2" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="166" y1="176" x2="166" y2="67.2" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<text x="91" y="238" font-size="13.7" fill="#222" text-anchor="middle" font-weight="bold">pavé droit</text>
+<text x="91" y="256.9" font-size="13.7" fill="#222" text-anchor="middle" font-weight="normal">V = L × ℓ × h</text>
+<polygon points="270,200 372,200 297.2,125.2" fill="#dbe8f5" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="372,200 297.2,125.2 326,96.4 400.8,171.2" fill="#f4f4f4" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<line x1="298.8" y1="171.2" x2="400.8" y2="171.2" stroke="#222" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="298.8" y1="171.2" x2="326" y2="96.4" stroke="#222" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="270" y1="200" x2="298.8" y2="171.2" stroke="#222" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="270" y1="200" x2="372" y2="200" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="372" y1="200" x2="297.2" y2="125.2" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="270" y1="200" x2="297.2" y2="125.2" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="400.8" y1="171.2" x2="326" y2="96.4" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="372" y1="200" x2="400.8" y2="171.2" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="297.2" y1="125.2" x2="326" y2="96.4" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<text x="341" y="238" font-size="13.7" fill="#222" text-anchor="middle" font-weight="bold">prisme droit</text>
+<text x="341" y="256.9" font-size="13.7" fill="#222" text-anchor="middle" font-weight="normal">base = le triangle</text>
+<polygon points="604.2,200 604,201.5 603.2,202.9 602,204.4 600.4,205.8 598.3,207.1 595.8,208.3 592.8,209.5 589.6,210.5 586,211.4 582.1,212.2 578,212.9 573.7,213.5 569.2,213.8 564.6,214.1 560,214.1 555.4,214.1 550.8,213.8 546.3,213.5 542,212.9 537.9,212.2 534,211.4 530.4,210.5 527.2,209.5 524.2,208.3 521.7,207.1 519.6,205.8 518,204.4 516.8,202.9 516,201.5 515.8,200 516,198.5 516.8,197.1 518,195.6 519.6,194.2 521.7,192.9 524.2,191.7 527.2,190.5 530.4,189.5 534,188.6 537.9,187.8 542,187.1 546.3,186.5 550.8,186.2 555.4,185.9 560,185.9 564.6,185.9 569.2,186.2 573.7,186.5 578,187.1 582.1,187.8 586,188.6 589.6,189.5 592.8,190.5 595.8,191.7 598.3,192.9 600.4,194.2 602,195.6 603.2,197.1 604,198.5 604.2,200" fill="#dbe8f5" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<polyline points="515.8,200 515.9,199.3 516,198.5 516.3,197.8 516.8,197.1 517.3,196.3 518,195.6 518.7,194.9 519.6,194.2 520.6,193.6 521.7,192.9 522.9,192.3 524.2,191.7 525.7,191.1 527.2,190.5 528.7,190 530.4,189.5 532.2,189 534,188.6 535.9,188.1 537.9,187.8 539.9,187.4 542,187.1 544.2,186.8 546.3,186.5 548.6,186.3 550.8,186.2 553.1,186 555.4,185.9 557.7,185.9 560,185.9 562.3,185.9 564.6,185.9 566.9,186 569.2,186.2 571.4,186.3 573.7,186.5 575.8,186.8 578,187.1 580.1,187.4 582.1,187.8 584.1,188.1 586,188.6 587.8,189 589.6,189.5 591.3,190 592.8,190.5 594.3,191.1 595.8,191.7 597.1,192.3 598.3,192.9 599.4,193.6 600.4,194.2 601.3,194.9 602,195.6 602.7,196.3 603.2,197.1 603.7,197.8 604,198.5 604.1,199.3 604.2,200" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round" stroke-dasharray="6 5"/>
+<polyline points="604.2,200 604.1,200.7 604,201.5 603.7,202.2 603.2,202.9 602.7,203.7 602,204.4 601.3,205.1 600.4,205.8 599.4,206.4 598.3,207.1 597.1,207.7 595.8,208.3 594.3,208.9 592.8,209.5 591.3,210 589.6,210.5 587.8,211 586,211.4 584.1,211.9 582.1,212.2 580.1,212.6 578,212.9 575.8,213.2 573.7,213.5 571.4,213.7 569.2,213.8 566.9,214 564.6,214.1 562.3,214.1 560,214.1 557.7,214.1 555.4,214.1 553.1,214 550.8,213.8 548.6,213.7 546.3,213.5 544.2,213.2 542,212.9 539.9,212.6 537.9,212.2 535.9,211.9 534,211.4 532.2,211 530.4,210.5 528.7,210 527.2,209.5 525.7,208.9 524.2,208.3 522.9,207.7 521.7,207.1 520.6,206.4 519.6,205.8 518.7,205.1 518,204.4 517.3,203.7 516.8,202.9 516.3,202.2 516,201.5 515.9,200.7 515.8,200" fill="none" stroke="#222" stroke-width="2.2" stroke-linejoin="round"/>
+<polyline points="604.2,91.2 604,92.7 603.2,94.1 602,95.6 600.4,97 598.3,98.3 595.8,99.5 592.8,100.7 589.6,101.7 586,102.6 582.1,103.4 578,104.1 573.7,104.7 569.2,105 564.6,105.3 560,105.3 555.4,105.3 550.8,105 546.3,104.7 542,104.1 537.9,103.4 534,102.6 530.4,101.7 527.2,100.7 524.2,99.5 521.7,98.3 519.6,97 518,95.6 516.8,94.1 516,92.7 515.8,91.2 516,89.7 516.8,88.3 518,86.8 519.6,85.4 521.7,84.1 524.2,82.9 527.2,81.7 530.4,80.7 534,79.8 537.9,79 542,78.3 546.3,77.7 550.8,77.4 555.4,77.1 560,77.1 564.6,77.1 569.2,77.4 573.7,77.7 578,78.3 582.1,79 586,79.8 589.6,80.7 592.8,81.7 595.8,82.9 598.3,84.1 600.4,85.4 602,86.8 603.2,88.3 604,89.7 604.2,91.2" fill="none" stroke="#222" stroke-width="2.2" stroke-linejoin="round"/>
+<line x1="515.8" y1="200" x2="515.8" y2="91.2" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="604.2" y1="200" x2="604.2" y2="91.2" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="560" y1="200" x2="604.2" y2="200" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<text x="582" y="216" font-size="12.6" fill="#c0392b" text-anchor="middle" font-weight="bold">R</text>
+<text x="560" y="238" font-size="13.7" fill="#222" text-anchor="middle" font-weight="bold">cylindre</text>
+<text x="560" y="256.9" font-size="13.7" fill="#222" text-anchor="middle" font-weight="normal">V = π × R² × h</text>
+<polygon points="40,480 142,480 170.8,451.2 68.8,451.2" fill="#dbe8f5" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<line x1="170.8" y1="451.2" x2="68.8" y2="451.2" stroke="#222" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="40" y1="480" x2="68.8" y2="451.2" stroke="#222" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="68.8" y1="451.2" x2="105.4" y2="343.2" stroke="#222" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="40" y1="480" x2="142" y2="480" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="142" y1="480" x2="170.8" y2="451.2" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="142" y1="480" x2="105.4" y2="343.2" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="40" y1="480" x2="105.4" y2="343.2" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="170.8" y1="451.2" x2="105.4" y2="343.2" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="105.4" y1="465.6" x2="105.4" y2="343.2" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="4 4"/>
+<text x="99.4" y="418.4" font-size="13.7" fill="#c0392b" text-anchor="end" font-weight="bold">h</text>
+<text x="101" y="506" font-size="13.7" fill="#222" text-anchor="middle" font-weight="bold">pyramide</text>
+<text x="101" y="524.9" font-size="13.7" fill="#222" text-anchor="middle" font-weight="normal">V = B × h ÷ 3</text>
+<polygon points="377.6,480 377.3,481.6 376.6,483.2 375.3,484.7 373.5,486.2 371.2,487.6 368.5,489 365.4,490.2 361.9,491.3 358,492.3 353.8,493.2 349.4,493.9 344.7,494.5 339.9,494.9 335,495.1 330,495.2 325,495.1 320.1,494.9 315.3,494.5 310.6,493.9 306.2,493.2 302,492.3 298.1,491.3 294.6,490.2 291.5,489 288.8,487.6 286.5,486.2 284.7,484.7 283.4,483.2 282.7,481.6 282.4,480 282.7,478.4 283.4,476.8 284.7,475.3 286.5,473.8 288.8,472.4 291.5,471 294.6,469.8 298.1,468.7 302,467.7 306.2,466.8 310.6,466.1 315.3,465.5 320.1,465.1 325,464.9 330,464.8 335,464.9 339.9,465.1 344.7,465.5 349.4,466.1 353.8,466.8 358,467.7 361.9,468.7 365.4,469.8 368.5,471 371.2,472.4 373.5,473.8 375.3,475.3 376.6,476.8 377.3,478.4 377.6,480" fill="#dbe8f5" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<polyline points="282.8,478.1 283.1,477.4 283.6,476.7 284.1,475.9 284.8,475.2 285.5,474.6 286.4,473.9 287.4,473.2 288.5,472.6 289.6,471.9 290.9,471.3 292.3,470.7 293.7,470.2 295.2,469.6 296.8,469.1 298.5,468.6 300.3,468.1 302.1,467.7 304,467.2 305.9,466.9 307.9,466.5 310,466.2 312.1,465.9 314.2,465.6 316.4,465.4 318.6,465.2 320.9,465.1 323.1,464.9 325.4,464.8 327.7,464.8 330,464.8 332.3,464.8 334.6,464.8 336.9,464.9 339.1,465.1 341.4,465.2 343.6,465.4 345.8,465.6 347.9,465.9 350,466.2 352.1,466.5 354.1,466.9 356,467.2 357.9,467.7 359.7,468.1 361.5,468.6 363.2,469.1 364.8,469.6 366.3,470.2 367.7,470.7 369.1,471.3 370.4,471.9 371.5,472.6 372.6,473.2 373.6,473.9 374.5,474.6 375.2,475.2 375.9,475.9 376.4,476.7 376.9,477.4 377.2,478.1" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round" stroke-dasharray="6 5"/>
+<polyline points="377.2,478.1 377.5,479 377.6,479.8 377.6,480.7 377.4,481.5 377,482.4 376.5,483.2 375.9,484.1 375.1,484.9 374.1,485.7 373.1,486.5 371.8,487.3 370.5,488 369,488.7 367.4,489.4 365.7,490.1 363.9,490.7 361.9,491.3 359.9,491.9 357.7,492.4 355.5,492.9 353.2,493.3 350.8,493.7 348.3,494.1 345.8,494.4 343.3,494.6 340.7,494.8 338,495 335.4,495.1 332.7,495.2 330,495.2 327.3,495.2 324.6,495.1 322,495 319.3,494.8 316.7,494.6 314.2,494.4 311.7,494.1 309.2,493.7 306.8,493.3 304.5,492.9 302.3,492.4 300.1,491.9 298.1,491.3 296.1,490.7 294.3,490.1 292.6,489.4 291,488.7 289.5,488 288.2,487.3 286.9,486.5 285.9,485.7 284.9,484.9 284.1,484.1 283.5,483.2 283,482.4 282.6,481.5 282.4,480.7 282.4,479.8 282.5,479 282.8,478.1" fill="none" stroke="#222" stroke-width="2.2" stroke-linejoin="round"/>
+<line x1="330" y1="357.6" x2="377.2" y2="478.1" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="330" y1="357.6" x2="282.8" y2="478.1" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="330" y1="480" x2="330" y2="357.6" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="4 4"/>
+<text x="336" y="430" font-size="13.7" fill="#c0392b" text-anchor="start" font-weight="bold">h</text>
+<text x="330" y="506" font-size="13.7" fill="#222" text-anchor="middle" font-weight="bold">cône</text>
+<text x="330" y="524" font-size="13.7" fill="#222" text-anchor="middle" font-weight="normal">V = π × R² × h ÷ 3</text>
+<circle cx="580" cy="420" r="51" fill="#fdebd0" stroke="#222" stroke-width="2.2"/>
+<polyline points="631,420 630.8,418.9 630.4,417.8 629.6,416.7 628.5,415.6 627.1,414.5 625.4,413.5 623.5,412.5 621.3,411.6 618.8,410.7 616.1,409.9 613.1,409.1 610,408.4 606.6,407.8 603.2,407.3 599.5,406.8 595.8,406.4 591.9,406.1 588,405.9 584,405.8 580,405.7 576,405.8 572,405.9 568.1,406.1 564.2,406.4 560.5,406.8 556.8,407.3 553.4,407.8 550,408.4 546.9,409.1 543.9,409.9 541.2,410.7 538.7,411.6 536.5,412.5 534.6,413.5 532.9,414.5 531.5,415.6 530.4,416.7 529.6,417.8 529.2,418.9 529,420" fill="none" stroke="#222" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 5"/>
+<polyline points="529,420 529.2,421.1 529.6,422.2 530.4,423.3 531.5,424.4 532.9,425.5 534.6,426.5 536.5,427.5 538.7,428.4 541.2,429.3 543.9,430.1 546.9,430.9 550,431.6 553.4,432.2 556.8,432.7 560.5,433.2 564.2,433.6 568.1,433.9 572,434.1 576,434.2 580,434.3 584,434.2 588,434.1 591.9,433.9 595.8,433.6 599.5,433.2 603.2,432.7 606.6,432.2 610,431.6 613.1,430.9 616.1,430.1 618.8,429.3 621.3,428.4 623.5,427.5 625.4,426.5 627.1,425.5 628.5,424.4 629.6,423.3 630.4,422.2 630.8,421.1 631,420" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="580" y1="420" x2="631" y2="420" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<circle cx="580" cy="420" r="3" fill="#222" stroke="#222" stroke-width="1"/>
+<text x="605" y="414" font-size="12.6" fill="#c0392b" text-anchor="middle" font-weight="bold">R</text>
+<text x="580" y="506" font-size="13.7" fill="#222" text-anchor="middle" font-weight="bold">boule</text>
+<text x="580" y="524" font-size="13.7" fill="#222" text-anchor="middle" font-weight="normal">V = 4/3 × π × R³</text>
+</svg>

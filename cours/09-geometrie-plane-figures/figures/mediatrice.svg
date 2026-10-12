@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-11 0 711 334" width="711" height="334" font-family="Arial, Helvetica, sans-serif">
+<title>La médiatrice d’un segment : perpendiculaire en son milieu, ensemble des points à égale distance des extrémités ; construction au compas</title>
+<rect x="-11" y="0" width="711" height="334" fill="white"/>
+<line x1="60" y1="150" x2="260" y2="150" stroke="#222" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="160" y1="20" x2="160" y2="230" stroke="#c0392b" stroke-width="2.2" stroke-linecap="round"/>
+<polyline points="172,150 172,138 160,138" fill="none" stroke="#222" stroke-width="1.5"/>
+<line x1="107.5" y1="143" x2="107.5" y2="157" stroke="#222" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="112.5" y1="143" x2="112.5" y2="157" stroke="#222" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="207.5" y1="143" x2="207.5" y2="157" stroke="#222" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="212.5" y1="143" x2="212.5" y2="157" stroke="#222" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="160" y1="50" x2="60" y2="150" stroke="#1f4e79" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="6 4"/>
+<line x1="160" y1="50" x2="260" y2="150" stroke="#1f4e79" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="6 4"/>
+<line x1="114.9" y1="104.9" x2="105.1" y2="95.1" stroke="#1f4e79" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="214.9" y1="95.1" x2="205.1" y2="104.9" stroke="#1f4e79" stroke-width="1.8" stroke-linecap="round"/>
+<circle cx="160" cy="50" r="3.5" fill="#1f4e79" stroke="#1f4e79" stroke-width="1"/>
+<text x="46" y="156" font-size="21" fill="#222" text-anchor="middle" font-weight="bold">A</text>
+<text x="274" y="156" font-size="21" fill="#222" text-anchor="middle" font-weight="bold">B</text>
+<text x="172" y="170" font-size="21" fill="#222" text-anchor="middle" font-weight="bold">I</text>
+<text x="172" y="46" font-size="21" fill="#1f4e79" text-anchor="start" font-weight="bold">M</text>
+<text x="168" y="228" font-size="19.6" fill="#c0392b" text-anchor="start" font-weight="bold">(d)</text>
+<text x="160" y="296" font-size="18.2" fill="#222" text-anchor="middle" font-weight="bold">Perpendiculaire à [AB] en son milieu I.</text>
+<text x="160" y="321.2" font-size="18.2" fill="#222" text-anchor="middle" font-weight="normal">Tout point M de (d) vérifie MA = MB.</text>
+<line x1="420" y1="150" x2="620" y2="150" stroke="#222" stroke-width="2.4" stroke-linecap="round"/>
+<polyline points="543.1,94.6 542.2,92.7 541.3,90.8 540.4,88.9 539.4,87 538.4,85.2 537.4,83.3 536.3,81.5 535.2,79.7 534.1,77.9 533,76.1 531.8,74.3 530.6,72.6 529.3,70.8 528.1,69.1 526.8,67.4 525.5,65.8 524.2,64.1 522.8,62.5 521.4,60.9 520,59.3 518.6,57.7 517.1,56.2 515.6,54.7 514.1,53.2 512.6,51.7 511,50.3 509.4,48.9 507.8,47.5 506.2,46.1 504.6,44.8 502.9,43.5 501.2,42.2 499.5,40.9 497.8,39.7 496.1,38.5 494.3,37.3 492.5,36.1 490.7,35 488.9,33.9 487.1,32.8" fill="none" stroke="#1f4e79" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="487.1,267.2 488.9,266.1 490.7,265 492.5,263.9 494.3,262.7 496.1,261.5 497.8,260.3 499.5,259.1 501.2,257.8 502.9,256.5 504.6,255.2 506.2,253.9 507.8,252.5 509.4,251.1 511,249.7 512.6,248.3 514.1,246.8 515.6,245.3 517.1,243.8 518.6,242.3 520,240.7 521.4,239.1 522.8,237.5 524.2,235.9 525.5,234.2 526.8,232.6 528.1,230.9 529.3,229.2 530.6,227.4 531.8,225.7 533,223.9 534.1,222.1 535.2,220.3 536.3,218.5 537.4,216.7 538.4,214.8 539.4,213 540.4,211.1 541.3,209.2 542.2,207.3 543.1,205.4" fill="none" stroke="#1f4e79" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="552.9,32.8 551.1,33.9 549.3,35 547.5,36.1 545.7,37.3 543.9,38.5 542.2,39.7 540.5,40.9 538.8,42.2 537.1,43.5 535.4,44.8 533.8,46.1 532.2,47.5 530.6,48.9 529,50.3 527.4,51.7 525.9,53.2 524.4,54.7 522.9,56.2 521.4,57.7 520,59.3 518.6,60.9 517.2,62.5 515.8,64.1 514.5,65.8 513.2,67.4 511.9,69.1 510.7,70.8 509.4,72.6 508.2,74.3 507,76.1 505.9,77.9 504.8,79.7 503.7,81.5 502.6,83.3 501.6,85.2 500.6,87 499.6,88.9 498.7,90.8 497.8,92.7 496.9,94.6" fill="none" stroke="#1f4e79" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="496.9,205.4 497.8,207.3 498.7,209.2 499.6,211.1 500.6,213 501.6,214.8 502.6,216.7 503.7,218.5 504.8,220.3 505.9,222.1 507,223.9 508.2,225.7 509.4,227.4 510.7,229.2 511.9,230.9 513.2,232.6 514.5,234.2 515.8,235.9 517.2,237.5 518.6,239.1 520,240.7 521.4,242.3 522.9,243.8 524.4,245.3 525.9,246.8 527.4,248.3 529,249.7 530.6,251.1 532.2,252.5 533.8,253.9 535.4,255.2 537.1,256.5 538.8,257.8 540.5,259.1 542.2,260.3 543.9,261.5 545.7,262.7 547.5,263.9 549.3,265 551.1,266.1 552.9,267.2" fill="none" stroke="#1f4e79" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="520" y1="39.3" x2="520" y2="260.7" stroke="#c0392b" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="520" cy="59.3" r="3.5" fill="#222" stroke="#222" stroke-width="1"/>
+<circle cx="520" cy="240.7" r="3.5" fill="#222" stroke="#222" stroke-width="1"/>
+<text x="500" y="64.3" font-size="19.6" fill="#222" text-anchor="middle" font-weight="bold">P</text>
+<text x="500" y="245.7" font-size="19.6" fill="#222" text-anchor="middle" font-weight="bold">Q</text>
+<text x="406" y="156" font-size="21" fill="#222" text-anchor="middle" font-weight="bold">A</text>
+<text x="634" y="156" font-size="21" fill="#222" text-anchor="middle" font-weight="bold">B</text>
+<text x="520" y="296" font-size="18.2" fill="#222" text-anchor="middle" font-weight="bold">Au compas : deux arcs de même rayon</text>
+<text x="520" y="321.2" font-size="18.2" fill="#222" text-anchor="middle" font-weight="normal">centrés en A et en B ; on trace (PQ).</text>
+</svg>

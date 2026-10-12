@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 110" width="700" height="110" font-family="Arial, Helvetica, sans-serif">
+<title>Droite graduée dont seuls 0 et 1 sont écrits, une graduation tous les 0,5 ; points E, F, G et H à repérer</title>
+<rect width="700" height="110" fill="white"/>
+<line x1="28" y1="70" x2="666" y2="70" stroke="#222" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="676,70 666,74.5 666,65.5" fill="#222" stroke="#222" stroke-width="1" stroke-linejoin="round"/>
+<line x1="50" y1="63" x2="50" y2="77" stroke="#222" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="100" y1="66" x2="100" y2="74" stroke="#222" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="150" y1="63" x2="150" y2="77" stroke="#222" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="200" y1="66" x2="200" y2="74" stroke="#222" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="250" y1="63" x2="250" y2="77" stroke="#222" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="300" y1="66" x2="300" y2="74" stroke="#222" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="350" y1="63" x2="350" y2="77" stroke="#222" stroke-width="1.6" stroke-linecap="round"/>
+<text x="350" y="96" font-size="21.7" fill="#1f4e79" text-anchor="middle" font-weight="bold">0</text>
+<line x1="400" y1="66" x2="400" y2="74" stroke="#222" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="450" y1="63" x2="450" y2="77" stroke="#222" stroke-width="1.6" stroke-linecap="round"/>
+<text x="450" y="96" font-size="21.7" fill="#222" text-anchor="middle" font-weight="normal">1</text>
+<line x1="500" y1="66" x2="500" y2="74" stroke="#222" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="550" y1="63" x2="550" y2="77" stroke="#222" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="600" y1="66" x2="600" y2="74" stroke="#222" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="650" y1="63" x2="650" y2="77" stroke="#222" stroke-width="1.6" stroke-linecap="round"/>
+<circle cx="100" cy="70" r="6" fill="#c0392b" stroke="#c0392b" stroke-width="1"/>
+<text x="100" y="52" font-size="24.8" fill="#c0392b" text-anchor="middle" font-weight="bold">E</text>
+<circle cx="200" cy="70" r="6" fill="#c0392b" stroke="#c0392b" stroke-width="1"/>
+<text x="200" y="52" font-size="24.8" fill="#c0392b" text-anchor="middle" font-weight="bold">F</text>
+<circle cx="400" cy="70" r="6" fill="#c0392b" stroke="#c0392b" stroke-width="1"/>
+<text x="400" y="52" font-size="24.8" fill="#c0392b" text-anchor="middle" font-weight="bold">G</text>
+<circle cx="600" cy="70" r="6" fill="#c0392b" stroke="#c0392b" stroke-width="1"/>
+<text x="600" y="52" font-size="24.8" fill="#c0392b" text-anchor="middle" font-weight="bold">H</text>
+</svg>

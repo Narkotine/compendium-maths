@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 296" width="720" height="296" font-family="Arial, Helvetica, sans-serif">
+<title>Notation scientifique : dans 3 500 000 la virgule recule de 6 rangs pour obtenir 3,5, donc 3,5 × 10⁶ ; dans 0,00079 elle avance de 4 rangs pour obtenir 7,9, donc 7,9 × 10⁻⁴</title>
+<rect width="720" height="296" fill="white"/>
+<text x="30" y="28" font-size="17.2" fill="#222" text-anchor="start" font-weight="bold">Grand nombre : 3 500 000 = 3,5 × 10⁶</text>
+<text x="60" y="82" font-size="25.3" fill="#222" text-anchor="middle" font-weight="bold">3</text>
+<text x="90" y="82" font-size="25.3" fill="#222" text-anchor="middle" font-weight="bold">5</text>
+<text x="120" y="82" font-size="25.3" fill="#666" text-anchor="middle" font-weight="bold">0</text>
+<text x="150" y="82" font-size="25.3" fill="#666" text-anchor="middle" font-weight="bold">0</text>
+<text x="180" y="82" font-size="25.3" fill="#666" text-anchor="middle" font-weight="bold">0</text>
+<text x="210" y="82" font-size="25.3" fill="#666" text-anchor="middle" font-weight="bold">0</text>
+<text x="240" y="82" font-size="25.3" fill="#666" text-anchor="middle" font-weight="bold">0</text>
+<text x="258" y="86" font-size="25.3" fill="#c0392b" text-anchor="middle" font-weight="bold">,</text>
+<text x="77" y="86" font-size="25.3" fill="#2e7d32" text-anchor="middle" font-weight="bold">,</text>
+<path d="M256,92 Q241,102 226,92" fill="none" stroke="#c0392b" stroke-width="1.4"/>
+<polygon points="226,92 234.7,93.4 230.7,99.4" fill="#c0392b" stroke="#c0392b" stroke-width="1" stroke-linejoin="round"/>
+<path d="M226,92 Q211,102 196,92" fill="none" stroke="#c0392b" stroke-width="1.4"/>
+<polygon points="196,92 204.7,93.4 200.7,99.4" fill="#c0392b" stroke="#c0392b" stroke-width="1" stroke-linejoin="round"/>
+<path d="M196,92 Q181,102 166,92" fill="none" stroke="#c0392b" stroke-width="1.4"/>
+<polygon points="166,92 174.7,93.4 170.7,99.4" fill="#c0392b" stroke="#c0392b" stroke-width="1" stroke-linejoin="round"/>
+<path d="M166,92 Q151,102 136,92" fill="none" stroke="#c0392b" stroke-width="1.4"/>
+<polygon points="136,92 144.7,93.4 140.7,99.4" fill="#c0392b" stroke="#c0392b" stroke-width="1" stroke-linejoin="round"/>
+<path d="M136,92 Q121,102 106,92" fill="none" stroke="#c0392b" stroke-width="1.4"/>
+<polygon points="106,92 114.7,93.4 110.7,99.4" fill="#c0392b" stroke="#c0392b" stroke-width="1" stroke-linejoin="round"/>
+<path d="M106,92 Q91,102 76,92" fill="none" stroke="#c0392b" stroke-width="1.4"/>
+<polygon points="76,92 84.7,93.4 80.7,99.4" fill="#c0392b" stroke="#c0392b" stroke-width="1" stroke-linejoin="round"/>
+<text x="180" y="128" font-size="14.9" fill="#c0392b" text-anchor="middle" font-weight="bold">6 rangs vers la gauche → exposant 6</text>
+<text x="330" y="70" font-size="13" fill="#222" text-anchor="start" font-weight="normal">On veut un nombre entre 1 et 10 : 3,5.</text>
+<text x="330" y="90" font-size="13" fill="#222" text-anchor="start" font-weight="normal">3,5 a été divisé par 10⁶ : on remultiplie,</text>
+<text x="330" y="110" font-size="16.1" fill="#2e7d32" text-anchor="start" font-weight="bold">donc 3 500 000 = 3,5 × 10⁶.</text>
+<text x="30" y="178" font-size="17.2" fill="#222" text-anchor="start" font-weight="bold">Petit nombre : 0,00079 = 7,9 × 10⁻⁴</text>
+<text x="60" y="232" font-size="25.3" fill="#666" text-anchor="middle" font-weight="bold">0</text>
+<text x="90" y="232" font-size="25.3" fill="#c0392b" text-anchor="middle" font-weight="bold">,</text>
+<text x="120" y="232" font-size="25.3" fill="#666" text-anchor="middle" font-weight="bold">0</text>
+<text x="150" y="232" font-size="25.3" fill="#666" text-anchor="middle" font-weight="bold">0</text>
+<text x="180" y="232" font-size="25.3" fill="#666" text-anchor="middle" font-weight="bold">0</text>
+<text x="210" y="232" font-size="25.3" fill="#222" text-anchor="middle" font-weight="bold">7</text>
+<text x="240" y="232" font-size="25.3" fill="#222" text-anchor="middle" font-weight="bold">9</text>
+<text x="226" y="236" font-size="25.3" fill="#2e7d32" text-anchor="middle" font-weight="bold">,</text>
+<path d="M92,242 Q114,252 136,242" fill="none" stroke="#c0392b" stroke-width="1.4"/>
+<polygon points="136,242 130.2,248.6 127.2,242" fill="#c0392b" stroke="#c0392b" stroke-width="1" stroke-linejoin="round"/>
+<path d="M136,242 Q151,252 166,242" fill="none" stroke="#c0392b" stroke-width="1.4"/>
+<polygon points="166,242 161.3,249.4 157.3,243.4" fill="#c0392b" stroke="#c0392b" stroke-width="1" stroke-linejoin="round"/>
+<path d="M166,242 Q181,252 196,242" fill="none" stroke="#c0392b" stroke-width="1.4"/>
+<polygon points="196,242 191.3,249.4 187.3,243.4" fill="#c0392b" stroke="#c0392b" stroke-width="1" stroke-linejoin="round"/>
+<path d="M196,242 Q211,252 226,242" fill="none" stroke="#c0392b" stroke-width="1.4"/>
+<polygon points="226,242 221.3,249.4 217.3,243.4" fill="#c0392b" stroke="#c0392b" stroke-width="1" stroke-linejoin="round"/>
+<text x="150" y="278" font-size="14.9" fill="#c0392b" text-anchor="middle" font-weight="bold">4 rangs vers la droite → exposant −4</text>
+<text x="330" y="220" font-size="13" fill="#222" text-anchor="start" font-weight="normal">On veut un nombre entre 1 et 10 : 7,9.</text>
+<text x="330" y="240" font-size="13" fill="#222" text-anchor="start" font-weight="normal">7,9 a été multiplié par 10⁴ : on divise,</text>
+<text x="330" y="260" font-size="16.1" fill="#2e7d32" text-anchor="start" font-weight="bold">donc 0,00079 = 7,9 × 10⁻⁴.</text>
+</svg>

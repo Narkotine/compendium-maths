@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" font-family="Arial, Helvetica, sans-serif">
+<title>Angle inscrit et angle au centre interceptant le même arc (80° = 2 × 40°) ; triangle inscrit dans un demi-cercle, rectangle</title>
+<rect width="720" height="340" fill="white"/>
+<circle cx="170" cy="160" r="110" fill="none" stroke="#222" stroke-width="2"/>
+<line x1="150.9" y1="51.7" x2="74.7" y2="215" stroke="#c0392b" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="150.9" y1="51.7" x2="265.3" y2="215" stroke="#c0392b" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="170" y1="160" x2="74.7" y2="215" stroke="#1f4e79" stroke-width="2" stroke-linecap="round"/>
+<line x1="170" y1="160" x2="265.3" y2="215" stroke="#1f4e79" stroke-width="2" stroke-linecap="round"/>
+<circle cx="170" cy="160" r="3.5" fill="#222" stroke="#222" stroke-width="1"/>
+<path d="M136.5,82.5 A34,34 0 0 0 170.4,79.5" fill="none" stroke="#c0392b" stroke-width="1.8"/>
+<text x="155.6" y="110.5" font-size="15.6" fill="#c0392b" text-anchor="middle" font-weight="bold">40°</text>
+<path d="M147.5,173 A26,26 0 0 0 192.5,173" fill="none" stroke="#1f4e79" stroke-width="1.8"/>
+<text x="170" y="209" font-size="15.6" fill="#1f4e79" text-anchor="middle" font-weight="bold">80°</text>
+<text x="62.7" y="223" font-size="18" fill="#222" text-anchor="middle" font-weight="bold">A</text>
+<text x="277.3" y="223" font-size="18" fill="#222" text-anchor="middle" font-weight="bold">B</text>
+<text x="150.9" y="41.7" font-size="18" fill="#222" text-anchor="middle" font-weight="bold">M</text>
+<text x="158" y="156" font-size="18" fill="#222" text-anchor="middle" font-weight="bold">O</text>
+<text x="170" y="310" font-size="15.6" fill="#222" text-anchor="middle" font-weight="bold">Angle au centre = 2 × angle inscrit</text>
+<text x="170" y="331.6" font-size="15.6" fill="#222" text-anchor="middle" font-weight="normal">qui intercepte le même arc AB.</text>
+<circle cx="520" cy="170" r="115" fill="none" stroke="#222" stroke-width="2"/>
+<line x1="405" y1="170" x2="635" y2="170" stroke="#1f4e79" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="405,170 635,170 574,68.5" fill="none" stroke="#c0392b" stroke-width="2.2" stroke-linejoin="round"/>
+<polyline points="563.7,74.6 569.9,84.9 580.2,78.7" fill="none" stroke="#c0392b" stroke-width="1.5"/>
+<circle cx="520" cy="170" r="3.5" fill="#222" stroke="#222" stroke-width="1"/>
+<text x="391" y="176" font-size="18" fill="#222" text-anchor="middle" font-weight="bold">A</text>
+<text x="649" y="176" font-size="18" fill="#222" text-anchor="middle" font-weight="bold">B</text>
+<text x="582" y="60.5" font-size="18" fill="#222" text-anchor="middle" font-weight="bold">M</text>
+<text x="520" y="190" font-size="18" fill="#222" text-anchor="middle" font-weight="bold">O</text>
+<text x="520" y="310" font-size="15.6" fill="#222" text-anchor="middle" font-weight="bold">Si [AB] est un diamètre et M sur le cercle,</text>
+<text x="520" y="331.6" font-size="15.6" fill="#222" text-anchor="middle" font-weight="normal">alors AMB est rectangle en M.</text>
+</svg>

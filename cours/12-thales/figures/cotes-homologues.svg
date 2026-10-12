@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 320" width="770" height="320" font-family="Arial, Helvetica, sans-serif">
+<title>Les triangles ADE et ABC séparés : les côtés homologues ont la même couleur</title>
+<rect width="770" height="320" fill="white"/>
+<line x1="95" y1="60" x2="50" y2="163.5" stroke="#1f4e79" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="95" y1="60" x2="176" y2="163.5" stroke="#2e7d32" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="50" y1="163.5" x2="176" y2="163.5" stroke="#c0392b" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="330" y1="40" x2="230" y2="270" stroke="#1f4e79" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="330" y1="40" x2="510" y2="270" stroke="#2e7d32" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="230" y1="270" x2="510" y2="270" stroke="#c0392b" stroke-width="3.5" stroke-linecap="round"/>
+<text x="95" y="50" font-size="16" fill="#222" text-anchor="middle" font-weight="bold">A</text>
+<text x="38" y="179.5" font-size="16" fill="#222" text-anchor="middle" font-weight="bold">D</text>
+<text x="188" y="179.5" font-size="16" fill="#222" text-anchor="middle" font-weight="bold">E</text>
+<text x="330" y="30" font-size="16" fill="#222" text-anchor="middle" font-weight="bold">A</text>
+<text x="218" y="286" font-size="16" fill="#222" text-anchor="middle" font-weight="bold">B</text>
+<text x="522" y="286" font-size="16" fill="#222" text-anchor="middle" font-weight="bold">C</text>
+<text x="113" y="204" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">petit triangle ADE</text>
+<text x="370" y="300" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">grand triangle ABC</text>
+<text x="56" y="110" font-size="14" fill="#1f4e79" text-anchor="end" font-weight="bold">AD</text>
+<text x="150" y="110" font-size="14" fill="#2e7d32" text-anchor="start" font-weight="bold">AE</text>
+<text x="113" y="182" font-size="14" fill="#c0392b" text-anchor="middle" font-weight="bold">DE</text>
+<text x="262" y="150" font-size="14" fill="#1f4e79" text-anchor="end" font-weight="bold">AB</text>
+<text x="434" y="150" font-size="14" fill="#2e7d32" text-anchor="start" font-weight="bold">AC</text>
+<text x="370" y="286" font-size="1" fill="#222" text-anchor="middle" font-weight="normal"></text>
+<text x="370" y="262" font-size="14" fill="#c0392b" text-anchor="middle" font-weight="bold">BC</text>
+<text x="570" y="114" font-size="16" fill="#1f4e79" text-anchor="middle" font-weight="normal">AD</text>
+<line x1="557.1" y1="120" x2="582.9" y2="120" stroke="#1f4e79" stroke-width="1.4" stroke-linecap="round"/>
+<text x="570" y="138" font-size="16" fill="#1f4e79" text-anchor="middle" font-weight="normal">AB</text>
+<text x="605" y="126" font-size="18" fill="#222" text-anchor="middle" font-weight="normal">=</text>
+<text x="640" y="114" font-size="16" fill="#2e7d32" text-anchor="middle" font-weight="normal">AE</text>
+<line x1="627.1" y1="120" x2="652.9" y2="120" stroke="#2e7d32" stroke-width="1.4" stroke-linecap="round"/>
+<text x="640" y="138" font-size="16" fill="#2e7d32" text-anchor="middle" font-weight="normal">AC</text>
+<text x="675" y="126" font-size="18" fill="#222" text-anchor="middle" font-weight="normal">=</text>
+<text x="710" y="114" font-size="16" fill="#c0392b" text-anchor="middle" font-weight="normal">DE</text>
+<line x1="697.1" y1="120" x2="722.9" y2="120" stroke="#c0392b" stroke-width="1.4" stroke-linecap="round"/>
+<text x="710" y="138" font-size="16" fill="#c0392b" text-anchor="middle" font-weight="normal">BC</text>
+<text x="640" y="190" font-size="13" fill="#222" text-anchor="middle" font-weight="normal">Chaque rapport : même couleur,</text>
+<text x="640" y="208" font-size="13" fill="#222" text-anchor="middle" font-weight="normal">petit triangle en haut.</text>
+<text x="640" y="246" font-size="13" fill="#c0392b" text-anchor="middle" font-weight="normal">DB et EC ne sont des côtés</text>
+<text x="640" y="264" font-size="13" fill="#c0392b" text-anchor="middle" font-weight="normal">d’aucun des deux triangles.</text>
+</svg>

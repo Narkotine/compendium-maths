@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 350" width="430" height="350" font-family="Arial, Helvetica, sans-serif">
+<title>Triangle ABC rectangle en A : l’hypoténuse [BC] est face à l’angle droit</title>
+<rect width="430" height="350" fill="white"/>
+<polygon points="70,250 330,250 70,80" fill="#fafafa" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="330" y1="250" x2="70" y2="80" stroke="#c0392b" stroke-width="4"/>
+<polyline points="88,250 88,232 70,232" fill="none" stroke="#222" stroke-width="1.5"/>
+<text x="56" y="270" font-size="17" fill="#222" text-anchor="middle" font-weight="bold">A</text>
+<text x="342" y="270" font-size="17" fill="#222" text-anchor="middle" font-weight="bold">B</text>
+<text x="60" y="72" font-size="17" fill="#222" text-anchor="middle" font-weight="bold">C</text>
+<text x="200" y="274" font-size="13" fill="#666" text-anchor="middle" font-weight="normal">côté de l’angle droit [AB]</text>
+<text x="48" y="168" font-size="13" fill="#666" text-anchor="middle" font-weight="normal" transform="rotate(-90 48 168)">côté de l’angle droit [AC]</text>
+<text x="216.4" y="144.9" font-size="15" fill="#c0392b" text-anchor="middle" font-weight="bold" transform="rotate(33.2 216.4 144.9)">hypoténuse [BC]</text>
+<text x="215" y="310" font-size="13" fill="#222" text-anchor="middle" font-weight="normal">L’hypoténuse est face à l’angle droit. C’est le plus long côté.</text>
+<text x="215" y="332" font-size="15" fill="#c0392b" text-anchor="middle" font-weight="bold">Ici : BC² = AB² + AC²</text>
+</svg>

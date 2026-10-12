@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 762 214" width="762" height="214" font-family="Arial, Helvetica, sans-serif">
+<title>Segment gradué de 15,40 à 15,50 : 15,473 est placé après le milieu 15,45, donc son arrondi au dixième est 15,5 ; sa troncature au dixième est 15,4</title>
+<rect x="0" y="0" width="762" height="214" fill="white"/>
+<line x1="46" y1="80" x2="674" y2="80" stroke="#222" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="60" y1="72" x2="60" y2="88" stroke="#222" stroke-width="1.6" stroke-linecap="round"/>
+<text x="60" y="106" font-size="14.3" fill="#222" text-anchor="middle" font-weight="normal">15,40</text>
+<line x1="120" y1="75" x2="120" y2="85" stroke="#222" stroke-width="1" stroke-linecap="round"/>
+<line x1="180" y1="75" x2="180" y2="85" stroke="#222" stroke-width="1" stroke-linecap="round"/>
+<line x1="240" y1="75" x2="240" y2="85" stroke="#222" stroke-width="1" stroke-linecap="round"/>
+<line x1="300" y1="75" x2="300" y2="85" stroke="#222" stroke-width="1" stroke-linecap="round"/>
+<line x1="360" y1="72" x2="360" y2="88" stroke="#222" stroke-width="1.6" stroke-linecap="round"/>
+<text x="360" y="106" font-size="14.3" fill="#222" text-anchor="middle" font-weight="normal">15,45</text>
+<line x1="420" y1="75" x2="420" y2="85" stroke="#222" stroke-width="1" stroke-linecap="round"/>
+<line x1="480" y1="75" x2="480" y2="85" stroke="#222" stroke-width="1" stroke-linecap="round"/>
+<line x1="540" y1="75" x2="540" y2="85" stroke="#222" stroke-width="1" stroke-linecap="round"/>
+<line x1="600" y1="75" x2="600" y2="85" stroke="#222" stroke-width="1" stroke-linecap="round"/>
+<line x1="660" y1="72" x2="660" y2="88" stroke="#222" stroke-width="1.6" stroke-linecap="round"/>
+<text x="660" y="106" font-size="14.3" fill="#222" text-anchor="middle" font-weight="normal">15,50</text>
+<circle cx="498" cy="80" r="6" fill="#c0392b" stroke="#c0392b" stroke-width="1"/>
+<text x="492" y="58" font-size="16.5" fill="#c0392b" text-anchor="middle" font-weight="bold">15,473</text>
+<line x1="360" y1="40" x2="360" y2="92" stroke="#666" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 4"/>
+<text x="360" y="130" font-size="13.2" fill="#666" text-anchor="middle" font-weight="normal">milieu : 15,45</text>
+<line x1="498" y1="66" x2="649" y2="66" stroke="#2e7d32" stroke-width="2" stroke-linecap="round"/>
+<polygon points="658,66 649,70 649,62" fill="#2e7d32" stroke="#2e7d32" stroke-width="1" stroke-linejoin="round"/>
+<text x="579" y="50" font-size="13.2" fill="#2e7d32" text-anchor="middle" font-weight="bold">plus proche</text>
+<text x="60" y="172" font-size="15.4" fill="#2e7d32" text-anchor="start" font-weight="bold">Arrondi au dixième : 15,5 (15,473 est après le milieu 15,45 ; le chiffre des centièmes, 7, est ≥ 5).</text>
+<text x="60" y="198.4" font-size="15.4" fill="#1f4e79" text-anchor="start" font-weight="bold">Troncature au dixième : 15,4 (on coupe après les dixièmes). Encadrement : 15,4 &lt; 15,473 &lt; 15,5.</text>
+</svg>

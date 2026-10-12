@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 230" width="620" height="230" font-family="Arial, Helvetica, sans-serif">
+<title>Modèle en barres : Bob a une barre x, Ana trois barres x, 48 billes en tout ; 4x = 48 donc x = 12 ; Bob 12 billes, Ana 36</title>
+<rect width="620" height="230" fill="white"/>
+<text x="96" y="76" font-size="15.8" fill="#1f4e79" text-anchor="end" font-weight="bold">Bob</text>
+<text x="96" y="136" font-size="15.8" fill="#c0392b" text-anchor="end" font-weight="bold">Ana</text>
+<rect x="110" y="52" width="70" height="38" rx="0" fill="#dbe8f5" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="145" y="77" font-size="16.8" fill="#1f4e79" text-anchor="middle" font-weight="bold" font-style="italic">x</text>
+<rect x="110" y="112" width="70" height="38" rx="0" fill="#fdebd0" stroke="#c0392b" stroke-width="1.6"/>
+<text x="145" y="137" font-size="16.8" fill="#c0392b" text-anchor="middle" font-weight="bold" font-style="italic">x</text>
+<rect x="180" y="112" width="70" height="38" rx="0" fill="#fdebd0" stroke="#c0392b" stroke-width="1.6"/>
+<text x="215" y="137" font-size="16.8" fill="#c0392b" text-anchor="middle" font-weight="bold" font-style="italic">x</text>
+<rect x="250" y="112" width="70" height="38" rx="0" fill="#fdebd0" stroke="#c0392b" stroke-width="1.6"/>
+<text x="285" y="137" font-size="16.8" fill="#c0392b" text-anchor="middle" font-weight="bold" font-style="italic">x</text>
+<line x1="340" y1="52" x2="348" y2="52" stroke="#222" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="348" y1="52" x2="348" y2="150" stroke="#222" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="340" y1="150" x2="348" y2="150" stroke="#222" stroke-width="1.5" stroke-linecap="round"/>
+<text x="358" y="106" font-size="15.8" fill="#222" text-anchor="start" font-weight="bold">48 billes en tout</text>
+<text x="110" y="30" font-size="14.7" fill="#222" text-anchor="start" font-weight="bold">Ana a trois fois plus de billes que Bob ; ensemble, ils en ont 48.</text>
+<text x="110" y="188" font-size="15.8" fill="#222" text-anchor="start" font-weight="normal">4 barres égales : x + 3x = 48, donc 4x = 48 et x = 12.</text>
+<text x="110" y="213.2" font-size="15.8" fill="#c0392b" text-anchor="start" font-weight="bold">Bob a 12 billes, Ana en a 3 × 12 = 36.</text>
+</svg>

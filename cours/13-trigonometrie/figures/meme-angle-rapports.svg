@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 326" width="600" height="326" font-family="Arial, Helvetica, sans-serif">
+<title>Trois triangles rectangles avec un angle de 30° : le rapport côté opposé sur hypoténuse vaut toujours 0,5</title>
+<rect width="600" height="326" fill="white"/>
+<line x1="40" y1="280" x2="560" y2="280" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="40" y1="280" x2="434" y2="52.5" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<path d="M90,280 A50,50 0 0 0 83.3,255" fill="none" stroke="#222" stroke-width="2"/>
+<text x="110" y="272" font-size="17.5" fill="#222" text-anchor="middle" font-weight="bold">30°</text>
+<line x1="161.2" y1="210" x2="161.2" y2="280" stroke="#1f4e79" stroke-width="3" stroke-linecap="round"/>
+<polyline points="151.2,280 151.2,270 161.2,270" fill="none" stroke="#1f4e79" stroke-width="1.5"/>
+<circle cx="161.2" cy="210" r="3.5" fill="#1f4e79" stroke="#1f4e79" stroke-width="1"/>
+<text x="169.2" y="250" font-size="18.8" fill="#1f4e79" text-anchor="start" font-weight="bold">1</text>
+<text x="153.2" y="200" font-size="18.8" fill="#1f4e79" text-anchor="end" font-weight="bold">2</text>
+<line x1="282.5" y1="140" x2="282.5" y2="280" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/>
+<polyline points="272.5,280 272.5,270 282.5,270" fill="none" stroke="#2e7d32" stroke-width="1.5"/>
+<circle cx="282.5" cy="140" r="3.5" fill="#2e7d32" stroke="#2e7d32" stroke-width="1"/>
+<text x="290.5" y="215" font-size="18.8" fill="#2e7d32" text-anchor="start" font-weight="bold">2</text>
+<text x="274.5" y="130" font-size="18.8" fill="#2e7d32" text-anchor="end" font-weight="bold">4</text>
+<line x1="403.7" y1="70" x2="403.7" y2="280" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+<polyline points="393.7,280 393.7,270 403.7,270" fill="none" stroke="#c0392b" stroke-width="1.5"/>
+<circle cx="403.7" cy="70" r="3.5" fill="#c0392b" stroke="#c0392b" stroke-width="1"/>
+<text x="411.7" y="180" font-size="18.8" fill="#c0392b" text-anchor="start" font-weight="bold">3</text>
+<text x="395.7" y="60" font-size="18.8" fill="#c0392b" text-anchor="end" font-weight="bold">6</text>
+<text x="40" y="40" font-size="18.8" fill="#222" text-anchor="start" font-weight="bold">opposé / hypoténuse :</text>
+<text x="40" y="72.5" font-size="18.8" fill="#222" text-anchor="start" font-weight="normal">1/2 = 2/4 = 3/6 = 0,5</text>
+<text x="40" y="94" font-size="16.2" fill="#666" text-anchor="start" font-weight="normal">C’est toujours le même nombre :</text>
+<text x="40" y="116.5" font-size="16.2" fill="#666" text-anchor="start" font-weight="normal">sin 30° = 0,5.</text>
+<text x="300" y="312" font-size="13" fill="#222" text-anchor="middle" font-weight="normal">Trois triangles rectangles avec un angle de 30° : ce sont des agrandissements l’un de l’autre (Thalès).</text>
+</svg>

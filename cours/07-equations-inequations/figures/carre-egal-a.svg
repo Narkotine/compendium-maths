@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 330" width="560" height="330" font-family="Arial, Helvetica, sans-serif">
+<title>Parabole y = x² coupée par la droite y = 9 aux points d’abscisses −3 et 3, et par la droite y = 5 aux points d’abscisses −√5 et √5</title>
+<rect width="560" height="330" fill="white"/>
+<line x1="70" y1="264" x2="70" y2="40" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="120" y1="264" x2="120" y2="40" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="170" y1="264" x2="170" y2="40" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="220" y1="264" x2="220" y2="40" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="270" y1="264" x2="270" y2="40" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="320" y1="264" x2="320" y2="40" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="370" y1="264" x2="370" y2="40" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="420" y1="264" x2="420" y2="40" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="470" y1="264" x2="470" y2="40" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="264" x2="470" y2="264" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="250" x2="470" y2="250" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="236" x2="470" y2="236" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="222" x2="470" y2="222" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="208" x2="470" y2="208" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="194" x2="470" y2="194" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="180" x2="470" y2="180" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="166" x2="470" y2="166" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="152" x2="470" y2="152" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="138" x2="470" y2="138" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="124" x2="470" y2="124" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="110" x2="470" y2="110" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="96" x2="470" y2="96" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="82" x2="470" y2="82" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="68" x2="470" y2="68" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="54" x2="470" y2="54" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="40" x2="470" y2="40" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="264" x2="475" y2="264" stroke="#222" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="484,264 475,268.1 475,259.9" fill="#222" stroke="#222" stroke-width="1" stroke-linejoin="round"/>
+<line x1="270" y1="264" x2="270" y2="35" stroke="#222" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="270,26 274.1,35 265.9,35" fill="#222" stroke="#222" stroke-width="1" stroke-linejoin="round"/>
+<text x="490" y="269" font-size="14" fill="#222" text-anchor="start" font-weight="normal" font-style="italic">x</text>
+<text x="280" y="30" font-size="14" fill="#222" text-anchor="start" font-weight="normal" font-style="italic">y</text>
+<line x1="70" y1="261" x2="70" y2="267" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="70" y="282" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">−4</text>
+<line x1="120" y1="261" x2="120" y2="267" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="120" y="282" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">−3</text>
+<line x1="170" y1="261" x2="170" y2="267" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="170" y="282" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">−2</text>
+<line x1="220" y1="261" x2="220" y2="267" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="220" y="282" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">−1</text>
+<line x1="320" y1="261" x2="320" y2="267" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="320" y="282" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">1</text>
+<line x1="370" y1="261" x2="370" y2="267" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="370" y="282" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">2</text>
+<line x1="420" y1="261" x2="420" y2="267" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="420" y="282" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">3</text>
+<line x1="470" y1="261" x2="470" y2="267" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="470" y="282" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">4</text>
+<line x1="267" y1="236" x2="273" y2="236" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="263" y="240" font-size="12" fill="#666" text-anchor="end" font-weight="normal">2</text>
+<line x1="267" y1="208" x2="273" y2="208" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="263" y="212" font-size="12" fill="#666" text-anchor="end" font-weight="normal">4</text>
+<line x1="267" y1="180" x2="273" y2="180" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="263" y="184" font-size="12" fill="#666" text-anchor="end" font-weight="normal">6</text>
+<line x1="267" y1="152" x2="273" y2="152" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="263" y="156" font-size="12" fill="#666" text-anchor="end" font-weight="normal">8</text>
+<line x1="267" y1="124" x2="273" y2="124" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="263" y="128" font-size="12" fill="#666" text-anchor="end" font-weight="normal">10</text>
+<line x1="267" y1="96" x2="273" y2="96" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="263" y="100" font-size="12" fill="#666" text-anchor="end" font-weight="normal">12</text>
+<line x1="267" y1="68" x2="273" y2="68" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="263" y="72" font-size="12" fill="#666" text-anchor="end" font-weight="normal">14</text>
+<line x1="267" y1="40" x2="273" y2="40" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="263" y="44" font-size="12" fill="#666" text-anchor="end" font-weight="normal">16</text>
+<text x="263" y="282" font-size="12" fill="#666" text-anchor="end" font-weight="normal">0</text>
+<polyline points="70,40 72,44.5 74,48.9 76,53.2 78,57.6 80,61.8 82,66.1 84,70.3 86,74.4 88,78.5 90,82.6 92,86.6 94,90.5 96,94.5 98,98.3 100,102.2 102,105.9 104,109.7 106,113.4 108,117 110,120.6 112,124.2 114,127.7 116,131.2 118,134.6 120,138 122,141.3 124,144.6 126,147.9 128,151.1 130,154.2 132,157.4 134,160.4 136,163.4 138,166.4 140,169.4 142,172.2 144,175.1 146,177.9 148,180.6 150,183.4 152,186 154,188.6 156,191.2 158,193.8 160,196.2 162,198.7 164,201.1 166,203.4 168,205.7 170,208 172,210.2 174,212.4 176,214.5 178,216.6 180,218.6 182,220.6 184,222.6 186,224.5 188,226.3 190,228.2 192,229.9 194,231.7 196,233.3 198,235 200,236.6 202,238.1 204,239.6 206,241.1 208,242.5 210,243.8 212,245.2 214,246.4 216,247.7 218,248.9 220,250 222,251.1 224,252.2 226,253.2 228,254.1 230,255 232,255.9 234,256.7 236,257.5 238,258.3 240,259 242,259.6 244,260.2 246,260.8 248,261.3 250,261.8 252,262.2 254,262.6 256,262.9 258,263.2 260,263.4 262,263.6 264,263.8 266,263.9 268,264 270,264 272,264 274,263.9 276,263.8 278,263.6 280,263.4 282,263.2 284,262.9 286,262.6 288,262.2 290,261.8 292,261.3 294,260.8 296,260.2 298,259.6 300,259 302,258.3 304,257.5 306,256.7 308,255.9 310,255 312,254.1 314,253.2 316,252.2 318,251.1 320,250 322,248.9 324,247.7 326,246.4 328,245.2 330,243.8 332,242.5 334,241.1 336,239.6 338,238.1 340,236.6 342,235 344,233.3 346,231.7 348,229.9 350,228.2 352,226.3 354,224.5 356,222.6 358,220.6 360,218.6 362,216.6 364,214.5 366,212.4 368,210.2 370,208 372,205.7 374,203.4 376,201.1 378,198.7 380,196.2 382,193.8 384,191.2 386,188.6 388,186 390,183.4 392,180.6 394,177.9 396,175.1 398,172.2 400,169.4 402,166.4 404,163.4 406,160.4 408,157.4 410,154.2 412,151.1 414,147.9 416,144.6 418,141.3 420,138 422,134.6 424,131.2 426,127.7 428,124.2 430,120.6 432,117 434,113.4 436,109.7 438,105.9 440,102.2 442,98.3 444,94.5 446,90.5 448,86.6 450,82.6 452,78.5 454,74.4 456,70.3 458,66.1 460,61.8 462,57.6 464,53.2 466,48.9 468,44.5 470,40" fill="none" stroke="#1f4e79" stroke-width="2.6" stroke-linejoin="round"/>
+<line x1="70" y1="138" x2="470" y2="138" stroke="#c0392b" stroke-width="2" stroke-linecap="round"/>
+<text x="478" y="143" font-size="14" fill="#c0392b" text-anchor="start" font-weight="bold">y = 9</text>
+<line x1="70" y1="194" x2="470" y2="194" stroke="#2e7d32" stroke-width="2" stroke-linecap="round"/>
+<text x="478" y="199" font-size="14" fill="#2e7d32" text-anchor="start" font-weight="bold">y = 5</text>
+<line x1="120" y1="138" x2="120" y2="264" stroke="#c0392b" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
+<circle cx="120" cy="138" r="4.5" fill="#c0392b" stroke="#c0392b" stroke-width="1"/>
+<line x1="420" y1="138" x2="420" y2="264" stroke="#c0392b" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
+<circle cx="420" cy="138" r="4.5" fill="#c0392b" stroke="#c0392b" stroke-width="1"/>
+<line x1="158.2" y1="194" x2="158.2" y2="264" stroke="#2e7d32" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
+<circle cx="158.2" cy="194" r="4.5" fill="#2e7d32" stroke="#2e7d32" stroke-width="1"/>
+<line x1="381.8" y1="194" x2="381.8" y2="264" stroke="#2e7d32" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
+<circle cx="381.8" cy="194" r="4.5" fill="#2e7d32" stroke="#2e7d32" stroke-width="1"/>
+<text x="158.2" y="298" font-size="13" fill="#2e7d32" text-anchor="middle" font-weight="bold">−√5</text>
+<text x="381.8" y="298" font-size="13" fill="#2e7d32" text-anchor="middle" font-weight="bold">√5</text>
+<text x="380" y="54" font-size="14" fill="#1f4e79" text-anchor="end" font-weight="bold">y = x²</text>
+</svg>

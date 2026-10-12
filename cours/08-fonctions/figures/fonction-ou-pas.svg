@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 590" width="350" height="590" font-family="Arial, Helvetica, sans-serif">
+<title>Une courbe représente une fonction si chaque droite verticale la coupe au plus une fois : la parabole et la droite oui, le cercle non</title>
+<rect width="350" height="590" fill="white"/>
+<line x1="40" y1="180" x2="40" y2="24" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="66" y1="180" x2="66" y2="24" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="92" y1="180" x2="92" y2="24" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="118" y1="180" x2="118" y2="24" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="144" y1="180" x2="144" y2="24" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="170" y1="180" x2="170" y2="24" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="196" y1="180" x2="196" y2="24" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="180" x2="196" y2="180" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="154" x2="196" y2="154" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="128" x2="196" y2="128" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="102" x2="196" y2="102" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="76" x2="196" y2="76" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="50" x2="196" y2="50" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="24" x2="196" y2="24" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="102" x2="201" y2="102" stroke="#222" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="210,102 201,106 201,98" fill="#222" stroke="#222" stroke-width="1" stroke-linejoin="round"/>
+<line x1="118" y1="180" x2="118" y2="19" stroke="#222" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="118,10 122,19 114,19" fill="#222" stroke="#222" stroke-width="1" stroke-linejoin="round"/>
+<text x="216" y="107" font-size="14" fill="#222" text-anchor="start" font-weight="normal" font-style="italic">x</text>
+<text x="128" y="14" font-size="14" fill="#222" text-anchor="start" font-weight="normal" font-style="italic">y</text>
+<line x1="40" y1="99" x2="40" y2="105" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="40" y="120" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">−3</text>
+<line x1="92" y1="99" x2="92" y2="105" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="92" y="120" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">−1</text>
+<line x1="144" y1="99" x2="144" y2="105" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="144" y="120" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">1</text>
+<line x1="196" y1="99" x2="196" y2="105" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="196" y="120" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">3</text>
+<line x1="115" y1="180" x2="121" y2="180" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="111" y="184" font-size="12" fill="#666" text-anchor="end" font-weight="normal">−3</text>
+<line x1="115" y1="128" x2="121" y2="128" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="111" y="132" font-size="12" fill="#666" text-anchor="end" font-weight="normal">−1</text>
+<line x1="115" y1="76" x2="121" y2="76" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="111" y="80" font-size="12" fill="#666" text-anchor="end" font-weight="normal">1</text>
+<line x1="115" y1="24" x2="121" y2="24" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="111" y="28" font-size="12" fill="#666" text-anchor="end" font-weight="normal">3</text>
+<text x="111" y="120" font-size="12" fill="#666" text-anchor="end" font-weight="normal">0</text>
+<polyline points="40,37 40.8,39.3 41.6,41.6 42.3,43.9 43.1,46.2 43.9,48.4 44.7,50.6 45.5,52.8 46.2,55 47,57.1 47.8,59.2 48.6,61.3 49.4,63.4 50.1,65.4 50.9,67.5 51.7,69.5 52.5,71.4 53.3,73.4 54,75.3 54.8,77.2 55.6,79.1 56.4,81 57.2,82.8 57.9,84.6 58.7,86.4 59.5,88.2 60.3,89.9 61.1,91.7 61.8,93.3 62.6,95 63.4,96.7 64.2,98.3 65,99.9 65.7,101.5 66.5,103 67.3,104.6 68.1,106.1 68.9,107.6 69.6,109 70.4,110.5 71.2,111.9 72,113.3 72.8,114.6 73.5,116 74.3,117.3 75.1,118.6 75.9,119.9 76.7,121.1 77.4,122.4 78.2,123.6 79,124.8 79.8,125.9 80.6,127 81.3,128.2 82.1,129.2 82.9,130.3 83.7,131.3 84.5,132.4 85.2,133.4 86,134.3 86.8,135.3 87.6,136.2 88.4,137.1 89.1,138 89.9,138.8 90.7,139.7 91.5,140.5 92.3,141.3 93,142 93.8,142.8 94.6,143.5 95.4,144.2 96.2,144.8 96.9,145.5 97.7,146.1 98.5,146.7 99.3,147.3 100.1,147.8 100.8,148.3 101.6,148.8 102.4,149.3 103.2,149.8 104,150.2 104.7,150.6 105.5,151 106.3,151.4 107.1,151.7 107.9,152 108.6,152.3 109.4,152.6 110.2,152.8 111,153.1 111.8,153.3 112.5,153.4 113.3,153.6 114.1,153.7 114.9,153.8 115.7,153.9 116.4,154 117.2,154 118,154 118.8,154 119.6,154 120.3,153.9 121.1,153.8 121.9,153.7 122.7,153.6 123.5,153.4 124.2,153.3 125,153.1 125.8,152.8 126.6,152.6 127.4,152.3 128.1,152 128.9,151.7 129.7,151.4 130.5,151 131.3,150.6 132,150.2 132.8,149.8 133.6,149.3 134.4,148.8 135.2,148.3 135.9,147.8 136.7,147.3 137.5,146.7 138.3,146.1 139.1,145.5 139.8,144.8 140.6,144.2 141.4,143.5 142.2,142.8 143,142 143.7,141.3 144.5,140.5 145.3,139.7 146.1,138.8 146.9,138 147.6,137.1 148.4,136.2 149.2,135.3 150,134.3 150.8,133.4 151.5,132.4 152.3,131.3 153.1,130.3 153.9,129.2 154.7,128.2 155.4,127 156.2,125.9 157,124.8 157.8,123.6 158.6,122.4 159.3,121.1 160.1,119.9 160.9,118.6 161.7,117.3 162.5,116 163.2,114.6 164,113.3 164.8,111.9 165.6,110.5 166.4,109 167.1,107.6 167.9,106.1 168.7,104.6 169.5,103 170.3,101.5 171,99.9 171.8,98.3 172.6,96.7 173.4,95 174.2,93.3 174.9,91.7 175.7,89.9 176.5,88.2 177.3,86.4 178.1,84.6 178.8,82.8 179.6,81 180.4,79.1 181.2,77.2 182,75.3 182.7,73.4 183.5,71.4 184.3,69.5 185.1,67.5 185.9,65.4 186.6,63.4 187.4,61.3 188.2,59.2 189,57.1 189.8,55 190.5,52.8 191.3,50.6 192.1,48.4 192.9,46.2 193.7,43.9 194.4,41.6 195.2,39.3 196,37" fill="none" stroke="#1f4e79" stroke-width="2.6" stroke-linejoin="round"/>
+<line x1="159.6" y1="180" x2="159.6" y2="24" stroke="#c0392b" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 4"/>
+<circle cx="159.6" cy="120.7" r="4.5" fill="#c0392b" stroke="#c0392b" stroke-width="1"/>
+<polyline points="236,64 243,71 256,56" fill="none" stroke="#2e7d32" stroke-width="3.5" stroke-linejoin="round"/>
+<text x="236" y="96" font-size="14" fill="#222" text-anchor="start" font-weight="bold">fonction :</text>
+<text x="236" y="115" font-size="14" fill="#222" text-anchor="start" font-weight="normal">chaque verticale</text>
+<text x="236" y="134" font-size="14" fill="#222" text-anchor="start" font-weight="normal">coupe la courbe</text>
+<text x="236" y="153" font-size="14" fill="#222" text-anchor="start" font-weight="normal">une seule fois</text>
+<line x1="40" y1="370" x2="40" y2="214" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="66" y1="370" x2="66" y2="214" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="92" y1="370" x2="92" y2="214" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="118" y1="370" x2="118" y2="214" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="144" y1="370" x2="144" y2="214" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="170" y1="370" x2="170" y2="214" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="196" y1="370" x2="196" y2="214" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="370" x2="196" y2="370" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="344" x2="196" y2="344" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="318" x2="196" y2="318" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="292" x2="196" y2="292" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="266" x2="196" y2="266" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="240" x2="196" y2="240" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="214" x2="196" y2="214" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="292" x2="201" y2="292" stroke="#222" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="210,292 201,296.1 201,287.9" fill="#222" stroke="#222" stroke-width="1" stroke-linejoin="round"/>
+<line x1="118" y1="370" x2="118" y2="209" stroke="#222" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="118,200 122,209 114,209" fill="#222" stroke="#222" stroke-width="1" stroke-linejoin="round"/>
+<text x="216" y="297" font-size="14" fill="#222" text-anchor="start" font-weight="normal" font-style="italic">x</text>
+<text x="128" y="204" font-size="14" fill="#222" text-anchor="start" font-weight="normal" font-style="italic">y</text>
+<line x1="40" y1="289" x2="40" y2="295" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="40" y="310" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">−3</text>
+<line x1="92" y1="289" x2="92" y2="295" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="92" y="310" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">−1</text>
+<line x1="144" y1="289" x2="144" y2="295" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="144" y="310" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">1</text>
+<line x1="196" y1="289" x2="196" y2="295" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="196" y="310" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">3</text>
+<line x1="115" y1="370" x2="121" y2="370" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="111" y="374" font-size="12" fill="#666" text-anchor="end" font-weight="normal">−3</text>
+<line x1="115" y1="318" x2="121" y2="318" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="111" y="322" font-size="12" fill="#666" text-anchor="end" font-weight="normal">−1</text>
+<line x1="115" y1="266" x2="121" y2="266" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="111" y="270" font-size="12" fill="#666" text-anchor="end" font-weight="normal">1</text>
+<line x1="115" y1="214" x2="121" y2="214" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="111" y="218" font-size="12" fill="#666" text-anchor="end" font-weight="normal">3</text>
+<text x="111" y="310" font-size="12" fill="#666" text-anchor="end" font-weight="normal">0</text>
+<polyline points="40,219.2 40.8,219.7 41.6,220.1 42.3,220.6 43.1,221.1 43.9,221.5 44.7,222 45.5,222.5 46.2,222.9 47,223.4 47.8,223.9 48.6,224.3 49.4,224.8 50.1,225.3 50.9,225.8 51.7,226.2 52.5,226.7 53.3,227.2 54,227.6 54.8,228.1 55.6,228.6 56.4,229 57.2,229.5 57.9,230 58.7,230.4 59.5,230.9 60.3,231.4 61.1,231.8 61.8,232.3 62.6,232.8 63.4,233.2 64.2,233.7 65,234.2 65.7,234.6 66.5,235.1 67.3,235.6 68.1,236 68.9,236.5 69.6,237 70.4,237.5 71.2,237.9 72,238.4 72.8,238.9 73.5,239.3 74.3,239.8 75.1,240.3 75.9,240.7 76.7,241.2 77.4,241.7 78.2,242.1 79,242.6 79.8,243.1 80.6,243.5 81.3,244 82.1,244.5 82.9,244.9 83.7,245.4 84.5,245.9 85.2,246.3 86,246.8 86.8,247.3 87.6,247.7 88.4,248.2 89.1,248.7 89.9,249.2 90.7,249.6 91.5,250.1 92.3,250.6 93,251 93.8,251.5 94.6,252 95.4,252.4 96.2,252.9 96.9,253.4 97.7,253.8 98.5,254.3 99.3,254.8 100.1,255.2 100.8,255.7 101.6,256.2 102.4,256.6 103.2,257.1 104,257.6 104.7,258 105.5,258.5 106.3,259 107.1,259.4 107.9,259.9 108.6,260.4 109.4,260.9 110.2,261.3 111,261.8 111.8,262.3 112.5,262.7 113.3,263.2 114.1,263.7 114.9,264.1 115.7,264.6 116.4,265.1 117.2,265.5 118,266 118.8,266.5 119.6,266.9 120.3,267.4 121.1,267.9 121.9,268.3 122.7,268.8 123.5,269.3 124.2,269.7 125,270.2 125.8,270.7 126.6,271.1 127.4,271.6 128.1,272.1 128.9,272.6 129.7,273 130.5,273.5 131.3,274 132,274.4 132.8,274.9 133.6,275.4 134.4,275.8 135.2,276.3 135.9,276.8 136.7,277.2 137.5,277.7 138.3,278.2 139.1,278.6 139.8,279.1 140.6,279.6 141.4,280 142.2,280.5 143,281 143.7,281.4 144.5,281.9 145.3,282.4 146.1,282.8 146.9,283.3 147.6,283.8 148.4,284.3 149.2,284.7 150,285.2 150.8,285.7 151.5,286.1 152.3,286.6 153.1,287.1 153.9,287.5 154.7,288 155.4,288.5 156.2,288.9 157,289.4 157.8,289.9 158.6,290.3 159.3,290.8 160.1,291.3 160.9,291.7 161.7,292.2 162.5,292.7 163.2,293.1 164,293.6 164.8,294.1 165.6,294.5 166.4,295 167.1,295.5 167.9,296 168.7,296.4 169.5,296.9 170.3,297.4 171,297.8 171.8,298.3 172.6,298.8 173.4,299.2 174.2,299.7 174.9,300.2 175.7,300.6 176.5,301.1 177.3,301.6 178.1,302 178.8,302.5 179.6,303 180.4,303.4 181.2,303.9 182,304.4 182.7,304.8 183.5,305.3 184.3,305.8 185.1,306.2 185.9,306.7 186.6,307.2 187.4,307.7 188.2,308.1 189,308.6 189.8,309.1 190.5,309.5 191.3,310 192.1,310.5 192.9,310.9 193.7,311.4 194.4,311.9 195.2,312.3 196,312.8" fill="none" stroke="#1f4e79" stroke-width="2.6" stroke-linejoin="round"/>
+<line x1="79" y1="370" x2="79" y2="214" stroke="#c0392b" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 4"/>
+<circle cx="79" cy="242.6" r="4.5" fill="#c0392b" stroke="#c0392b" stroke-width="1"/>
+<polyline points="236,254 243,261 256,246" fill="none" stroke="#2e7d32" stroke-width="3.5" stroke-linejoin="round"/>
+<text x="236" y="286" font-size="14" fill="#222" text-anchor="start" font-weight="bold">fonction :</text>
+<text x="236" y="305" font-size="14" fill="#222" text-anchor="start" font-weight="normal">une droite</text>
+<text x="236" y="324" font-size="14" fill="#222" text-anchor="start" font-weight="normal">non verticale</text>
+<line x1="40" y1="560" x2="40" y2="404" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="66" y1="560" x2="66" y2="404" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="92" y1="560" x2="92" y2="404" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="118" y1="560" x2="118" y2="404" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="144" y1="560" x2="144" y2="404" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="170" y1="560" x2="170" y2="404" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="196" y1="560" x2="196" y2="404" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="560" x2="196" y2="560" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="534" x2="196" y2="534" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="508" x2="196" y2="508" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="482" x2="196" y2="482" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="456" x2="196" y2="456" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="430" x2="196" y2="430" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="404" x2="196" y2="404" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="482" x2="201" y2="482" stroke="#222" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="210,482 201,486.1 201,477.9" fill="#222" stroke="#222" stroke-width="1" stroke-linejoin="round"/>
+<line x1="118" y1="560" x2="118" y2="399" stroke="#222" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="118,390 122,399 114,399" fill="#222" stroke="#222" stroke-width="1" stroke-linejoin="round"/>
+<text x="216" y="487" font-size="14" fill="#222" text-anchor="start" font-weight="normal" font-style="italic">x</text>
+<text x="128" y="394" font-size="14" fill="#222" text-anchor="start" font-weight="normal" font-style="italic">y</text>
+<line x1="40" y1="479" x2="40" y2="485" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="40" y="500" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">−3</text>
+<line x1="92" y1="479" x2="92" y2="485" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="92" y="500" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">−1</text>
+<line x1="144" y1="479" x2="144" y2="485" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="144" y="500" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">1</text>
+<line x1="196" y1="479" x2="196" y2="485" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="196" y="500" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">3</text>
+<line x1="115" y1="560" x2="121" y2="560" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="111" y="564" font-size="12" fill="#666" text-anchor="end" font-weight="normal">−3</text>
+<line x1="115" y1="508" x2="121" y2="508" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="111" y="512" font-size="12" fill="#666" text-anchor="end" font-weight="normal">−1</text>
+<line x1="115" y1="456" x2="121" y2="456" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="111" y="460" font-size="12" fill="#666" text-anchor="end" font-weight="normal">1</text>
+<line x1="115" y1="404" x2="121" y2="404" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="111" y="408" font-size="12" fill="#666" text-anchor="end" font-weight="normal">3</text>
+<text x="111" y="500" font-size="12" fill="#666" text-anchor="end" font-weight="normal">0</text>
+<circle cx="118" cy="482" r="57.2" fill="none" stroke="#1f4e79" stroke-width="2.6"/>
+<line x1="144" y1="560" x2="144" y2="404" stroke="#c0392b" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 4"/>
+<circle cx="144" cy="431.1" r="4.5" fill="#c0392b" stroke="#c0392b" stroke-width="1"/>
+<circle cx="144" cy="532.9" r="4.5" fill="#c0392b" stroke="#c0392b" stroke-width="1"/>
+<line x1="237" y1="435" x2="255" y2="453" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+<line x1="237" y1="453" x2="255" y2="435" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+<text x="236" y="476" font-size="14" fill="#222" text-anchor="start" font-weight="bold">pas une fonction :</text>
+<text x="236" y="495" font-size="14" fill="#222" text-anchor="start" font-weight="normal">1 aurait</text>
+<text x="236" y="514" font-size="14" fill="#222" text-anchor="start" font-weight="normal">deux images</text>
+</svg>

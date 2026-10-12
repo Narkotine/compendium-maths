@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 236" width="680" height="236" font-family="Arial, Helvetica, sans-serif">
+<title>Tableau de proportionnalité nombre de personnes et farine : 4, 2, 6, 10 personnes pour 200, 100, 300, 500 g ; flèches ÷ 2, 4 + 2 et coefficient × 50</title>
+<rect width="680" height="236" fill="white"/>
+<rect x="40" y="70" width="170" height="42" rx="0" fill="#dbe8f5" stroke="#222" stroke-width="1.5"/>
+<rect x="40" y="112" width="170" height="42" rx="0" fill="#fdebd0" stroke="#222" stroke-width="1.5"/>
+<text x="125" y="96" font-size="14" fill="#222" text-anchor="middle" font-weight="normal">Nombre de personnes</text>
+<text x="125" y="138" font-size="14" fill="#222" text-anchor="middle" font-weight="normal">Farine (g)</text>
+<rect x="210" y="70" width="90" height="42" rx="0" fill="white" stroke="#222" stroke-width="1.5"/>
+<rect x="210" y="112" width="90" height="42" rx="0" fill="white" stroke="#222" stroke-width="1.5"/>
+<text x="255" y="96" font-size="18.4" fill="#222" text-anchor="middle" font-weight="bold">4</text>
+<text x="255" y="138" font-size="18.4" fill="#222" text-anchor="middle" font-weight="bold">200</text>
+<rect x="300" y="70" width="90" height="42" rx="0" fill="white" stroke="#222" stroke-width="1.5"/>
+<rect x="300" y="112" width="90" height="42" rx="0" fill="white" stroke="#222" stroke-width="1.5"/>
+<text x="345" y="96" font-size="18.4" fill="#222" text-anchor="middle" font-weight="bold">2</text>
+<text x="345" y="138" font-size="18.4" fill="#222" text-anchor="middle" font-weight="bold">100</text>
+<rect x="390" y="70" width="90" height="42" rx="0" fill="white" stroke="#222" stroke-width="1.5"/>
+<rect x="390" y="112" width="90" height="42" rx="0" fill="white" stroke="#222" stroke-width="1.5"/>
+<text x="435" y="96" font-size="18.4" fill="#222" text-anchor="middle" font-weight="bold">6</text>
+<text x="435" y="138" font-size="18.4" fill="#222" text-anchor="middle" font-weight="bold">300</text>
+<rect x="480" y="70" width="90" height="42" rx="0" fill="white" stroke="#222" stroke-width="1.5"/>
+<rect x="480" y="112" width="90" height="42" rx="0" fill="white" stroke="#222" stroke-width="1.5"/>
+<text x="525" y="96" font-size="18.4" fill="#222" text-anchor="middle" font-weight="bold">10</text>
+<text x="525" y="138" font-size="18.4" fill="#222" text-anchor="middle" font-weight="bold">500</text>
+<path d="M263,67 Q300,33 337,67" fill="none" stroke="#2e7d32" stroke-width="1.8"/>
+<polygon points="337,67 327.6,63.9 333.1,57.9" fill="#2e7d32" stroke="#2e7d32" stroke-width="1" stroke-linejoin="round"/>
+<text x="300" y="44" font-size="14.9" fill="#2e7d32" text-anchor="middle" font-weight="bold">÷ 2</text>
+<path d="M263,157 Q300,191 337,157" fill="none" stroke="#2e7d32" stroke-width="1.8"/>
+<polygon points="337,157 333.1,166.1 327.6,160.1" fill="#2e7d32" stroke="#2e7d32" stroke-width="1" stroke-linejoin="round"/>
+<text x="300" y="190" font-size="14.9" fill="#2e7d32" text-anchor="middle" font-weight="bold">÷ 2</text>
+<path d="M353,67 Q390,33 427,67" fill="none" stroke="#1f4e79" stroke-width="1.8"/>
+<polygon points="427,67 417.6,63.9 423.1,57.9" fill="#1f4e79" stroke="#1f4e79" stroke-width="1" stroke-linejoin="round"/>
+<text x="390" y="44" font-size="14.9" fill="#1f4e79" text-anchor="middle" font-weight="bold">4 + 2</text>
+<path d="M353,157 Q390,191 427,157" fill="none" stroke="#1f4e79" stroke-width="1.8"/>
+<polygon points="427,157 423.1,166.1 417.6,160.1" fill="#1f4e79" stroke="#1f4e79" stroke-width="1" stroke-linejoin="round"/>
+<text x="390" y="190" font-size="14.9" fill="#1f4e79" text-anchor="middle" font-weight="bold">200 + 100</text>
+<line x1="588" y1="91" x2="588" y2="123" stroke="#c0392b" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="588,133 583.5,123 592.5,123" fill="#c0392b" stroke="#c0392b" stroke-width="1" stroke-linejoin="round"/>
+<text x="598" y="118" font-size="18.4" fill="#c0392b" text-anchor="start" font-weight="bold">× 50</text>
+<text x="598" y="136" font-size="13.8" fill="#c0392b" text-anchor="start" font-weight="normal">coefficient</text>
+<text x="40" y="24" font-size="14" fill="#222" text-anchor="start" font-weight="bold">Trois façons de compléter un tableau de proportionnalité :</text>
+<text x="40" y="222" font-size="14.9" fill="#666" text-anchor="start" font-weight="normal">vert : multiplier ou diviser une colonne ; bleu : additionner deux colonnes ; rouge : coefficient</text>
+</svg>

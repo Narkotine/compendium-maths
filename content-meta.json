@@ -1,0 +1,380 @@
+{
+  "appName": "Maths Collège",
+  "groups": [
+    {
+      "id": "nombres",
+      "title": "Nombres et calculs",
+      "hue": 210,
+      "chapters": [
+        "01-fractions-rationnels",
+        "02-entiers-et-decimaux",
+        "03-nombres-relatifs",
+        "04-puissances-notation-scientifique"
+      ]
+    },
+    {
+      "id": "algebre",
+      "title": "Algèbre et fonctions",
+      "hue": 280,
+      "chapters": [
+        "05-proportionalite-pourcentages",
+        "06-calcul-litteral",
+        "07-equations-inequations",
+        "08-fonctions"
+      ]
+    },
+    {
+      "id": "geometrie",
+      "title": "Géométrie plane",
+      "hue": 160,
+      "chapters": [
+        "09-geometrie-plane-figures",
+        "10-transformations-plan",
+        "11-pythagore",
+        "12-thales",
+        "13-trigonometrie"
+      ]
+    },
+    {
+      "id": "espace",
+      "title": "Grandeurs, mesures et espace",
+      "hue": 30,
+      "chapters": [
+        "14-aires-volumes-grandeurs",
+        "15-geometrie-espace"
+      ]
+    },
+    {
+      "id": "donnees",
+      "title": "Données et hasard",
+      "hue": 340,
+      "chapters": [
+        "16-statistiques",
+        "17-probabilites"
+      ]
+    }
+  ],
+  "chapters": {
+    "01-fractions-rationnels": {
+      "short": "Fractions",
+      "desc": "Partager en parts égales, simplifier, comparer et calculer avec des fractions.",
+      "practice": {
+        "enabled": true,
+        "generators": [
+          "lire",
+          "egales",
+          "simplifier",
+          "comparer",
+          "ranger",
+          "addition",
+          "produit",
+          "quantite",
+          "division",
+          "priorites",
+          "ecritures",
+          "probleme",
+          "erreur"
+        ]
+      }
+    },
+    "02-entiers-et-decimaux": {
+      "short": "Entiers et décimaux",
+      "desc": "Numération, calcul décimal, arrondis, diviseurs et nombres premiers.",
+      "practice": {
+        "enabled": true,
+        "generators": [
+          "numeration",
+          "comparer",
+          "operations",
+          "calculs",
+          "arrondir",
+          "euclide",
+          "divisibilite",
+          "premiers",
+          "decomposer",
+          "partage",
+          "erreur"
+        ]
+      }
+    },
+    "03-nombres-relatifs": {
+      "short": "Nombres relatifs",
+      "desc": "Nombres négatifs sur la droite graduée : comparer, additionner, multiplier.",
+      "practice": {
+        "enabled": true,
+        "generators": [
+          "abscisse",
+          "comparer",
+          "ranger",
+          "addition",
+          "soustraction",
+          "distance",
+          "produit",
+          "signe",
+          "priorites",
+          "probleme"
+        ]
+      }
+    },
+    "04-puissances-notation-scientifique": {
+      "short": "Puissances",
+      "desc": "Puissances, puissances de 10, notation scientifique et racine carrée.",
+      "practice": {
+        "enabled": true,
+        "generators": [
+          "calcul",
+          "dix",
+          "regles",
+          "negatifs",
+          "prefixes",
+          "scientifique",
+          "calculsci",
+          "racine",
+          "probleme",
+          "erreur"
+        ]
+      }
+    },
+    "05-proportionalite-pourcentages": {
+      "short": "Proportionnalité",
+      "desc": "Reconnaître la proportionnalité, pourcentages, vitesses et échelles.",
+      "practice": {
+        "enabled": true,
+        "generators": [
+          "reconnaitre",
+          "tableau",
+          "quatrieme",
+          "vitesse",
+          "grandeurs",
+          "pourcentage",
+          "evolution",
+          "ratio",
+          "echelle",
+          "erreur"
+        ]
+      }
+    },
+    "06-calcul-litteral": {
+      "short": "Calcul littéral",
+      "desc": "Expressions avec des lettres : réduire, développer, factoriser, démontrer.",
+      "practice": {
+        "enabled": true,
+        "generators": [
+          "valeur",
+          "traduire",
+          "nature",
+          "reduire",
+          "developper",
+          "double",
+          "factoriser",
+          "identites",
+          "factoriser-id",
+          "programme",
+          "vrai-faux"
+        ]
+      }
+    },
+    "07-equations-inequations": {
+      "short": "Équations",
+      "desc": "Résoudre une équation comme une balance, mettre un problème en équation.",
+      "practice": {
+        "enabled": true,
+        "generators": [
+          "tester",
+          "x-plus-a",
+          "ax-egal-b",
+          "ax-plus-b",
+          "deux-membres",
+          "parentheses",
+          "fractions",
+          "probleme",
+          "produit-nul",
+          "carre",
+          "inequation",
+          "systeme"
+        ]
+      }
+    },
+    "08-fonctions": {
+      "short": "Fonctions",
+      "desc": "Notion de fonction, graphiques, fonctions linéaires et affines.",
+      "practice": {
+        "enabled": true,
+        "generators": [
+          "image",
+          "antecedent",
+          "vocabulaire",
+          "point",
+          "lecture",
+          "lineaire",
+          "affine",
+          "probleme",
+          "erreur"
+        ]
+      }
+    },
+    "09-geometrie-plane-figures": {
+      "short": "Géométrie plane",
+      "desc": "Droites, angles, triangles, quadrilatères, cercle et démonstration.",
+      "practice": {
+        "enabled": true,
+        "generators": [
+          "proprietes",
+          "paires",
+          "secante",
+          "triangle",
+          "inegalite",
+          "remarquables",
+          "quadrilateres",
+          "cercle",
+          "erreur"
+        ]
+      }
+    },
+    "10-transformations-plan": {
+      "short": "Transformations",
+      "desc": "Symétries, translation, rotation et homothétie.",
+      "practice": {
+        "enabled": true,
+        "generators": [
+          "reconnaitre",
+          "image",
+          "conserve",
+          "quadrilatere",
+          "rotation",
+          "homothetie",
+          "erreur"
+        ]
+      }
+    },
+    "11-pythagore": {
+      "short": "Pythagore",
+      "desc": "Calculer une longueur dans un triangle rectangle, prouver un angle droit.",
+      "practice": {
+        "enabled": true,
+        "generators": [
+          "hypotenuse",
+          "calcul-hypotenuse",
+          "calcul-cote",
+          "reciproque",
+          "figures",
+          "probleme",
+          "repere",
+          "deux-fois",
+          "erreur"
+        ]
+      }
+    },
+    "12-thales": {
+      "short": "Thalès",
+      "desc": "Longueurs proportionnelles, parallèles, agrandissements et réductions.",
+      "practice": {
+        "enabled": true,
+        "generators": [
+          "rapports",
+          "croix",
+          "emboites",
+          "papillon",
+          "restant",
+          "reciproque",
+          "agrandir",
+          "semblables",
+          "probleme",
+          "erreur"
+        ]
+      }
+    },
+    "13-trigonometrie": {
+      "short": "Trigonométrie",
+      "desc": "Cosinus, sinus et tangente pour calculer longueurs et angles.",
+      "practice": {
+        "enabled": true,
+        "generators": [
+          "vocabulaire",
+          "rapports",
+          "calculatrice",
+          "longueur",
+          "angle",
+          "outil",
+          "probleme",
+          "erreur",
+          "exact"
+        ]
+      }
+    },
+    "14-aires-volumes-grandeurs": {
+      "short": "Aires et volumes",
+      "desc": "Unités, périmètres, aires, volumes, durées et vitesses.",
+      "practice": {
+        "enabled": true,
+        "generators": [
+          "conversion",
+          "aires",
+          "disque",
+          "composee",
+          "volumes",
+          "laterale",
+          "reduction",
+          "durees",
+          "composees",
+          "erreur"
+        ]
+      }
+    },
+    "15-geometrie-espace": {
+      "short": "Espace",
+      "desc": "Solides, perspective, patrons, vues, sections et repérage.",
+      "practice": {
+        "enabled": true,
+        "generators": [
+          "solides",
+          "patron",
+          "cavaliere",
+          "vues",
+          "aires",
+          "sections",
+          "reperage",
+          "erreur"
+        ]
+      }
+    },
+    "16-statistiques": {
+      "short": "Statistiques",
+      "desc": "Tableaux, diagrammes, moyenne, médiane et étendue.",
+      "practice": {
+        "enabled": true,
+        "generators": [
+          "frequences",
+          "circulaire",
+          "batons",
+          "moyenne",
+          "rebours",
+          "mediane",
+          "classes",
+          "interpreter",
+          "erreur"
+        ]
+      }
+    },
+    "17-probabilites": {
+      "short": "Probabilités",
+      "desc": "Issues, événements, arbres et lien avec les fréquences.",
+      "practice": {
+        "enabled": true,
+        "generators": [
+          "vocabulaire",
+          "equiprobable",
+          "urne",
+          "cartes",
+          "roue",
+          "contraire",
+          "arbre",
+          "tableau",
+          "frequence",
+          "erreur"
+        ]
+      }
+    }
+  },
+  "linkOverrides": []
+}

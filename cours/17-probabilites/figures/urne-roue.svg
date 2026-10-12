@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 262" width="640" height="262" font-family="Arial, Helvetica, sans-serif">
+<title>Une urne contenant 3 boules rouges, 2 vertes et 5 bleues ; une roue de loterie partagée en un demi-disque rouge et deux quarts, bleu et vert</title>
+<rect width="640" height="262" fill="white"/>
+<polyline points="50,40 60,200 250,200 260,40" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<circle cx="85" cy="175" r="16" fill="#fdebd0" stroke="#c0392b" stroke-width="2.2"/>
+<circle cx="125" cy="178" r="16" fill="#dbe8f5" stroke="#1f4e79" stroke-width="2.2"/>
+<circle cx="165" cy="176" r="16" fill="#e3f1e4" stroke="#2e7d32" stroke-width="2.2"/>
+<circle cx="205" cy="177" r="16" fill="#dbe8f5" stroke="#1f4e79" stroke-width="2.2"/>
+<circle cx="225" cy="145" r="16" fill="#dbe8f5" stroke="#1f4e79" stroke-width="2.2"/>
+<circle cx="100" cy="140" r="16" fill="#fdebd0" stroke="#c0392b" stroke-width="2.2"/>
+<circle cx="140" cy="143" r="16" fill="#dbe8f5" stroke="#1f4e79" stroke-width="2.2"/>
+<circle cx="180" cy="141" r="16" fill="#fdebd0" stroke="#c0392b" stroke-width="2.2"/>
+<circle cx="120" cy="108" r="16" fill="#dbe8f5" stroke="#1f4e79" stroke-width="2.2"/>
+<circle cx="162" cy="110" r="16" fill="#e3f1e4" stroke="#2e7d32" stroke-width="2.2"/>
+<text x="155" y="230" font-size="13.7" fill="#222" text-anchor="middle" font-weight="bold">Urne : 3 rouges, 2 vertes, 5 bleues</text>
+<text x="155" y="248.9" font-size="13.7" fill="#c0392b" text-anchor="middle" font-weight="normal">P(rouge) = 3 sur 10 = 0,3</text>
+<path d="M470,120 L470,32 A88,88 0 0 0 470,208 Z" fill="#fdebd0" stroke="#c0392b" stroke-width="1.6"/>
+<path d="M470,120 L470,208 A88,88 0 0 0 558,120 Z" fill="#dbe8f5" stroke="#1f4e79" stroke-width="1.6"/>
+<path d="M470,120 L558,120 A88,88 0 0 0 470,32 Z" fill="#e3f1e4" stroke="#2e7d32" stroke-width="1.6"/>
+<circle cx="470" cy="120" r="4" fill="#222" stroke="#222" stroke-width="1"/>
+<text x="426" y="125" font-size="13.7" fill="#c0392b" text-anchor="middle" font-weight="bold">rouge</text>
+<text x="514" y="160" font-size="13.7" fill="#1f4e79" text-anchor="middle" font-weight="bold">bleu</text>
+<text x="500" y="64" font-size="13.7" fill="#2e7d32" text-anchor="middle" font-weight="bold">vert</text>
+<polyline points="470,120 528,82" fill="none" stroke="#222" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="534,78 520,80 528,90" fill="#222" stroke="#222" stroke-width="1" stroke-linejoin="round"/>
+<text x="470" y="230" font-size="13.7" fill="#222" text-anchor="middle" font-weight="bold">Roue : rouge sur la moitié du disque</text>
+<text x="470" y="248.9" font-size="13.7" fill="#c0392b" text-anchor="middle" font-weight="normal">P(rouge) = 0,5 ; P(bleu) = P(vert) = 0,25</text>
+</svg>

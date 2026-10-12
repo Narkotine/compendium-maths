@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 416" width="650" height="416" font-family="Arial, Helvetica, sans-serif">
+<title>Réciproque de Thalès : les rapports égaux ne suffisent pas, les points doivent être dans le même ordre</title>
+<rect width="650" height="416" fill="white"/>
+<polygon points="160,120 60,280 270,280" fill="#fafafa" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="120" cy="184" r="3.2" fill="#222" stroke="#222" stroke-width="1"/>
+<circle cx="204" cy="184" r="3.2" fill="#222" stroke="#222" stroke-width="1"/>
+<text x="160" y="110" font-size="18.4" fill="#222" text-anchor="middle" font-weight="bold">A</text>
+<text x="50" y="298" font-size="18.4" fill="#222" text-anchor="middle" font-weight="bold">B</text>
+<text x="280" y="298" font-size="18.4" fill="#222" text-anchor="middle" font-weight="bold">C</text>
+<text x="104" y="188" font-size="18.4" fill="#222" text-anchor="middle" font-weight="bold">D</text>
+<line x1="120" y1="184" x2="204" y2="184" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/>
+<polyline points="156.2,188.2 163.2,184 156.2,179.8" fill="none" stroke="#2e7d32" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="162.2,188.2 169.2,184 162.2,179.8" fill="none" stroke="#2e7d32" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="159.2,284.2 166.2,280 159.2,275.8" fill="none" stroke="#222" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="165.2,284.2 172.2,280 165.2,275.8" fill="none" stroke="#222" stroke-width="1.8" stroke-linejoin="round"/>
+<text x="220" y="188" font-size="18.4" fill="#222" text-anchor="middle" font-weight="bold">E</text>
+<polyline points="150,318 157,325 170,310" fill="none" stroke="#2e7d32" stroke-width="3.5" stroke-linejoin="round"/>
+<text x="160" y="352" font-size="16.1" fill="#222" text-anchor="middle" font-weight="normal">A, D, B et A, E, C : même ordre</text>
+<text x="160" y="377.3" font-size="16.1" fill="#222" text-anchor="middle" font-weight="normal">AD/AB = AE/AC = 0,4</text>
+<text x="160" y="398" font-size="17.2" fill="#2e7d32" text-anchor="middle" font-weight="bold">donc (DE) ∥ (BC)</text>
+<polygon points="480,120 380,280 590,280" fill="#fafafa" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="440" cy="184" r="3.2" fill="#222" stroke="#222" stroke-width="1"/>
+<circle cx="436" cy="56" r="3.2" fill="#222" stroke="#222" stroke-width="1"/>
+<text x="494" y="110" font-size="18.4" fill="#222" text-anchor="middle" font-weight="bold">A</text>
+<text x="370" y="298" font-size="18.4" fill="#222" text-anchor="middle" font-weight="bold">B</text>
+<text x="600" y="298" font-size="18.4" fill="#222" text-anchor="middle" font-weight="bold">C</text>
+<text x="424" y="188" font-size="18.4" fill="#222" text-anchor="middle" font-weight="bold">D</text>
+<line x1="480" y1="120" x2="436" y2="56" stroke="#222" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="440" y1="184" x2="436" y2="56" stroke="#c0392b" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 5"/>
+<text x="436" y="46" font-size="18.4" fill="#222" text-anchor="middle" font-weight="bold">E</text>
+<line x1="471" y1="309" x2="489" y2="327" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+<line x1="471" y1="327" x2="489" y2="309" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+<text x="480" y="352" font-size="16.1" fill="#222" text-anchor="middle" font-weight="normal">E n’est pas du même côté de A que C</text>
+<text x="480" y="377.3" font-size="16.1" fill="#222" text-anchor="middle" font-weight="normal">AD/AB = AE/AC = 0,4 aussi…</text>
+<text x="480" y="398" font-size="17.2" fill="#c0392b" text-anchor="middle" font-weight="bold">mais (DE) n’est pas parallèle à (BC)</text>
+<line x1="325" y1="30" x2="325" y2="400" stroke="#dddddd" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

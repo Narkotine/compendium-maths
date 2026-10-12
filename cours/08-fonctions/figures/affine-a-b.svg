@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 600" width="380" height="600" font-family="Arial, Helvetica, sans-serif">
+<title>La droite de f(x) = 0,5x + 1 : elle coupe l’axe vertical en 1 (ordonnée à l’origine) ; quand x augmente de 2, f(x) augmente de 1 (coefficient directeur 0,5)</title>
+<rect width="380" height="600" fill="white"/>
+<line x1="60" y1="318" x2="60" y2="30" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="96" y1="318" x2="96" y2="30" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="132" y1="318" x2="132" y2="30" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="168" y1="318" x2="168" y2="30" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="204" y1="318" x2="204" y2="30" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="240" y1="318" x2="240" y2="30" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="276" y1="318" x2="276" y2="30" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="312" y1="318" x2="312" y2="30" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="348" y1="318" x2="348" y2="30" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="60" y1="318" x2="348" y2="318" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="60" y1="282" x2="348" y2="282" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="60" y1="246" x2="348" y2="246" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="60" y1="210" x2="348" y2="210" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="60" y1="174" x2="348" y2="174" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="60" y1="138" x2="348" y2="138" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="60" y1="102" x2="348" y2="102" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="60" y1="66" x2="348" y2="66" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="60" y1="30" x2="348" y2="30" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="60" y1="246" x2="353" y2="246" stroke="#222" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="362,246 353,250.1 353,241.9" fill="#222" stroke="#222" stroke-width="1" stroke-linejoin="round"/>
+<line x1="132" y1="318" x2="132" y2="25" stroke="#222" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="132,16 136.1,25 128,25" fill="#222" stroke="#222" stroke-width="1" stroke-linejoin="round"/>
+<text x="368" y="251" font-size="14" fill="#222" text-anchor="start" font-weight="normal" font-style="italic">x</text>
+<text x="142" y="20" font-size="14" fill="#222" text-anchor="start" font-weight="normal" font-style="italic">y</text>
+<line x1="60" y1="243" x2="60" y2="249" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="60" y="264" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">−2</text>
+<line x1="96" y1="243" x2="96" y2="249" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="96" y="264" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">−1</text>
+<line x1="168" y1="243" x2="168" y2="249" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="168" y="264" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">1</text>
+<line x1="204" y1="243" x2="204" y2="249" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="204" y="264" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">2</text>
+<line x1="240" y1="243" x2="240" y2="249" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="240" y="264" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">3</text>
+<line x1="276" y1="243" x2="276" y2="249" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="276" y="264" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">4</text>
+<line x1="312" y1="243" x2="312" y2="249" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="312" y="264" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">5</text>
+<line x1="348" y1="243" x2="348" y2="249" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="348" y="264" font-size="12" fill="#666" text-anchor="middle" font-weight="normal">6</text>
+<line x1="129" y1="318" x2="135" y2="318" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="125" y="322" font-size="12" fill="#666" text-anchor="end" font-weight="normal">−2</text>
+<line x1="129" y1="282" x2="135" y2="282" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="125" y="286" font-size="12" fill="#666" text-anchor="end" font-weight="normal">−1</text>
+<line x1="129" y1="210" x2="135" y2="210" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="125" y="214" font-size="12" fill="#666" text-anchor="end" font-weight="normal">1</text>
+<line x1="129" y1="174" x2="135" y2="174" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="125" y="178" font-size="12" fill="#666" text-anchor="end" font-weight="normal">2</text>
+<line x1="129" y1="138" x2="135" y2="138" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="125" y="142" font-size="12" fill="#666" text-anchor="end" font-weight="normal">3</text>
+<line x1="129" y1="102" x2="135" y2="102" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="125" y="106" font-size="12" fill="#666" text-anchor="end" font-weight="normal">4</text>
+<line x1="129" y1="66" x2="135" y2="66" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="125" y="70" font-size="12" fill="#666" text-anchor="end" font-weight="normal">5</text>
+<line x1="129" y1="30" x2="135" y2="30" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="125" y="34" font-size="12" fill="#666" text-anchor="end" font-weight="normal">6</text>
+<text x="125" y="264" font-size="12" fill="#666" text-anchor="end" font-weight="normal">0</text>
+<polyline points="60,246 61.4,245.3 62.9,244.6 64.3,243.8 65.8,243.1 67.2,242.4 68.6,241.7 70.1,241 71.5,240.2 73,239.5 74.4,238.8 75.8,238.1 77.3,237.4 78.7,236.6 80.2,235.9 81.6,235.2 83,234.5 84.5,233.8 85.9,233 87.4,232.3 88.8,231.6 90.2,230.9 91.7,230.2 93.1,229.4 94.6,228.7 96,228 97.4,227.3 98.9,226.6 100.3,225.8 101.8,225.1 103.2,224.4 104.6,223.7 106.1,223 107.5,222.2 109,221.5 110.4,220.8 111.8,220.1 113.3,219.4 114.7,218.6 116.2,217.9 117.6,217.2 119,216.5 120.5,215.8 121.9,215 123.4,214.3 124.8,213.6 126.2,212.9 127.7,212.2 129.1,211.4 130.6,210.7 132,210 133.4,209.3 134.9,208.6 136.3,207.8 137.8,207.1 139.2,206.4 140.6,205.7 142.1,205 143.5,204.2 145,203.5 146.4,202.8 147.8,202.1 149.3,201.4 150.7,200.6 152.2,199.9 153.6,199.2 155,198.5 156.5,197.8 157.9,197 159.4,196.3 160.8,195.6 162.2,194.9 163.7,194.2 165.1,193.4 166.6,192.7 168,192 169.4,191.3 170.9,190.6 172.3,189.8 173.8,189.1 175.2,188.4 176.6,187.7 178.1,187 179.5,186.2 181,185.5 182.4,184.8 183.8,184.1 185.3,183.4 186.7,182.6 188.2,181.9 189.6,181.2 191,180.5 192.5,179.8 193.9,179 195.4,178.3 196.8,177.6 198.2,176.9 199.7,176.2 201.1,175.4 202.6,174.7 204,174 205.4,173.3 206.9,172.6 208.3,171.8 209.8,171.1 211.2,170.4 212.6,169.7 214.1,169 215.5,168.2 217,167.5 218.4,166.8 219.8,166.1 221.3,165.4 222.7,164.6 224.2,163.9 225.6,163.2 227,162.5 228.5,161.8 229.9,161 231.4,160.3 232.8,159.6 234.2,158.9 235.7,158.2 237.1,157.4 238.6,156.7 240,156 241.4,155.3 242.9,154.6 244.3,153.8 245.8,153.1 247.2,152.4 248.6,151.7 250.1,151 251.5,150.2 253,149.5 254.4,148.8 255.8,148.1 257.3,147.4 258.7,146.6 260.2,145.9 261.6,145.2 263,144.5 264.5,143.8 265.9,143 267.4,142.3 268.8,141.6 270.2,140.9 271.7,140.2 273.1,139.4 274.6,138.7 276,138 277.4,137.3 278.9,136.6 280.3,135.8 281.8,135.1 283.2,134.4 284.6,133.7 286.1,133 287.5,132.2 289,131.5 290.4,130.8 291.8,130.1 293.3,129.4 294.7,128.6 296.2,127.9 297.6,127.2 299,126.5 300.5,125.8 301.9,125 303.4,124.3 304.8,123.6 306.2,122.9 307.7,122.2 309.1,121.4 310.6,120.7 312,120 313.4,119.3 314.9,118.6 316.3,117.8 317.8,117.1 319.2,116.4 320.6,115.7 322.1,115 323.5,114.2 325,113.5 326.4,112.8 327.8,112.1 329.3,111.4 330.7,110.6 332.2,109.9 333.6,109.2 335,108.5 336.5,107.8 337.9,107 339.4,106.3 340.8,105.6 342.2,104.9 343.7,104.2 345.1,103.4 346.6,102.7 348,102" fill="none" stroke="#1f4e79" stroke-width="2.8" stroke-linejoin="round"/>
+<circle cx="132" cy="210" r="5" fill="#c0392b" stroke="#c0392b" stroke-width="1"/>
+<text x="122" y="202" font-size="14" fill="#c0392b" text-anchor="end" font-weight="bold">b = 1</text>
+<line x1="204" y1="174" x2="276" y2="174" stroke="#2e7d32" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="276" y1="174" x2="276" y2="138" stroke="#2e7d32" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="204" cy="174" r="4" fill="#1f4e79" stroke="#1f4e79" stroke-width="1"/>
+<circle cx="276" cy="138" r="4" fill="#1f4e79" stroke="#1f4e79" stroke-width="1"/>
+<text x="240" y="192" font-size="13" fill="#2e7d32" text-anchor="middle" font-weight="bold">+ 2</text>
+<text x="284" y="161" font-size="13" fill="#2e7d32" text-anchor="start" font-weight="bold">+ 1</text>
+<text x="333.6" y="97.2" font-size="14" fill="#1f4e79" text-anchor="end" font-weight="bold">f(x) = 0,5x + 1</text>
+<g transform="translate(-368 312)">
+<text x="398" y="60" font-size="14" fill="#222" text-anchor="start" font-weight="bold">Fonction affine : f(x) = a x + b.</text>
+<text x="398" y="88" font-size="13" fill="#c0392b" text-anchor="start" font-weight="bold">• b est l’ordonnée à l’origine :</text>
+<text x="398" y="108" font-size="13" fill="#222" text-anchor="start" font-weight="normal">   la droite coupe l’axe vertical en b.</text>
+<text x="398" y="136" font-size="13" fill="#2e7d32" text-anchor="start" font-weight="bold">• a est le coefficient directeur :</text>
+<text x="398" y="156" font-size="13" fill="#222" text-anchor="start" font-weight="normal">   quand x augmente de 1, f(x)</text>
+<text x="398" y="176" font-size="13" fill="#222" text-anchor="start" font-weight="normal">   augmente de a.</text>
+<text x="398" y="204" font-size="13" fill="#222" text-anchor="start" font-weight="normal">   Ici : x augmente de 2 → f(x)</text>
+<text x="398" y="224" font-size="13" fill="#222" text-anchor="start" font-weight="normal">   augmente de 1, donc a = 1 ÷ 2 = 0,5.</text>
+<text x="398" y="256" font-size="13" fill="#222" text-anchor="start" font-weight="normal">• a = (différence des images)</text>
+<text x="398" y="276" font-size="13" fill="#222" text-anchor="start" font-weight="normal">        ÷ (différence des x).</text>
+</g>
+</svg>

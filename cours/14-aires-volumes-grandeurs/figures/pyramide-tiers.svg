@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 730 276" width="730" height="276" font-family="Arial, Helvetica, sans-serif">
+<title>Un cube se découpe en trois pyramides identiques de sommet G : chacune a pour volume le tiers du cube</title>
+<rect x="0" y="0" width="730" height="276" fill="white"/>
+<polygon points="30,110 150,110 192.4,67.6 72.4,67.6" fill="#fafafa" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="30,230 150,230 150,110 30,110" fill="#fafafa" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="150,230 192.4,187.6 192.4,67.6 150,110" fill="#fafafa" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<line x1="192.4" y1="187.6" x2="72.4" y2="187.6" stroke="#222" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="30" y1="230" x2="72.4" y2="187.6" stroke="#222" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="72.4" y1="187.6" x2="72.4" y2="67.6" stroke="#222" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="30" y1="230" x2="150" y2="230" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="150" y1="230" x2="192.4" y2="187.6" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="30" y1="110" x2="150" y2="110" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="150" y1="110" x2="192.4" y2="67.6" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="192.4" y1="67.6" x2="72.4" y2="67.6" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="30" y1="110" x2="72.4" y2="67.6" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="150" y1="230" x2="150" y2="110" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="30" y1="230" x2="30" y2="110" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="192.4" y1="187.6" x2="192.4" y2="67.6" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="30" y1="230" x2="192.4" y2="67.6" stroke="#666" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="3 3"/>
+<line x1="150" y1="230" x2="192.4" y2="67.6" stroke="#666" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="3 3"/>
+<line x1="72.4" y1="187.6" x2="192.4" y2="67.6" stroke="#666" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="3 3"/>
+<line x1="30" y1="110" x2="192.4" y2="67.6" stroke="#666" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="3 3"/>
+<line x1="150" y1="110" x2="192.4" y2="67.6" stroke="#666" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="3 3"/>
+<line x1="72.4" y1="67.6" x2="192.4" y2="67.6" stroke="#666" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="3 3"/>
+<line x1="192.4" y1="187.6" x2="192.4" y2="67.6" stroke="#666" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="3 3"/>
+<circle cx="192.4" cy="67.6" r="4" fill="#c0392b" stroke="#c0392b" stroke-width="1"/>
+<text x="200.4" y="61.6" font-size="18" fill="#c0392b" text-anchor="start" font-weight="bold">G</text>
+<text x="110" y="260" font-size="15.6" fill="#222" text-anchor="middle" font-weight="bold">cube d’arête a</text>
+<polygon points="240,230 324,230 353.7,116.3" fill="#dbe8f5" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="324,230 353.7,200.3 353.7,116.3" fill="#dbe8f5" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<line x1="353.7" y1="200.3" x2="269.7" y2="200.3" stroke="#222" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="240" y1="230" x2="269.7" y2="200.3" stroke="#222" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="269.7" y1="200.3" x2="353.7" y2="116.3" stroke="#222" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="240" y1="230" x2="324" y2="230" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="324" y1="230" x2="353.7" y2="200.3" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="324" y1="230" x2="353.7" y2="116.3" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="240" y1="230" x2="353.7" y2="116.3" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="353.7" y1="200.3" x2="353.7" y2="116.3" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<text x="294" y="260" font-size="15.6" fill="#222" text-anchor="middle" font-weight="bold">base : le dessous</text>
+<polygon points="395,230 479,230 479,146 395,146" fill="#fdebd0" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="479,230 479,146 508.7,116.3" fill="#fdebd0" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="479,146 395,146 508.7,116.3" fill="#fdebd0" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<line x1="395" y1="230" x2="508.7" y2="116.3" stroke="#222" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="395" y1="230" x2="479" y2="230" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="479" y1="230" x2="479" y2="146" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="479" y1="146" x2="395" y2="146" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="395" y1="230" x2="395" y2="146" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="479" y1="230" x2="508.7" y2="116.3" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="479" y1="146" x2="508.7" y2="116.3" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="395" y1="146" x2="508.7" y2="116.3" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<text x="449" y="260" font-size="15.6" fill="#222" text-anchor="middle" font-weight="bold">base : l’avant</text>
+<polygon points="550,230 579.7,200.3 663.7,116.3" fill="#e3f1e4" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="579.7,116.3 550,146 663.7,116.3" fill="#e3f1e4" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="550,146 550,230 663.7,116.3" fill="#e3f1e4" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<line x1="579.7" y1="200.3" x2="579.7" y2="116.3" stroke="#222" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="550" y1="230" x2="579.7" y2="200.3" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="579.7" y1="116.3" x2="550" y2="146" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="550" y1="230" x2="550" y2="146" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="579.7" y1="200.3" x2="663.7" y2="116.3" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="550" y1="230" x2="663.7" y2="116.3" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="579.7" y1="116.3" x2="663.7" y2="116.3" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="550" y1="146" x2="663.7" y2="116.3" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<text x="604" y="260" font-size="15.6" fill="#222" text-anchor="middle" font-weight="bold">base : la gauche</text>
+<text x="470" y="30" font-size="16.8" fill="#1f4e79" text-anchor="middle" font-weight="bold">Trois pyramides identiques, de sommet G, remplissent le cube :</text>
+<text x="470" y="56.4" font-size="16.8" fill="#1f4e79" text-anchor="middle" font-weight="normal">chacune a pour volume a³ ÷ 3 = (aire de la base × hauteur) ÷ 3.</text>
+</svg>

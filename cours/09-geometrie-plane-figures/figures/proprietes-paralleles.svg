@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 210" width="720" height="210" font-family="Arial, Helvetica, sans-serif">
+<title>Trois propriétés : deux parallèles à une même droite sont parallèles ; deux perpendiculaires à une même droite sont parallèles ; une perpendiculaire à l’une de deux parallèles est perpendiculaire à l’autre</title>
+<rect width="720" height="210" fill="white"/>
+<line x1="20" y1="50" x2="210" y2="50" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="20" y1="95" x2="210" y2="95" stroke="#1f4e79" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="20" y1="140" x2="210" y2="140" stroke="#c0392b" stroke-width="2.2" stroke-linecap="round"/>
+<text x="216" y="55" font-size="18.2" fill="#222" text-anchor="start" font-weight="bold">(d)</text>
+<text x="216" y="100" font-size="18.2" fill="#1f4e79" text-anchor="start" font-weight="bold">(d₁)</text>
+<text x="216" y="145" font-size="18.2" fill="#c0392b" text-anchor="start" font-weight="bold">(d₂)</text>
+<text x="125" y="180" font-size="18.2" fill="#222" text-anchor="middle" font-weight="bold">Si (d₁) // (d) et (d₂) // (d),</text>
+<text x="125" y="205.2" font-size="18.2" fill="#222" text-anchor="middle" font-weight="normal">alors (d₁) // (d₂).</text>
+<line x1="260" y1="70" x2="460" y2="70" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="320" y1="30" x2="320" y2="150" stroke="#1f4e79" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="400" y1="30" x2="400" y2="150" stroke="#c0392b" stroke-width="2.2" stroke-linecap="round"/>
+<polyline points="331,70 331,59 320,59" fill="none" stroke="#222" stroke-width="1.5"/>
+<polyline points="411,70 411,59 400,59" fill="none" stroke="#222" stroke-width="1.5"/>
+<text x="466" y="75" font-size="18.2" fill="#222" text-anchor="start" font-weight="bold">(d)</text>
+<text x="312" y="150" font-size="18.2" fill="#1f4e79" text-anchor="end" font-weight="bold">(d₁)</text>
+<text x="408" y="150" font-size="18.2" fill="#c0392b" text-anchor="start" font-weight="bold">(d₂)</text>
+<text x="360" y="180" font-size="18.2" fill="#222" text-anchor="middle" font-weight="bold">Si (d₁) ⊥ (d) et (d₂) ⊥ (d),</text>
+<text x="360" y="205.2" font-size="18.2" fill="#222" text-anchor="middle" font-weight="normal">alors (d₁) // (d₂).</text>
+<line x1="500" y1="60" x2="690" y2="60" stroke="#1f4e79" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="500" y1="130" x2="690" y2="130" stroke="#c0392b" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="595" y1="25" x2="595" y2="155" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+<polyline points="606,60 606,49 595,49" fill="none" stroke="#222" stroke-width="1.5"/>
+<polyline points="606,130 606,119 595,119" fill="none" stroke="#c0392b" stroke-width="1.5"/>
+<text x="504" y="52" font-size="18.2" fill="#1f4e79" text-anchor="start" font-weight="bold">(d₁)</text>
+<text x="504" y="122" font-size="18.2" fill="#c0392b" text-anchor="start" font-weight="bold">(d₂)</text>
+<text x="603" y="32" font-size="18.2" fill="#222" text-anchor="start" font-weight="bold">(d)</text>
+<text x="595" y="180" font-size="18.2" fill="#222" text-anchor="middle" font-weight="bold">Si (d₁) // (d₂) et (d) ⊥ (d₁),</text>
+<text x="595" y="205.2" font-size="18.2" fill="#222" text-anchor="middle" font-weight="normal">alors (d) ⊥ (d₂).</text>
+</svg>

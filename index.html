@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr" data-theme="auto" data-size="1">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Maths Collège</title>
+  <meta name="description" content="Cours de maths du collège (6e à 3e) : 17 chapitres avec schémas, exercices et corrigés. Fonctionne hors ligne." />
+  <meta name="theme-color" content="#f7f6f2" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Maths Collège" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="format-detection" content="telephone=no" />
+  <link rel="icon" href="icons/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png" />
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+  <script>
+    // Thème et taille du texte appliqués avant le premier rendu (évite le flash).
+    (function () {
+      try {
+        var s = JSON.parse(localStorage.getItem('mc.settings') || '{}');
+        var d = document.documentElement;
+        d.dataset.theme = s.theme || 'auto';
+        d.dataset.size = String(s.size != null ? s.size : 1);
+        var dark = s.theme === 'dark' || ((s.theme || 'auto') === 'auto' && matchMedia('(prefers-color-scheme: dark)').matches);
+        document.querySelector('meta[name=theme-color]').content = dark ? '#16191d' : '#f7f6f2';
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+  <div id="app" aria-live="off">
+    <div class="boot" role="status"><span class="boot-logo" aria-hidden="true"></span>Chargement…</div>
+  </div>
+  <div id="toasts" class="toasts" role="status" aria-live="polite"></div>
+  <noscript><p style="padding:1rem">Cette application a besoin de JavaScript pour afficher les cours.</p></noscript>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 290" width="700" height="290" font-family="Arial, Helvetica, sans-serif">
+<title>Diagramme en bâtons : nombre de frères et sœurs de 25 élèves ; effectifs 5, 9, 6, 3, 2 pour 0, 1, 2, 3, 4</title>
+<rect width="700" height="290" fill="white"/>
+<line x1="70" y1="240" x2="70" y2="40" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="462" y1="240" x2="462" y2="40" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="240" x2="462" y2="240" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="220" x2="462" y2="220" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="200" x2="462" y2="200" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="180" x2="462" y2="180" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="160" x2="462" y2="160" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="140" x2="462" y2="140" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="120" x2="462" y2="120" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="100" x2="462" y2="100" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="80" x2="462" y2="80" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="60" x2="462" y2="60" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="40" x2="462" y2="40" stroke="#dfe6ee" stroke-width="1" stroke-linecap="round"/>
+<line x1="70" y1="240" x2="467" y2="240" stroke="#222" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="476,240 467,244.1 467,235.9" fill="#222" stroke="#222" stroke-width="1" stroke-linejoin="round"/>
+<line x1="70" y1="240" x2="70" y2="35" stroke="#222" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="70,26 74,35 66,35" fill="#222" stroke="#222" stroke-width="1" stroke-linejoin="round"/>
+<text x="482" y="245" font-size="15.4" fill="#222" text-anchor="start" font-weight="normal" font-style="italic">nombre de frères et sœurs</text>
+<text x="80" y="30" font-size="15.4" fill="#222" text-anchor="start" font-weight="normal" font-style="italic">effectif</text>
+<line x1="67" y1="200" x2="73" y2="200" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="63" y="204" font-size="13.2" fill="#666" text-anchor="end" font-weight="normal">2</text>
+<line x1="67" y1="160" x2="73" y2="160" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="63" y="164" font-size="13.2" fill="#666" text-anchor="end" font-weight="normal">4</text>
+<line x1="67" y1="120" x2="73" y2="120" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="63" y="124" font-size="13.2" fill="#666" text-anchor="end" font-weight="normal">6</text>
+<line x1="67" y1="80" x2="73" y2="80" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="63" y="84" font-size="13.2" fill="#666" text-anchor="end" font-weight="normal">8</text>
+<line x1="67" y1="40" x2="73" y2="40" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="63" y="44" font-size="13.2" fill="#666" text-anchor="end" font-weight="normal">10</text>
+<text x="63" y="258" font-size="13.2" fill="#666" text-anchor="end" font-weight="normal">0</text>
+<line x1="140" y1="240" x2="140" y2="140" stroke="#1f4e79" stroke-width="9" stroke-linecap="round"/>
+<text x="140" y="258" font-size="14.3" fill="#222" text-anchor="middle" font-weight="normal">0</text>
+<text x="140" y="132" font-size="13.2" fill="#1f4e79" text-anchor="middle" font-weight="bold">5</text>
+<line x1="210" y1="240" x2="210" y2="60" stroke="#1f4e79" stroke-width="9" stroke-linecap="round"/>
+<text x="210" y="258" font-size="14.3" fill="#222" text-anchor="middle" font-weight="normal">1</text>
+<text x="210" y="52" font-size="13.2" fill="#1f4e79" text-anchor="middle" font-weight="bold">9</text>
+<line x1="280" y1="240" x2="280" y2="120" stroke="#1f4e79" stroke-width="9" stroke-linecap="round"/>
+<text x="280" y="258" font-size="14.3" fill="#222" text-anchor="middle" font-weight="normal">2</text>
+<text x="280" y="112" font-size="13.2" fill="#1f4e79" text-anchor="middle" font-weight="bold">6</text>
+<line x1="350" y1="240" x2="350" y2="180" stroke="#1f4e79" stroke-width="9" stroke-linecap="round"/>
+<text x="350" y="258" font-size="14.3" fill="#222" text-anchor="middle" font-weight="normal">3</text>
+<text x="350" y="172" font-size="13.2" fill="#1f4e79" text-anchor="middle" font-weight="bold">3</text>
+<line x1="420" y1="240" x2="420" y2="200" stroke="#1f4e79" stroke-width="9" stroke-linecap="round"/>
+<text x="420" y="258" font-size="14.3" fill="#222" text-anchor="middle" font-weight="normal">4</text>
+<text x="420" y="192" font-size="13.2" fill="#1f4e79" text-anchor="middle" font-weight="bold">2</text>
+</svg>

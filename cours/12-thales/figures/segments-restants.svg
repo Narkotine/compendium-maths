@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 330" width="680" height="330" font-family="Arial, Helvetica, sans-serif">
+<title>Exemple guidé 3 : AD = 3 et DB = 6, donc AB = 9 ; c’est AB, et non DB, qui entre dans le rapport</title>
+<rect width="680" height="330" fill="white"/>
+<polygon points="242.8,143.9 60,290 372,290" fill="#fafafa" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="181.9" y1="192.6" x2="285.9" y2="192.6" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+<polyline points="228.1,196.8 235.1,192.6 228.1,188.4" fill="none" stroke="#c0392b" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="234.1,196.8 241.1,192.6 234.1,188.4" fill="none" stroke="#c0392b" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="210.2,294.2 217.2,290 210.2,285.8" fill="none" stroke="#222" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="216.2,294.2 223.2,290 216.2,285.8" fill="none" stroke="#222" stroke-width="1.8" stroke-linejoin="round"/>
+<circle cx="181.9" cy="192.6" r="3.2" fill="#222" stroke="#222" stroke-width="1"/>
+<circle cx="285.9" cy="192.6" r="3.2" fill="#222" stroke="#222" stroke-width="1"/>
+<text x="242.8" y="133.9" font-size="16" fill="#222" text-anchor="middle" font-weight="bold">A</text>
+<text x="52" y="310" font-size="16" fill="#222" text-anchor="middle" font-weight="bold">B</text>
+<text x="382" y="310" font-size="16" fill="#222" text-anchor="middle" font-weight="bold">C</text>
+<text x="179.9" y="218.6" font-size="16" fill="#222" text-anchor="middle" font-weight="bold">D</text>
+<text x="299.9" y="194.6" font-size="16" fill="#222" text-anchor="middle" font-weight="bold">E</text>
+<line x1="234.1" y1="133" x2="173.1" y2="181.7" stroke="#1f4e79" stroke-width="3" stroke-linecap="round"/>
+<line x1="173.1" y1="181.7" x2="51.3" y2="279.1" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/>
+<line x1="210.4" y1="103.3" x2="27.5" y2="249.4" stroke="#666" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="214.1" y1="108" x2="206.6" y2="98.6" stroke="#666" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="31.3" y1="254.1" x2="23.8" y2="244.7" stroke="#666" stroke-width="1.5" stroke-linecap="round"/>
+<text x="193.6" y="144.8" font-size="14" fill="#1f4e79" text-anchor="middle" font-weight="bold" transform="rotate(-38.6 193.6 144.8)">AD = 3</text>
+<text x="102.2" y="217.9" font-size="14" fill="#2e7d32" text-anchor="middle" font-weight="bold" transform="rotate(-38.6 102.2 217.9)">DB = 6</text>
+<text x="110.2" y="165.4" font-size="14" fill="#666" text-anchor="middle" font-weight="bold" transform="rotate(-38.6 110.2 165.4)">AB = 3 + 6 = 9</text>
+<text x="259.9" y="216.6" font-size="14" fill="#c0392b" text-anchor="middle" font-weight="bold">DE = ?</text>
+<text x="216" y="314" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">BC = 12</text>
+<text x="291.3" y="149.4" font-size="13" fill="#222" text-anchor="middle" font-weight="normal">AE = 2,5</text>
+<text x="560" y="70" font-size="14" fill="#c0392b" text-anchor="middle" font-weight="bold">On ne peut pas utiliser DB</text>
+<text x="560" y="90" font-size="14" fill="#c0392b" text-anchor="middle" font-weight="bold">dans un rapport de Thalès.</text>
+<text x="560" y="126" font-size="14" fill="#222" text-anchor="middle" font-weight="normal">On calcule d’abord</text>
+<text x="560" y="146" font-size="14" fill="#222" text-anchor="middle" font-weight="normal">AB = AD + DB = 9.</text>
+<text x="560" y="186" font-size="14" fill="#222" text-anchor="middle" font-weight="normal">Puis :</text>
+<text x="520" y="214" font-size="16" fill="#222" text-anchor="middle" font-weight="normal">3</text>
+<line x1="512" y1="220" x2="528" y2="220" stroke="#222" stroke-width="1.4" stroke-linecap="round"/>
+<text x="520" y="238" font-size="16" fill="#222" text-anchor="middle" font-weight="normal">9</text>
+<text x="546" y="226" font-size="16" fill="#222" text-anchor="middle" font-weight="normal">=</text>
+<text x="574" y="214" font-size="16" fill="#222" text-anchor="middle" font-weight="normal">DE</text>
+<line x1="561.1" y1="220" x2="586.9" y2="220" stroke="#222" stroke-width="1.4" stroke-linecap="round"/>
+<text x="574" y="238" font-size="16" fill="#222" text-anchor="middle" font-weight="normal">12</text>
+<text x="560" y="280" font-size="15" fill="#c0392b" text-anchor="middle" font-weight="bold">donc DE = 4.</text>
+</svg>
