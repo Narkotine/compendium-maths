@@ -264,6 +264,10 @@ malgré le `max-age=600` de GitHub Pages ; il n’y a plus de `_headers` (ancien
 Même origine que le site de jeux (`narkotine.github.io`) : stockage préfixé `compendium-maths.` (localStorage, sessionStorage),
 caches `compendium-maths-precache-…`, service worker limité à `/compendium-maths/` ; « Forcer la mise à jour » ne touche qu’à eux.
 
+## Correctif v0.9.2 (thème au premier affichage)
+
+- `index.html` lit `compendium-maths.settings` (avec repli sur l’ancienne clé `mc.settings`) pour appliquer thème et taille avant le premier rendu, comme le reste de l’appli. Évite un flash et croiser d’éventuels réglages du site de jeux sur le même `narkotine.github.io`.
+
 ## Correctif v0.9.1 (encadrements)
 
 - 02 « Comparer, encadrer » ★ : le nombre à encadrer a toujours exactement trois décimales (dernier chiffre non nul) ; les bornes sont calculées en entiers exacts (plus de flottants). Message ciblé si l’écart entre les bornes n’est pas 0,1 (ou 0,01).

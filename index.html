@@ -19,7 +19,8 @@
     // Thème et taille du texte appliqués avant le premier rendu (évite le flash).
     (function () {
       try {
-        var s = JSON.parse(localStorage.getItem('mc.settings') || '{}');
+        var raw = localStorage.getItem('compendium-maths.settings') || localStorage.getItem('mc.settings') || '{}';
+        var s = JSON.parse(raw);
         var d = document.documentElement;
         d.dataset.theme = s.theme || 'auto';
         d.dataset.size = String(s.size != null ? s.size : 1);
