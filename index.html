@@ -19,7 +19,8 @@
     // Thème et taille du texte appliqués avant le premier rendu (évite le flash).
     (function () {
       try {
-        var s = JSON.parse(localStorage.getItem('mc.settings') || '{}');
+        var raw = localStorage.getItem('compendium-maths.settings') || localStorage.getItem('mc.settings') || '{}';
+        var s = JSON.parse(raw);
         var d = document.documentElement;
         d.dataset.theme = s.theme || 'auto';
         d.dataset.size = String(s.size != null ? s.size : 1);
@@ -28,7 +29,7 @@
       } catch (e) {}
     })();
   </script>
-  <script type="module" crossorigin src="/compendium-maths/assets/index-CG2O6La6.js"></script>
+  <script type="module" crossorigin src="/compendium-maths/assets/index-C4MkSmeq.js"></script>
   <link rel="stylesheet" crossorigin href="/compendium-maths/assets/index-Df3LD_BB.css">
 <link rel="manifest" href="/compendium-maths/manifest.webmanifest"></head>
 <body>
