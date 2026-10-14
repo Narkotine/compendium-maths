@@ -455,3 +455,93 @@ html.po-dragging, html.po-dragging body { overscroll-behavior: none; cursor: gra
 @media (prefers-reduced-motion: reduce) {
   .po-card, .po-list--drag .po-card:not(.po-card--drag) { transition: none; }
 }
+
+/* ----------------------------------------------------------- v0.10 : clavier unifié (réponse + calculatrice) */
+.dock {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 40;
+  display: flex; flex-direction: column; gap: 4px;
+  max-height: calc(100dvh - var(--appbar-h) - var(--safe-t) - var(--pin-h, 0px) - 64px);
+  padding: 4px calc(6px + var(--safe-r)) calc(6px + var(--safe-b)) calc(6px + var(--safe-l));
+  background: var(--surface-2); color: var(--text); border-top: 1px solid var(--border-strong); box-shadow: var(--shadow-2);
+  user-select: none; -webkit-user-select: none; touch-action: manipulation;
+}
+.dock[hidden], .dock [hidden] { display: none !important; }
+.dock > * { width: 100%; max-width: 560px; margin: 0 auto; }
+html.dock-on .page--practice { padding-bottom: calc(var(--dock-h, 0px) + 16px); }
+html.dock-calc .page--practice { padding-top: var(--pin-h, 0px); }
+html.dock-on .toasts { top: auto; bottom: calc(var(--dock-h, 0px) + 8px); }
+html.dock-on .pt-figure svg { max-height: 30dvh; width: auto; max-width: 100%; }
+
+.dock-bar { display: flex; align-items: center; gap: 6px; min-height: 44px; }
+.dock-to { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: .88rem; font-weight: 700; color: var(--text-2); }
+.dock-to::before { content: ''; display: inline-block; width: 10px; height: 10px; margin-right: 6px; border-radius: 50%; background: var(--accent); vertical-align: 0; }
+.dock-to:empty::before { display: none; }
+.dock-btn {
+  flex: none; display: inline-flex; align-items: center; gap: 6px; min-height: 44px; min-width: 44px; padding: 0 12px; justify-content: center;
+  border: 0; border-radius: 10px; background: var(--surface-3); color: var(--text); font: inherit; font-size: .92rem; font-weight: 700;
+}
+.dock-btn svg { width: 20px; height: 20px; flex: none; }
+.dock-calcbtn { color: var(--accent); }
+.dock-calcbtn[aria-expanded="true"] { background: var(--accent-soft); box-shadow: inset 0 0 0 2px var(--accent); }
+.dock-small { padding: 0 8px; font-size: 1.3rem; color: var(--accent); background: transparent; }
+@media (max-width: 359px) { .dock-calcbtn span { display: none; } }
+.dock-btn:focus-visible, .kp-key:focus-visible, .calc-key:focus-visible, .calc-line button:focus-visible, .pt-pin-b:focus-visible { outline: 3px solid var(--focus); outline-offset: 1px; }
+
+.dock .kp-grid { grid-template-columns: repeat(var(--cols, 4), 1fr); gap: 5px; max-width: 560px; }
+.dock .kp-key { min-height: 44px; }
+.dock .calc-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 5px; }
+.dock .calc-ops, .dock .calc-row-trig { display: grid; grid-template-columns: repeat(6, 1fr); gap: 5px; }
+.dock .calc-row-trig { margin-bottom: 5px; }
+.dock .calc-eq { grid-column: auto; grid-row: auto; font-size: 1.4rem; }
+@media (min-height: 700px) { .dock .kp-key, .dock .calc-key { min-height: 50px; } }
+
+.dock-calc { display: flex; flex-direction: column; gap: 4px; min-height: 0; flex: 1 1 auto; }
+.dock-calc .calc-hist-wrap { flex: 1 1 auto; min-height: 44px; max-height: clamp(44px, 22dvh, 220px); overflow-y: auto; overscroll-behavior: contain; margin: 0; }
+.dock-calc .calc-empty { margin: 4px; font-size: .86rem; }
+.dock-calc:not(.calc--empty) .calc-empty { display: none; }
+.dock .calc-entry { margin: 0; }
+.calc-send {
+  flex: none; min-height: 44px; padding: 0 10px; border: 0; border-radius: 10px; margin: 2px 0;
+  background: var(--accent-soft) !important; color: var(--accent) !important; font: inherit; font-size: .86rem; font-weight: 800; white-space: nowrap;
+}
+.calc-send:disabled { opacity: .55; }
+.calc-send--cur { margin: 0; }
+.dock .calc-l-res { max-width: 42%; }
+/* destinataire des touches : un seul contour épais à la fois */
+.pt-input--to { outline: 3px solid var(--accent); outline-offset: 2px; }
+.dock .calc-input { border-style: dashed; }
+.dock--to-calc .calc-input { border-style: solid; border-color: var(--accent); outline: 3px solid var(--accent); outline-offset: 1px; }
+.dock .calc-input:focus { outline-color: var(--accent); }
+.dock:not(.dock--to-calc) .calc-entry { opacity: .85; }
+
+/* énoncé épinglé pendant le calcul */
+.pt-pin {
+  position: fixed; left: 0; right: 0; top: calc(var(--appbar-h) + var(--safe-t)); z-index: 30;
+  background: var(--surface); border-bottom: 1px solid var(--border-strong); box-shadow: var(--shadow-1);
+}
+.pt-pin[hidden] { display: none; }
+.pt-pin-b {
+  display: flex; align-items: flex-start; gap: 8px; width: 100%; max-width: 760px; margin: 0 auto; min-height: 44px; padding: 6px calc(12px + var(--safe-r)) 6px calc(12px + var(--safe-l));
+  border: 0; background: transparent; color: var(--text); font: inherit; font-size: .9rem; line-height: 1.35; text-align: left;
+}
+.pt-pin-t { flex: 1 1 auto; min-width: 0; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-clamp: 3; overflow: hidden; }
+.pt-pin-p + .pt-pin-p::before { content: ' · '; color: var(--text-2); }
+.pt-pin-p p { display: inline; margin: 0; }
+.pt-pin .katex-display { display: inline; margin: 0; }
+.pt-pin .katex-display > .katex { display: inline; }
+.pt-pin-fig { flex: none; background: var(--fig-bg); border-radius: 8px; padding: 2px; }
+.pt-pin-fig svg { display: block; height: 56px; width: auto; max-width: 96px; }
+.pt-pin--open .pt-pin-t { -webkit-line-clamp: unset; line-clamp: unset; display: block; max-height: 42dvh; overflow-y: auto; }
+.pt-pin--open .pt-pin-fig svg { height: 140px; max-width: 46vw; }
+.pt-pin-b::after { content: '▾'; flex: none; color: var(--text-2); }
+.pt-pin--open .pt-pin-b::after { content: '▴'; }
+
+/* grand écran : le clavier devient une colonne à droite, l'énoncé reste à gauche */
+@media (min-width: 900px) {
+  .dock { left: auto; top: calc(var(--appbar-h) + var(--safe-t)); width: 400px; max-height: none; border-top: 0; border-left: 1px solid var(--border-strong); justify-content: flex-end; overflow-y: auto; }
+  html.dock-on .page--practice { padding-right: 412px; padding-bottom: 24px; }
+  html.dock-calc .page--practice { padding-top: 0; }
+  .dock-calc .calc-hist-wrap { max-height: none; }
+  .pt-pin { display: none !important; }
+}
+.dock-vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }

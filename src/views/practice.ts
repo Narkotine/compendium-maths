@@ -14,9 +14,8 @@ import { randomSeed, strToSeed } from '../practice/engine/rng';
 import { recordResult, recordSeries, typeStat, weakTypes, getPrefs, setPrefs, type Result } from '../practice/engine/stats';
 import type { ChapterPractice, Level, Generator, Exercise } from '../practice/engine/types';
 import { mountExercise, freshState, type ExoState } from '../practice/ui/exercise';
-import { attachKeypad, type KeypadHandle } from '../practice/ui/keypad';
 import { renderNotFound } from './notfound';
-import { attachCalc, type CalcHandle } from '../practice/ui/calc';
+import { attachDock, type DockHandle } from '../practice/ui/dock';
 import { calcAllowed } from '../practice/calc/policy';
 import { getSettings } from '../store';
 
@@ -62,7 +61,6 @@ function shell(hue: number, title: string, sub: string, body: string, backLabel:
       <header class="appbar">
         <button type="button" class="icon-btn" data-act="back" aria-label="${esc(backLabel)}">${icon('back')}</button>
         <span class="appbar-title"><span class="t1">${esc(title)}</span><span class="t2">${esc(sub)}</span></span>
-        <button type="button" class="icon-btn calc-btn" data-act="calc" aria-label="Calculatrice" hidden>${icon('calc')}</button>
         <button type="button" class="icon-btn" data-act="settings" aria-label="Réglages">${icon('settings')}</button>
         <div class="progress" aria-hidden="true"><span></span></div>
       </header>
@@ -207,8 +205,7 @@ function renderSeries(app: HTMLElement, ch: ChapterPractice, r: PRoute, level: L
   const t1 = root.querySelector<HTMLElement>('.appbar .t1')!, t2 = root.querySelector<HTMLElement>('.appbar .t2')!;
   const bar = root.querySelector<HTMLElement>('.progress > span')!;
   let ctrl: ReturnType<typeof mountExercise> | null = null;
-  let kp: KeypadHandle | null = null;
-  const cc: CalcHandle = attachCalc(root, { trigDefault: ch.slug.startsWith('13'), enabled: () => getSettings().calc });
+  const cc: DockHandle = attachDock(root, { trigDefault: ch.slug.startsWith('13'), enabled: () => getSettings().calc, onSubmit: (inp) => ctrl?.validateFromKeypad(inp) });
   const persist = () => saveSS(spec, S);
 
   const askLeave = () =>
@@ -286,7 +283,6 @@ function renderSeries(app: HTMLElement, ch: ChapterPractice, r: PRoute, level: L
 
   const showSummary = () => {
     releaseGuard();
-    kp?.hide();
     cc.disable();
     bar.style.transform = 'scaleX(1)';
     t1.textContent = 'Bilan de la série';
@@ -345,7 +341,6 @@ function renderSeries(app: HTMLElement, ch: ChapterPractice, r: PRoute, level: L
     if (redo) replaceGuarded(seriesHash({ ...spec, types: redo.dataset.types!, seed: randomSeed() }));
     if (t.closest('[data-act="again"]')) replaceGuarded(seriesHash({ ...spec, seed: randomSeed() }));
   });
-  kp = attachKeypad(root, (inp) => ctrl?.validateFromKeypad(inp));
 
   persist();
   if (S.finished) {
@@ -356,7 +351,6 @@ function renderSeries(app: HTMLElement, ch: ChapterPractice, r: PRoute, level: L
   }
   cleanup = () => {
     releaseGuard();
-    kp?.destroy();
     cc.destroy();
     closeDialog();
   };
@@ -379,7 +373,7 @@ function renderSingle(app: HTMLElement, ch: ChapterPractice, r: PRoute, level: L
   const nav = root.querySelector<HTMLElement>('.pt-nav')!;
   root.querySelector<HTMLElement>('.appbar .t1')!.textContent = g.title.replace(/\$/g, '');
   let ctrl: ReturnType<typeof mountExercise> | null = null;
-  const cc = attachCalc(root, { trigDefault: ch.slug.startsWith('13'), enabled: () => getSettings().calc });
+  const cc = attachDock(root, { trigDefault: ch.slug.startsWith('13'), enabled: () => getSettings().calc, onSubmit: (inp) => ctrl?.validateFromKeypad(inp) });
   const show = (s: number, focus: boolean) => {
     const ex = generate(ch, g.id, lv, s);
     cc.setExercise(exoHash(ch.slug, g.id, lv, s), calcAllowed(ch.slug, g.id));
@@ -406,10 +400,8 @@ function renderSingle(app: HTMLElement, ch: ChapterPractice, r: PRoute, level: L
       window.scrollTo(0, 0);
     }
   });
-  const kp = attachKeypad(root, (inp) => ctrl?.validateFromKeypad(inp));
   show(seed, false);
   cleanup = () => {
-    kp.destroy();
     cc.destroy();
   };
 }
