@@ -94,6 +94,7 @@ function answerFor(s: Step, good: boolean): Act {
 /** Clic « au doigt » : l'élément est d'abord amené au centre (le clavier fixe couvre le bas de l'écran). */
 async function tap(sel: string) {
   await p.$eval(sel, (e) => e.scrollIntoView({ block: 'center' }));
+  await wait(60); // le clavier peut se replier ou se déplier (mise en page)
   await p.click(sel);
 }
 /** Saisit et valide l'étape active. */
@@ -119,6 +120,7 @@ async function act(stepIdx: number, x: Act) {
     for (let i = 0; i < x.fill.length; i++) {
       await ins[i].evaluate((e) => e.scrollIntoView({ block: 'center' }));
       await ins[i].click();
+      await wait(80);
       await p.evaluate((el) => ((el as HTMLInputElement).value = ''), ins[i]);
       await ins[i].type(x.fill[i]);
     }
@@ -316,16 +318,16 @@ t((await p.$eval('.pt-display', (e) => e.textContent)) !== '', 'énoncé affich�
 const inp = await p.$('.pt-step[data-i="0"] input.pt-input');
 await inp!.click();
 await wait(250);
-t(await visible('.keypad'), 'clavier mathématique à l’écran (tactile)');
+t(await visible('.dock .kp-grid'), 'clavier mathématique à l’écran (tactile)');
 t((await p.$eval('.pt-step[data-i="0"] input.pt-input', (e) => (e as HTMLInputElement).inputMode)) === 'none', 'clavier du téléphone non ouvert (inputmode=none)');
 const val = fmtQ((ex.steps[0].answer as { fields: { expect: Q }[] }).fields[0].expect);
 for (const ch of val) {
   const k = ch === '-' ? '-' : ch;
-  await p.click(`.keypad [data-k="${k}"]`);
+  await p.click(`.dock .kp-grid [data-k="${k}"]`);
 }
 t((await p.$eval('.pt-step[data-i="0"] input.pt-input', (e) => (e as HTMLInputElement).value)).replace('−', '-') === val, 'saisie au clavier à l’écran', val);
 t(await p.evaluate(() => document.activeElement?.classList.contains('pt-input')), 'la case garde le focus');
-await p.click('.keypad [data-k="ok"]');
+await p.click('.dock .kp-grid [data-k="ok"]');
 await wait(250);
 t((await fbClass(0)).includes('pt-fb--ok'), 'OK du clavier → réponse validée et juste');
 await p.click('[data-act="another"]');
@@ -399,7 +401,7 @@ await p.goto(URL + '#/entrainement/06-calcul-litteral/exo?t=developper&niv=1&g=k
 await p.waitForSelector('.pt-ex');
 await p.click('.pt-step[data-i="0"] input.pt-input');
 await wait(250);
-t(await visible('.keypad [data-k="x"]'), 'clavier « expression » : touche x');
+t(await visible('.dock .kp-grid [data-k="x"]'), 'clavier « expression » : touche x');
 const exKp = generate(ch06, 'developper', 1, strToSeed('kp')!);
 const wrongIn = texToInput((exKp.steps[0].answer as { tex: string }).tex) + '+1';
 await act(0, { fill: [wrongIn] });
@@ -432,7 +434,7 @@ await p.goto(URL + '#/entrainement/' + SLUG + '/exo?t=ax-egal-b&niv=1&g=zz', { w
 await p.waitForSelector('.pt-ex');
 await p.click('.pt-step[data-i="0"] input.pt-input');
 await wait(200);
-t(!(await visible('.keypad')), 'clavier à l’écran désactivable (« Jamais »)');
+t(!(await visible('.dock .kp-grid')), 'clavier à l’écran désactivable (« Jamais »)');
 await p.evaluate(() => { const s = JSON.parse(localStorage.getItem('compendium-maths.practice')!); s.prefs.keypad = 'auto'; localStorage.setItem('compendium-maths.practice', JSON.stringify(s)); });
 
 // Thème sombre : contraste des retours

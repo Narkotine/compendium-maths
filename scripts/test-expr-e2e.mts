@@ -64,10 +64,10 @@ for (const ch of chapters) for (const g of ch.generators) {
       await inp!.evaluate((e) => e.scrollIntoView({ block: 'center' }));
       await inp!.tap(); await W(120);
       if (viaKeys && [...text].every((c) => KEYS.has(c))) {
-        for (const c of text) await p.click(`.keypad [data-k="${c}"]`);
-        await p.click('.keypad [data-k="ok"]');
+        for (const c of text) await p.click(`.dock .kp-grid [data-k="${c}"]`);
+        await p.click('.dock .kp-grid [data-k="ok"]');
       } else {
-        if (await p.$('.keypad:not([hidden]) [data-k="native"]')) { await p.click('.keypad [data-k="native"]'); await W(120); }
+        if (await p.$('.dock:not([hidden]) [data-k="native"]:not([hidden])')) { await p.click('.dock [data-k="native"]'); await W(120); }
         await p.keyboard.type(text);
         await p.keyboard.press('Enter');
       }

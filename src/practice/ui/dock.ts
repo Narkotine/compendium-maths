@@ -110,8 +110,8 @@ export function attachDock(root: HTMLElement, opts: { trigDefault: boolean; enab
   let to: 'answer' | 'calc' = 'answer';
   let answer: HTMLInputElement | null = null; // case réponse active
   let gridMode = '';
+  let pinSig = '';
   let stmtOff = false; // l'énoncé est sorti de l'écran (on l'épingle en résumé)
-  let fresh = false; // premier affichage de l'exercice
   const isSide = () => matchMedia('(min-width: 900px)').matches;
   const side = isSide;
 
@@ -152,6 +152,7 @@ export function attachDock(root: HTMLElement, opts: { trigDefault: boolean; enab
     $<HTMLElement>('.calc-ops-wrap').hidden = !(open && to === 'calc');
     const anyKeys = !ansGrid.hidden || !calcGrid.hidden;
     $<HTMLElement>('.dock-keys').hidden = keysHidden || !anyKeys;
+    dock.dataset.keys = keysHidden ? 'hidden' : anyKeys ? 'shown' : 'none';
     hideBtn.hidden = !anyKeys;
     hideBtn.setAttribute('aria-expanded', String(!keysHidden));
     hideBtn.setAttribute('aria-label', keysHidden ? 'Afficher les touches' : 'Masquer les touches');
@@ -167,7 +168,7 @@ export function attachDock(root: HTMLElement, opts: { trigDefault: boolean; enab
     dock.classList.toggle('dock--nolabel', !open && !label);
     updSend();
     document.documentElement.classList.toggle('dock-on', visible);
-    document.documentElement.classList.toggle('dock-calc', visible && open);
+    document.documentElement.classList.toggle('dock-open', visible && open);
     const wasPin = !pin.hidden;
     pin.hidden = !(visible && !side() && (open || (stmtOff && !keysHidden)));
     if (!pin.hidden && !wasPin) buildPin();
@@ -204,12 +205,16 @@ export function attachDock(root: HTMLElement, opts: { trigDefault: boolean; enab
 
   const buildPin = () => {
     const ex = root.querySelector('.pt-ex');
-    if (!ex) return void (pin.innerHTML = '');
+    if (!ex) { pinSig = ''; pin.innerHTML = ''; return; }
     const parts = ['.pt-ex-title', '.pt-statement', '.pt-display'].map((s) => ex.querySelector(s)?.innerHTML ?? '').filter(Boolean);
     const step = ex.querySelector('.pt-step:not(.pt-step--locked):not([hidden]) .pt-prompt');
     if (step) parts.push(step.innerHTML);
     const fig = ex.querySelector('.pt-figure svg');
-    pin.innerHTML = `<button type="button" class="pt-pin-b" aria-expanded="false" aria-label="Énoncé (toucher pour déplier)">${fig ? `<span class="pt-pin-fig">${fig.outerHTML}</span>` : ''}<span class="pt-pin-t">${parts.map((p) => `<span class="pt-pin-p">${p}</span>`).join(' ')}</span></button>`;
+    const html = `${fig ? `<span class="pt-pin-fig">${fig.outerHTML}</span>` : ''}<span class="pt-pin-t">${parts.map((p) => `<span class="pt-pin-p">${p}</span>`).join(' ')}</span>`;
+    if (html === pinSig) return; // inchangé : on garde l'état déplié
+    pinSig = html;
+    pin.classList.remove('pt-pin--open');
+    pin.innerHTML = `<button type="button" class="pt-pin-b" aria-expanded="false" aria-label="Énoncé (toucher pour déplier)">${html}</button>`;
     pin.querySelectorAll('[id]').forEach((e) => e.removeAttribute('id'));
   };
   pin.addEventListener('click', () => {
@@ -408,7 +413,7 @@ export function attachDock(root: HTMLElement, opts: { trigDefault: boolean; enab
   root.addEventListener('focusin', onFocusIn);
   // nouvelle étape, case verrouillée, exercice remonté… : on recalcule
   let pend = 0;
-  const mo = new MutationObserver(() => { if (!pend) pend = requestAnimationFrame(() => { pend = 0; render(); if (open) buildPin(); }); });
+  const mo = new MutationObserver((recs) => { if (recs.every((r) => pin.contains(r.target))) return; if (!pend) pend = requestAnimationFrame(() => { pend = 0; render(); if (open) buildPin(); }); });
   mo.observe(root, { subtree: true, childList: true, attributes: true, attributeFilter: ['hidden', 'disabled', 'class'] });
 
   let lastOk = false;
@@ -418,7 +423,8 @@ export function attachDock(root: HTMLElement, opts: { trigDefault: boolean; enab
       lastOk = ok;
       disabled = false;
       allowed = ok && opts.enabled();
-      if (k !== key) {
+      const isNew = k !== key;
+      if (isNew) {
         key = k;
         answer = null;
         const s = load(k);
@@ -433,12 +439,10 @@ export function attachDock(root: HTMLElement, opts: { trigDefault: boolean; enab
       }
       render();
       if (open) buildPin();
-      if (k === key && fresh) return;
-      fresh = true;
+      if (!isNew) return;
       // la case active est sous le clavier au premier affichage : on replie les touches (pas de toucher fantôme)
       setTimeout(() => {
-        fresh = false;
-        if (!answer || open || dock.hidden || isSide()) return;
+        if (k !== key || !answer || open || dock.hidden || isSide()) return;
         if (answer.getBoundingClientRect().bottom > dock.getBoundingClientRect().top - 4 && document.activeElement !== answer) { keysHidden = true; render(); }
       }, 60);
     },
@@ -454,7 +458,7 @@ export function attachDock(root: HTMLElement, opts: { trigDefault: boolean; enab
       root.removeEventListener('focusin', onFocusIn);
       dock.remove();
       pin.remove();
-      for (const c of ['dock-on', 'dock-calc']) document.documentElement.classList.remove(c);
+      for (const c of ['dock-on', 'dock-open']) document.documentElement.classList.remove(c);
       document.documentElement.style.removeProperty('--dock-h');
       document.documentElement.style.removeProperty('--pin-h');
     },
