@@ -1,3 +1,4 @@
+import { short4 } from '../calc/short';
 /**
  * Clavier unifié de l'entraînement (v0.10) : un seul panneau ancré en bas de l'écran (colonne de droite sur
  * grand écran). En bas, les touches de réponse propres à la case (chiffres, virgule, signe, fraction, x…) ;
@@ -232,7 +233,7 @@ export function attachDock(root: HTMLElement, opts: { trigDefault: boolean; enab
     hist.innerHTML = lines.map((l, i) => `
       <li class="calc-line">
         <button type="button" class="calc-l-expr" data-i="${i}" tabindex="-1" aria-label="Reprendre la saisie ${esc(l.expr)}">${esc(l.expr)}</button>
-        <button type="button" class="calc-l-res${l.approx ? ' calc-approx' : ''}" data-i="${i}" tabindex="-1" aria-label="Réutiliser le résultat ${l.approx ? 'environ ' : ''}${esc(l.text)}">${l.approx ? '<span class="calc-ap" aria-hidden="true">≈</span>' : ''}${esc(l.text)}</button>
+        <button type="button" class="calc-l-res${l.approx ? ' calc-approx' : ''}" data-i="${i}" tabindex="-1" aria-label="Réutiliser le résultat ${l.approx ? 'environ ' : ''}${esc(short4(l.text, l.approx))}">${l.approx ? '<span class="calc-ap" aria-hidden="true">≈</span>' : ''}${esc(short4(l.text, l.approx))}</button>
         <button type="button" class="calc-send" data-i="${i}" tabindex="-1" aria-label="Envoyer ${l.approx ? 'environ ' : ''}${esc(l.text)} vers la réponse">→ Réponse</button>
         <button type="button" class="calc-l-del" data-i="${i}" tabindex="-1" aria-label="Supprimer la ligne ${esc(l.expr)}">${icon('close')}</button>
       </li>`).join('');
@@ -245,7 +246,7 @@ export function attachDock(root: HTMLElement, opts: { trigDefault: boolean; enab
   const preview = () => {
     const r = current();
     pv.className = 'calc-pv' + (r && !r.ok ? ' calc-pv--err' : '');
-    pv.textContent = r?.ok ? `= ${r.shown.approx ? '≈ ' : ''}${r.shown.text}` : '';
+    pv.textContent = r?.ok ? `= ${r.shown.approx ? '≈ ' : ''}${short4(r.shown.text, !!r.shown.approx)}` : '';
     updSend();
   };
   const updSend = () => {
@@ -287,7 +288,7 @@ export function attachDock(root: HTMLElement, opts: { trigDefault: boolean; enab
     let note = r.warn ?? '';
     if (dp !== undefined) {
       const exact = insertText(v, { form: 'decimal' }).text;
-      if (l.approx || exact.replace(/,?0+$/, '') !== r.text.replace(/,?0+$/, '')) note = `arrondi ${RANK[dp] ?? `à ${dp} décimales`} (${l.approx ? '≈ ' : ''}${l.text} → ${r.text})`;
+      if (l.approx || exact.replace(/,?0+$/, '') !== r.text.replace(/,?0+$/, '')) note = `arrondi ${RANK[dp] ?? `à ${dp} décimales`} (${l.approx ? '≈ ' : ''}${short4(l.text, true)} → ${r.text})`;
     }
     t.value = t.dataset.keys?.startsWith('set') && t.value.trim() ? `${t.value.trim()} ; ${r.text}` : r.text;
     t.dispatchEvent(new Event('input', { bubbles: true }));

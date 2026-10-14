@@ -1,3 +1,4 @@
+import { short4 } from '../src/practice/calc/short';
 /**
  * Tests unitaires du moteur de la calculatrice (src/practice/calc/engine.ts).
  * Usage : npx tsx tests/calc.test.ts
@@ -98,6 +99,12 @@ console.log('Types sans calculatrice');
   for (const [slug, ids] of Object.entries(NO_CALC)) for (const id of ids) ok(all.get(slug)?.includes(id), `type sans calculatrice existant : ${slug} / ${id}`);
   const n = [...all.values()].reduce((s, v) => s + v.length, 0), off = Object.values(NO_CALC).flat().length;
   ok(n === 167, `167 types passés en revue (${n})`); console.log(`  ${off} types sans calculatrice, ${n - off} avec`);
+}
+{
+  const S = (i: string, ap: boolean, e: string) => ok(short4(i, ap) === e, `affichage court ${i} → ${e} (${short4(i, ap)})`);
+  S('10,39230485', true, '10,3923'); S('1,414213562', true, '1,4142'); S('3,141592654', true, '3,1416');
+  S('2,500000001', true, '2,5'); S('7,000012', true, '7'); S('0,123', true, '0,123'); S('10,39230485', false, '10,39230485');
+  S('−1,732050808', true, '−1,7321'); S('1\u202f234,567891', true, '1\u202f234,5679');
 }
 console.log(`${pass} réussis, ${fail} échoués`);
 if (fail) process.exit(1);
