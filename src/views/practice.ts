@@ -409,7 +409,7 @@ function renderSingle(app: HTMLElement, ch: ChapterPractice, r: PRoute, level: L
 
 // =================================================================== boîte de confirmation (hors historique)
 let dlg: { el: HTMLElement; done: (v: boolean) => void } | null = null;
-function closeDialog(v = false) {
+export function closeDialog(v = false) {
   if (!dlg) return;
   const d = dlg;
   dlg = null;
@@ -417,7 +417,7 @@ function closeDialog(v = false) {
   document.getElementById('app')!.inert = false;
   d.done(v);
 }
-function confirmDialog(o: { title: string; text: string; stay: string; leave: string }): Promise<boolean> {
+export function confirmDialog(o: { title: string; text: string; stay: string; leave: string }): Promise<boolean> {
   closeDialog();
   return new Promise((resolve) => {
     const opener = document.activeElement as HTMLElement | null;

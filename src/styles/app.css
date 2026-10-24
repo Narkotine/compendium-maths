@@ -448,3 +448,18 @@ mark { background: var(--mark); color: var(--mark-text); border-radius: 3px; pad
 .prog-note { font-size: 0.88rem; color: var(--text-2); }
 .prog-note .prog { margin-inline-start: 0; }
 @media print { .prog { border: 1px solid #888; background: none; color: #000; } }
+
+/* ===================================================================== accueil : automatismes, repères de programme */
+.auto-entry {
+  display: flex; align-items: center; gap: 12px; margin: 14px 0 4px; padding: 12px 14px;
+  border-radius: var(--radius); background: var(--hue-soft); color: var(--hue-text); text-decoration: none;
+}
+.auto-entry > .ic:first-child { flex: none; width: 26px; height: 26px; }
+.auto-entry > .ic:last-child { flex: none; margin-left: auto; }
+.auto-entry > span { display: grid; gap: 2px; }
+.auto-entry strong { font-size: 1.05rem; }
+.auto-entry small { color: var(--text-2); font-size: 0.86rem; }
+@media (hover: hover) { .auto-entry:hover { filter: brightness(0.97); } }
+.home-prog { margin-top: 10px; }
+.home-prog summary { cursor: pointer; min-height: 44px; display: inline-flex; align-items: center; }
+.home-prog p { text-align: left; }

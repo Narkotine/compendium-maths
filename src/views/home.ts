@@ -70,12 +70,18 @@ export function renderHome(app: HTMLElement) {
         <h1 class="sr-only">Maths Collège : sommaire des cours</h1>
         <a class="search-entry" href="#/recherche">${icon('search')}<span>Rechercher dans les cours…</span></a>
         ${resume}
+        <a class="auto-entry" href="#/automatismes" style="--hue:160">${icon('practice')}<span><strong>Automatismes</strong><small>Séances flash de 10 questions par niveau (5e, 4e, 3e), sur papier ou en ligne, sans calculatrice.</small></span>${icon('chevronRight')}</a>
         <nav class="group-chips" aria-label="Thèmes">${chips}</nav>
         ${groups}
         <footer class="home-foot">
           <p>Cours ${esc(idx.contentVersion)} · Appli ${esc(idx.version)}. Chaque chapitre va des bases (6e) jusqu’au brevet (3e).</p>
           <p><a href="#/progres">Mes progrès</a></p>
           <p>★ facile · ★★ standard · ★★★ approfondissement</p>
+          <details class="prog-note home-prog">
+            <summary>Repères de programme</summary>
+            <p><span class="prog prog--2026">Programme 2026 · 5e</span> notion ajoutée ou déplacée par le nouveau programme (BO n° 10 du 5 mars 2026), avec le niveau où elle est étudiée. Le programme 2026 s’applique en 5e à la rentrée 2026, en 4e à la rentrée 2027 et en 3e à la rentrée 2028.</p>
+            <p><span class="prog prog--2020">Programme 2020</span> notion absente du programme 2026 : elle reste au programme des 4e jusqu’en juin 2027 et des 3e jusqu’en juin 2028 (et peut donc tomber au brevet jusque-là). Elle est conservée dans le cours.</p>
+          </details>
         </footer>
       </main>
     </div>`;

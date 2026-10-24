@@ -122,6 +122,10 @@ if (entry) {
   check(!/renderToString|ParseError|\\displaystyle/.test(main) && !/Tester si un nombre est solution|Calcule l’hypoténuse|Développe et réduis/.test(main) && main.length < 120000, `bundle principal sans KaTeX ni générateurs (${Math.round(main.length / 1024)} Ko)`);
 }
 check([practiceJs, practiceCss, katexJs, ...chJs].every((f) => f && precached.has('assets/' + f)), 'entraînement : vue, styles, générateurs (4 chapitres) et KaTeX pré-cachés (hors ligne)');
+// Automatismes (v0.11) : vue et questions flash chargées à la demande, pré-cachées, hors du bundle principal
+const autoJs = chunk(/^automatismes-.*\.js$/);
+check(autoJs && precached.has('assets/' + autoJs), `automatismes : module séparé et pré-caché (${autoJs})`);
+if (entry) check(!/Séance au hasard|a5-tables|Division euclidienne de/.test(read(entry)), 'automatismes : absents du bundle principal');
 const withPractice = index.chapters.filter((c) => c.practice?.enabled).map((c) => c.slug);
 const counts = withPractice.map((s) => index.chapters.find((c) => c.slug === s).practice.generators.length);
 check(withPractice.join() === PRACTICE.join() && counts.every((n) => n >= 6 && n <= 13), `« S’entraîner » activé pour ${withPractice.map((s, i) => `${s.slice(0, 2)} (${counts[i]} types)`).join(', ')} ; masqué ailleurs`);

@@ -28,6 +28,7 @@ import ch02 from '../src/practice/ch02/index';
 import ch04 from '../src/practice/ch04/index';
 import ch05 from '../src/practice/ch05/index';
 import ch01 from '../src/practice/ch01/index';
+import { LEVELS as AUTO, PER_SEANCE } from '../src/practice/auto/index';
 import { pEq, pEval, texToInput, parseExpr, shapeOf } from '../src/practice/engine/algebra';
 import { checkExpr, checkStep } from '../src/practice/engine/check';
 import { checkField } from '../src/practice/engine/answers';
@@ -505,6 +506,41 @@ for (const ch of chapters.filter((c) => !process.env.ONLY || c.slug.startsWith(p
     report.push(`${ctxBase.padEnd(28)} ${String(distinct).padStart(5)} énoncés distincts / ${N} · max ${top} · P(2 tirages identiques) = ${(pSame * 100).toFixed(2)} %`);
     if (pSame > 0.01) fail(ctxBase, `trop de doublons : P = ${(pSame * 100).toFixed(2)} %`);
     if (top / N > 0.025) fail(ctxBase, `un énoncé revient trop souvent (${top} fois sur ${N})`);
+  }
+}
+// ------------------------------------------------------------------ automatismes (questions flash par niveau)
+// Mêmes vérifications ; doublons tolérés un peu plus (faits numériques en nombre fini : tables, carrés…),
+// sans risque en séance : une séance n'utilise jamais deux fois le même type.
+if (!ONLY || ONLY.split(',').includes('auto')) {
+  for (const L of AUTO) {
+    const ids = L.gens.map((g) => g.id);
+    if (new Set(ids).size !== ids.length) fail(`auto ${L.cls}`, 'identifiants en double');
+    for (const id of ids) if (!id.startsWith(`a${L.cls[0]}-`)) fail(`auto ${L.cls}`, `identifiant mal préfixé : ${id}`);
+    L.seances.forEach((s, k) => {
+      if (s.length !== PER_SEANCE || new Set(s).size !== s.length) fail(`auto ${L.cls} séance ${k + 1}`, `${s.length} types (attendu ${PER_SEANCE} distincts)`);
+      for (const id of s) if (!ids.includes(id)) fail(`auto ${L.cls} séance ${k + 1}`, `type inconnu ${id}`);
+    });
+    for (const g of L.gens) {
+      nGen++;
+      if (g.levels.join() !== '1') fail(`auto ${g.id}`, 'un automatisme a un seul niveau');
+      const keys = new Map<string, number>();
+      const ctxBase = `auto ${g.id}`;
+      for (let i = 0; i < N; i++) {
+        const seed = hashSeed('t', g.id, 1, i);
+        const ctx = `${ctxBase} graine ${seed.toString(36)}`;
+        let e: ExerciseBody;
+        try { e = g.generate(makeRng(seed), 1); } catch (err) { fail(ctx, `exception : ${(err as Error).message}`); continue; }
+        if (i < 200 && JSON.stringify(g.generate(makeRng(seed), 1)) !== JSON.stringify(e)) fail(ctx, 'non déterministe');
+        if (e.steps.length !== 1) fail(ctx, 'un automatisme = une seule question');
+        try { checkOne(g, 1, seed, e, ctx); } catch (err) { fail(ctx, `exception pendant la vérification : ${(err as Error).stack}`); }
+        keys.set(e.key, (keys.get(e.key) ?? 0) + 1);
+      }
+      const top = Math.max(...keys.values());
+      const pSame = [...keys.values()].reduce((s, c) => s + (c * (c - 1)) / (N * (N - 1)), 0);
+      report.push(`${ctxBase.padEnd(28)} ${String(keys.size).padStart(5)} énoncés distincts / ${N} · max ${top} · P(2 tirages identiques) = ${(pSame * 100).toFixed(2)} %`);
+      if (pSame > 0.03) fail(ctxBase, `trop de doublons : P = ${(pSame * 100).toFixed(2)} %`);
+      if (top / N > 0.06) fail(ctxBase, `un énoncé revient trop souvent (${top} fois sur ${N})`);
+    }
   }
 }
 console.log(report.join('\n'));
