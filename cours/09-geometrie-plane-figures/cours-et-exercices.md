@@ -466,7 +466,7 @@ Une démonstration enchaîne des étapes de la forme :
 
 ### C. Triangles (★ → ★★)
 
-**C1.** Peut-on construire un triangle de côtés : a) $5$, $6$, $10\,\mathrm{cm}$ ? b) $3$, $4$, $8\,\mathrm{cm}$ ? c) $4$, $6$, $10\,\mathrm{cm}$ ? d) $7$, $7$, $7\,\mathrm{cm}$ ?
+**C1.** [[Programme 2020]] Peut-on construire un triangle de côtés : a) $5$, $6$, $10\,\mathrm{cm}$ ? b) $3$, $4$, $8\,\mathrm{cm}$ ? c) $4$, $6$, $10\,\mathrm{cm}$ ? d) $7$, $7$, $7\,\mathrm{cm}$ ?
 
 **C2.** Calculer le troisième angle : a) $ABC$ avec $\widehat{A} = 52^\circ$ et $\widehat{B} = 71^\circ$ ; b) $DEF$ rectangle en $D$ avec $\widehat{E} = 38^\circ$ ; c) un triangle équilatéral.
 

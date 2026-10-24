@@ -393,7 +393,7 @@ On assimile la Terre à une sphère. L’**équateur** est le grand cercle à é
 
 **E3.** Un cylindre a pour rayon $3\,\mathrm{cm}$ et pour hauteur $8\,\mathrm{cm}$. a) Section par un plan perpendiculaire à l’axe : nature et aire ? b) Section par un plan qui contient l’axe : nature et dimensions ?
 
-**E4.** Une pyramide a pour base un carré de côté $8\,\mathrm{cm}$ et pour hauteur $12\,\mathrm{cm}$. On la coupe par un plan parallèle à la base, à $3\,\mathrm{cm}$ du sommet. Calculer le côté et l’aire de la section.
+**E4.** [[Programme 2020]] Une pyramide a pour base un carré de côté $8\,\mathrm{cm}$ et pour hauteur $12\,\mathrm{cm}$. On la coupe par un plan parallèle à la base, à $3\,\mathrm{cm}$ du sommet. Calculer le côté et l’aire de la section.
 
 **E5.** (★★) Une boule de centre $O$ a pour rayon $13\,\mathrm{cm}$. On la coupe par un plan situé à $5\,\mathrm{cm}$ de $O$. Calculer le rayon de la section, puis son aire.
 
@@ -421,9 +421,9 @@ On assimile la Terre à une sphère. L’**équateur** est le grand cercle à é
 
 **G2.** Sur un dessin en perspective cavalière (coefficient $0{,}5$), Emma mesure une fuyante d’un cube : $3\,\mathrm{cm}$. Elle écrit : « L’arête du cube mesure $3\,\mathrm{cm}$. Et la face de droite n’est pas un carré, puisque ses angles mesurent $45^\circ$ et $135^\circ$. » Corriger ses deux affirmations.
 
-**G3.** Yanis affirme : « Quand on coupe un cône par un plan parallèle à sa base, on obtient un triangle. » Qu’en penser ? Dans quel cas obtient-on un triangle ?
+**G3.** [[Programme 2020]] Yanis affirme : « Quand on coupe un cône par un plan parallèle à sa base, on obtient un triangle. » Qu’en penser ? Dans quel cas obtient-on un triangle ?
 
-**G4.** Une pyramide a pour base un carré de côté $6\,\mathrm{cm}$. Léa la coupe à mi-hauteur par un plan parallèle à la base et écrit : « L’aire de la section est la moitié de l’aire de la base, soit $18\,\mathrm{cm}^2$. » Trouver l’erreur.
+**G4.** [[Programme 2020]] Une pyramide a pour base un carré de côté $6\,\mathrm{cm}$. Léa la coupe à mi-hauteur par un plan parallèle à la base et écrit : « L’aire de la section est la moitié de l’aire de la base, soit $18\,\mathrm{cm}^2$. » Trouver l’erreur.
 
 ### H. Comprendre et raisonner (★★ → ★★★)
 
@@ -441,7 +441,7 @@ On assimile la Terre à une sphère. L’**équateur** est le grand cercle à é
 
 **I2.** Un cône a pour rayon de base $6\,\mathrm{cm}$ et pour hauteur $8\,\mathrm{cm}$. a) Calculer sa génératrice $g$. b) Calculer la longueur de l’arc du secteur de son patron. c) Calculer l’angle de ce secteur.
 
-**I3.** Une pyramide a pour base un carré de côté $9\,\mathrm{cm}$ et pour hauteur $12\,\mathrm{cm}$. On la coupe par un plan parallèle à la base, à $4\,\mathrm{cm}$ du sommet. a) Donner le coefficient de réduction et les dimensions de la petite pyramide. b) Calculer le volume de la grande et de la petite pyramide (rappel : $V = \dfrac{\text{aire de la base} \times \text{hauteur}}{3}$, chapitre 14). c) En déduire le volume du tronc de pyramide restant.
+**I3.** [[Programme 2020]] Une pyramide a pour base un carré de côté $9\,\mathrm{cm}$ et pour hauteur $12\,\mathrm{cm}$. On la coupe par un plan parallèle à la base, à $4\,\mathrm{cm}$ du sommet. a) Donner le coefficient de réduction et les dimensions de la petite pyramide. b) Calculer le volume de la grande et de la petite pyramide (rappel : $V = \dfrac{\text{aire de la base} \times \text{hauteur}}{3}$, chapitre 14). c) En déduire le volume du tronc de pyramide restant.
 
 **I4.** (avec le chapitre 13) Le tour de la Terre en suivant l’équateur mesure $40\,000\,\mathrm{km}$. On considère le parallèle de latitude $60^\circ$ N. a) Faire un schéma en coupe : le centre $O$ de la Terre, un point $M$ du parallèle et le centre $H$ de ce parallèle. b) Montrer que le rayon du parallèle est la moitié du rayon de la Terre. c) En déduire la longueur du parallèle.
 

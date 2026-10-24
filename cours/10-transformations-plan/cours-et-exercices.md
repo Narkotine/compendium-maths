@@ -346,7 +346,7 @@ Dans une rosace à $n$ motifs identiques, on passe d’un motif au suivant par u
 
 **B2.** Décrire deux méthodes pour construire, sans quadrillage, le symétrique d’un point $M$ par rapport à une droite $(d)$.
 
-**B3.** Écrire le programme de construction de l’image d’un point $M$ par la rotation de centre $O$, d’angle $50^\circ$, dans le sens des aiguilles d’une montre.
+**B3.** [[Programme 2020]] Écrire le programme de construction de l’image d’un point $M$ par la rotation de centre $O$, d’angle $50^\circ$, dans le sens des aiguilles d’une montre.
 
 **B4.** Quelle est l’image d’un cercle de centre $I$ et de rayon $3\,\mathrm{cm}$ par la symétrie de centre $O$ ? Par la translation qui envoie $I$ sur $J$ ?
 
@@ -356,7 +356,7 @@ Dans une rosace à $n$ motifs identiques, on passe d’un motif au suivant par u
 
 **C1.** $A'B'C'$ est l’image du triangle $ABC$ par une symétrie axiale. On sait que $AB = 5\,\mathrm{cm}$, $BC = 7\,\mathrm{cm}$, $AC = 6\,\mathrm{cm}$, $\widehat{ABC} = 57^\circ$ et que l’aire de $ABC$ vaut $14{,}7\,\mathrm{cm}^2$. Donner $A'B'$, $\widehat{A'B'C'}$, le périmètre et l’aire de $A'B'C'$.
 
-**C2.** La rotation de centre $O$ et d’angle $90^\circ$ envoie $A$ sur $A'$, avec $OA = 4\,\mathrm{cm}$. a) Quelle est la nature du triangle $OAA'$ ? b) Calculer $AA'$ (arrondir au dixième).
+**C2.** [[Programme 2020]] La rotation de centre $O$ et d’angle $90^\circ$ envoie $A$ sur $A'$, avec $OA = 4\,\mathrm{cm}$. a) Quelle est la nature du triangle $OAA'$ ? b) Calculer $AA'$ (arrondir au dixième).
 
 **C3.** $A'$ et $B'$ sont les images de $A$ et $B$ par la symétrie de centre $O$ ($O$ n’est pas sur $(AB)$). Montrer que $ABA'B'$ est un parallélogramme.
 
@@ -418,15 +418,15 @@ Dans une rosace à $n$ motifs identiques, on passe d’un motif au suivant par u
 
 **G4.** ★★ $M'$ est le symétrique de $M$ par rapport à $(d)$, et $P$ est un point de $(d)$. Pourquoi a-t-on $PM = PM'$ ?
 
-**G5.** ★★★ On donne deux points distincts $M$ et $M'$. Où peut se trouver le centre d’une rotation qui envoie $M$ sur $M'$ ? Combien de telles rotations existe-t-il ?
+**G5.** [[Programme 2020]] ★★★ On donne deux points distincts $M$ et $M'$. Où peut se trouver le centre d’une rotation qui envoie $M$ sur $M'$ ? Combien de telles rotations existe-t-il ?
 
 ### H. Plusieurs étapes (★★ → ★★★)
 
-**H1.** ★★ $ABCD$ est un carré de centre $O$, ses sommets étant nommés dans le sens inverse des aiguilles d’une montre. a) Quelle est l’image de $A$, $B$, $C$, $D$ par la rotation de centre $O$, d’angle $90^\circ$, dans le sens inverse des aiguilles d’une montre ? b) Citer toutes les rotations de centre $O$ (d’angle entre $0^\circ$ et $360^\circ$ exclus) qui laissent le carré globalement invariant.
+**H1.** [[Programme 2020]] ★★ $ABCD$ est un carré de centre $O$, ses sommets étant nommés dans le sens inverse des aiguilles d’une montre. a) Quelle est l’image de $A$, $B$, $C$, $D$ par la rotation de centre $O$, d’angle $90^\circ$, dans le sens inverse des aiguilles d’une montre ? b) Citer toutes les rotations de centre $O$ (d’angle entre $0^\circ$ et $360^\circ$ exclus) qui laissent le carré globalement invariant.
 
 **H2.** ★★ Un triangle rectangle a pour côtés $3$, $4$ et $5\,\mathrm{cm}$. On lui applique une homothétie de rapport $-2$. Calculer les côtés, le périmètre et l’aire de l’image.
 
-**H3.** ★★★ $ABC$ est un triangle équilatéral de côté $4\,\mathrm{cm}$. La rotation de centre $A$ et d’angle $60^\circ$ qui envoie $B$ sur $C$ envoie $C$ sur un point $D$. a) Quelle est la nature du triangle $ACD$ ? b) Calculer $\widehat{BAD}$. c) Calculer $BD$ (valeur exacte, puis arrondi au centième). (Indice pour la question c : la hauteur issue de $A$ coupe le triangle $ABD$ en deux triangles rectangles ; chacun est la moitié d’un triangle équilatéral de côté $4\,\mathrm{cm}$.)
+**H3.** [[Programme 2020]] ★★★ $ABC$ est un triangle équilatéral de côté $4\,\mathrm{cm}$. La rotation de centre $A$ et d’angle $60^\circ$ qui envoie $B$ sur $C$ envoie $C$ sur un point $D$. a) Quelle est la nature du triangle $ACD$ ? b) Calculer $\widehat{BAD}$. c) Calculer $BD$ (valeur exacte, puis arrondi au centième). (Indice pour la question c : la hauteur issue de $A$ coupe le triangle $ABD$ en deux triangles rectangles ; chacun est la moitié d’un triangle équilatéral de côté $4\,\mathrm{cm}$.)
 
 **H4.** ★★ Une photo de $10\,\mathrm{cm}$ sur $15\,\mathrm{cm}$ est agrandie pour que son grand côté mesure $30\,\mathrm{cm}$. a) Quel est le rapport d’agrandissement ? b) Dimensions de la photo agrandie ? c) Par combien son aire est-elle multipliée ?
 
@@ -434,7 +434,7 @@ Dans une rosace à $n$ motifs identiques, on passe d’un motif au suivant par u
 
 **I1.** ★★ Inventer une frise qui utilise à la fois des translations et des symétries axiales. Décrire les transformations utilisées.
 
-**I2.** ★★★ Deux segments $[AB]$ et $[A'B']$ ont la même longueur et ne sont pas parallèles. Comment trouver le centre d’une rotation qui envoie $A$ sur $A'$ et $B$ sur $B'$ ?
+**I2.** [[Programme 2020]] ★★★ Deux segments $[AB]$ et $[A'B']$ ont la même longueur et ne sont pas parallèles. Comment trouver le centre d’une rotation qui envoie $A$ sur $A'$ et $B$ sur $B'$ ?
 
 **I3.** ★★ Pourquoi dit-on qu’un miroir « inverse la gauche et la droite » mais pas le haut et le bas ? Répondre en termes de symétrie axiale.
 

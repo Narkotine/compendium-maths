@@ -1,4 +1,4 @@
-# Maths Collège — application (PWA) v0.9
+# Maths Collège — application (PWA) v0.11
 
 Application web installable et **entièrement hors ligne** (Android, iPhone, ordinateur) qui affiche les
 17 chapitres du compendium de mathématiques collège (`../compendium-maths`, contenu v0.3.1).
@@ -263,6 +263,23 @@ malgré le `max-age=600` de GitHub Pages ; il n’y a plus de `_headers` (ancien
 
 Même origine que le site de jeux (`narkotine.github.io`) : stockage préfixé `compendium-maths.` (localStorage, sessionStorage),
 caches `compendium-maths-precache-…`, service worker limité à `/compendium-maths/` ; « Forcer la mise à jour » ne touche qu’à eux.
+
+## Nouveautés v0.11 (programme 2026, automatismes)
+
+- **Repères de programme** : pastilles « Programme 2026 · 5e/4e/3e » (notion ajoutée par le BO n° 10 du 5 mars 2026)
+  et « Programme 2020 » (notion absente du programme 2026, conservée : 4e jusqu’en juin 2027, 3e jusqu’en juin 2028),
+  dans les cours (syntaxe `[[Programme 2026 · 3e]]`, infobulle, sommaire), sur les cartes « S’entraîner »
+  (`src/practice/engine/prog.ts`) et expliquées sur l’accueil. Détail : `cours/README.md`, `cours/PLAN-REVISION.md` § 11.
+- **Cours** : valeur absolue (03), nuage de points (05), médiane et aires, droite des milieux (09), vecteurs et relation de
+  Chasles (10), contraposées de Pythagore (11) et de Thalès (12), quartiles et boîte à moustaches (16), notations
+  ensemblistes, $P(A \cup B)$, fluctuation (17) ; 7 figures, exercices et corrigés.
+- **S’entraîner** : 4 nouveaux types (171 au total) : `valeur-absolue` (03, sans calculatrice), `vecteurs` (10),
+  `quartiles` (16), `ensembles` (17).
+- **Automatismes** (`#/automatismes`, module `src/practice/auto/` chargé à la demande) : 39 types de questions flash
+  (5e : 14, 4e : 12, 3e : 13) ; 6 séances fixes de 10 questions par niveau + séance au hasard. Version papier
+  imprimable (feuille élève en deux colonnes, corrigé sur une page à part, `@media print`) ; version en ligne avec ou
+  sans chronomètre (12 min), calculatrice désactivée, score final et corrigés. Rien n’est ajouté aux statistiques des
+  chapitres. Tests : `tests/generators.test.ts` vérifie aussi les automatismes et la composition des séances.
 
 ## Correctif v0.9.2 (thème au premier affichage)
 

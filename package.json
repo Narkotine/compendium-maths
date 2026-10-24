@@ -1,6 +1,6 @@
 {
   "name": "maths-college-app",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "private": true,
   "type": "module",
   "description": "PWA hors ligne : cours de maths collège (compendium v0.3.1) + exercices générés (chapitres 03, 06, 07, 11)",

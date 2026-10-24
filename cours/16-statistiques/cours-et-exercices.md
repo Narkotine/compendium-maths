@@ -310,7 +310,7 @@ Avec un axe qui commence à $100$, le rectangle de 2025 paraît quatre fois plus
 
 **B2.** Dans un diagramme circulaire, un secteur mesure $90^\circ$. a) Quelle fraction de la population représente-t-il ? b) La population compte $60$ personnes : quel est l’effectif de ce secteur ?
 
-**B3.** Avec l’histogramme du § 2.3 : a) combien d’élèves mesurent entre $160$ et $170\,\mathrm{cm}$ ? b) Quel pourcentage des élèves mesure moins de $160\,\mathrm{cm}$ ?
+**B3.** [[Programme 2020]] Avec l’histogramme du § 2.3 : a) combien d’élèves mesurent entre $160$ et $170\,\mathrm{cm}$ ? b) Quel pourcentage des élèves mesure moins de $160\,\mathrm{cm}$ ?
 
 **B4.** Le diagramme donne le nombre de buts marqués par une équipe lors de ses $20$ matchs. a) Dresser le tableau des effectifs. b) Quelle est la fréquence des matchs avec exactement $2$ buts ?
 
@@ -396,7 +396,7 @@ a) Déterminer la médiane et les quartiles. b) Construire la boîte à moustach
 
 **H3.** ★★★ Classe A : $8$, $9$, $10$, $11$, $12$, $13$, $14$. Classe B : $4$, $6$, $11$, $11$, $12$, $16$, $17$. Calculer pour chaque classe la moyenne, la médiane et l’étendue, puis comparer.
 
-**H4.** ★★★ Avec l’histogramme du § 2.3 : a) plus de la moitié des élèves mesurent-ils moins de $160\,\mathrm{cm}$ ? b) Dans quelle classe se trouve la médiane ? c) Peut-on connaître la taille exacte du plus grand élève ?
+**H4.** [[Programme 2020]] ★★★ Avec l’histogramme du § 2.3 : a) plus de la moitié des élèves mesurent-ils moins de $160\,\mathrm{cm}$ ? b) Dans quelle classe se trouve la médiane ? c) Peut-on connaître la taille exacte du plus grand élève ?
 
 ### I. Situations ouvertes (★★)
 
