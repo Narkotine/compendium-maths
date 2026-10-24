@@ -11,7 +11,7 @@
 
 À la fin de ce chapitre, je sais :
 
-1. Reconnaître une situation de proportionnalité avec un **tableau** ou un **graphique** (et repérer quand ce n’en est pas une).
+1. Reconnaître une situation de proportionnalité avec un **tableau**, un **graphique** ou un **nuage de points** (et repérer quand ce n’en est pas une).
 2. Compléter un tableau et calculer une **quatrième proportionnelle** par plusieurs méthodes.
 3. Utiliser des **grandeurs quotients** : prix unitaire, vitesse moyenne, débit.
 4. Calculer et appliquer un **pourcentage**, traduire une hausse ou une baisse par un **coefficient multiplicateur**.
@@ -64,6 +64,14 @@ Les trois graphiques ci-dessous montrent les trois cas à reconnaître : une dro
 - **c)** Un carré de côté $1$ a pour aire $1$, de côté $2$ a pour aire $4$, de côté $3$ a pour aire $9$ : quand le côté double, l’aire est multipliée par $4$.
 
 > **Erreur fréquente.** Une droite ne suffit pas : il faut qu’elle passe **par l’origine**. La droite du taxi (b) ne représente pas une proportionnalité.
+
+**Nuage de points.** [[Programme 2026 · 5e]] Quand une grandeur ne prend que des valeurs **isolées** (un nombre de tickets, un âge en mois entiers…), on place seulement les points mesurés, sans les relier : on obtient un **nuage de points**.
+
+> **Méthode — nuage de points et proportionnalité.** [[Programme 2026 · 5e]] Un nuage de points représente une situation de proportionnalité si et seulement si tous ses points sont **alignés avec l’origine** du repère. On le repère à la règle, puis on le confirme par le calcul : les quotients $\dfrac{y}{x}$ sont tous égaux.
+
+![Deux nuages de points : à gauche, le prix de 1 à 5 tickets de bus à 1,50 euro ; les points sont alignés avec l’origine, c’est une situation de proportionnalité ; à droite, la masse d’un chiot de 1 à 5 mois (2 ; 3,5 ; 5 ; 5,5 ; 6 kg) ; les points ne sont pas alignés, ce n’est pas une situation de proportionnalité](figures/nuage-points.svg)
+
+À gauche, $\dfrac{1{,}5}{1} = \dfrac{3}{2} = \dfrac{4{,}5}{3} = \dfrac{6}{4} = \dfrac{7{,}5}{5} = 1{,}5$ : le prix est proportionnel au nombre de tickets. À droite, $\dfrac{2}{1} = 2$ mais $\dfrac{3{,}5}{2} = 1{,}75$ : la masse du chiot n’est pas proportionnelle à son âge.
 
 ---
 
@@ -287,6 +295,8 @@ Une échelle $\dfrac{1}{100}$ (ou $1 : 100$) signifie que $1\,\mathrm{cm}$ sur l
 
 **A4.** On a placé dans un repère les points $(1\,;3)$, $(2\,;6)$ et $(4\,;12)$. Représentent-ils une situation de proportionnalité ? Si oui, donner le coefficient.
 
+**A5.** [[Programme 2026 · 5e]] Pour chaque nuage de points, dire s’il représente une situation de proportionnalité. a) $(1\,;4)$, $(2\,;8)$, $(3\,;11)$, $(4\,;16)$. b) $(2\,;5)$, $(4\,;10)$, $(6\,;15)$, $(8\,;20)$. c) $(0\,;2)$, $(1\,;4)$, $(2\,;6)$, $(3\,;8)$.
+
 ### B. Compléter un tableau, quatrième proportionnelle (★)
 
 **B1.** Une recette demande $200\,\mathrm{g}$ de farine pour $4$ personnes. Quelle masse de farine faut-il pour $2$, $6$ et $10$ personnes ? Préciser la méthode utilisée.
@@ -418,6 +428,8 @@ Une échelle $\dfrac{1}{100}$ (ou $1 : 100$) signifie que $1\,\mathrm{cm}$ sur l
 **A3.** a) Oui (coefficient $1{,}8$). b) Non (voir l’exemple guidé 1). c) Oui : $P = 4 \times c$ (coefficient $4$). d) Non : pour $0$ séance on paie déjà $10$ € ; $1$ séance coûte $12$ €, $2$ séances $14$ € (et pas $24$ €).
 
 **A4.** $\dfrac{3}{1} = \dfrac{6}{2} = \dfrac{12}{4} = 3$ : les quotients sont égaux, les points sont alignés avec l’origine. Proportionnalité de coefficient $3$.
+
+**A5.** a) Non : $\dfrac{4}{1} = 4$ mais $\dfrac{11}{3} \neq 4$ (le point $(3\,;11)$ n’est pas aligné avec les autres et l’origine). b) Oui : tous les quotients valent $2{,}5$. c) Non : les points sont alignés, mais la droite passe par $(0\,;2)$, pas par l’origine.
 
 **B1. (modèle)**
 

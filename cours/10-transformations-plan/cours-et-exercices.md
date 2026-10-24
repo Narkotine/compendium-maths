@@ -17,6 +17,7 @@
 4. **Reconnaître** la transformation qui envoie une figure sur une autre.
 5. Utiliser une homothétie de rapport $k$ : longueurs multipliées par $k$ (ou par $-k$ si $k$ est négatif), aires par $k^2$.
 6. Décrire une frise, une rosace, un pavage à l’aide de transformations.
+7. Utiliser les **vecteurs** : vecteurs égaux, vecteur nul, opposé, somme et **relation de Chasles** (3e).
 
 > **Prérequis.** Médiatrice, parallélogramme, angles (chapitre 9, § 2, 4.1 et 5.1) ; proportionnalité (chapitre 5, § 1) pour l’homothétie ; carré d’un nombre (chapitre 4, § 1).
 
@@ -126,9 +127,78 @@ Un point $O$ est **centre de symétrie** d’une figure si la figure est sa prop
 
 **Contrôle.** Faire glisser $[AD]$ le long de $[AB]$ amène bien $[AD]$ sur $[BC]$.
 
+### 4.1 Vecteurs [[Programme 2026 · 3e]]
+
+La translation qui envoie $A$ sur $B$ s’appelle aussi la **translation de vecteur** $\overrightarrow{AB}$. Le vecteur $\overrightarrow{AB}$ décrit le déplacement de $A$ vers $B$ ; on le représente par une **flèche** d’origine $A$ et d’extrémité $B$.
+
+> **Définition.** Le **vecteur** $\overrightarrow{AB}$ est défini par :
+> - une **direction** : celle de la droite $(AB)$ ;
+> - un **sens** : de $A$ vers $B$ ;
+> - une **longueur** : la longueur $AB$.
+
+> **Définition (vecteurs égaux).** Deux vecteurs sont **égaux** quand ils définissent la même translation, c’est-à-dire quand ils ont même direction, même sens et même longueur. On note $\overrightarrow{AB} = \overrightarrow{CD}$.
+
+> **Propriété (caractéristique).** $\overrightarrow{AB} = \overrightarrow{CD}$ si et seulement si $ABDC$ est un parallélogramme (éventuellement aplati), c’est-à-dire si et seulement si $[AD]$ et $[BC]$ ont le même milieu.
+
+![Sur quadrillage : le vecteur AB (3 carreaux à droite, 3 vers le haut) est égal au vecteur CD, car ABDC est un parallélogramme ; le vecteur EF a la même direction et la même longueur mais le sens contraire : c’est l’opposé du vecteur AB](figures/vecteurs.svg)
+
+> **Définition (vecteur nul, vecteur opposé).**
+> - Le vecteur $\overrightarrow{AA}$ (origine et extrémité confondues) est le **vecteur nul**, noté $\vec{0}$ : la translation de vecteur nul ne déplace aucun point.
+> - L’**opposé** du vecteur $\overrightarrow{AB}$ est le vecteur $\overrightarrow{BA}$ : même direction, même longueur, **sens contraire**. On note $\overrightarrow{BA} = -\overrightarrow{AB}$.
+
+Un même vecteur peut être dessiné à partir de n’importe quel point : on le note souvent avec une seule lettre, $\vec{u}$. Sur quadrillage, un vecteur se décrit par un déplacement (« $3$ carreaux à droite, $3$ vers le haut ») : deux vecteurs sont égaux quand ils correspondent au même déplacement.
+
+**Exemple guidé 3 bis.** $ABCD$ est un parallélogramme de centre $O$. Citer un vecteur égal à $\overrightarrow{AB}$, un vecteur égal à $\overrightarrow{AO}$, et l’opposé de $\overrightarrow{AD}$.
+
+**Rédaction.**
+
+> $ABCD$ est un parallélogramme, donc $\overrightarrow{AB} = \overrightarrow{DC}$ : les côtés opposés $[AB]$ et $[DC]$ sont parallèles, de même longueur, et parcourus dans le même sens.  
+> Les diagonales se coupent en leur milieu $O$, donc $\overrightarrow{AO} = \overrightarrow{OC}$.  
+> L’opposé de $\overrightarrow{AD}$ est $\overrightarrow{DA}$, qui est aussi égal à $\overrightarrow{CB}$.
+
+**Contrôle.** Sur la figure, les flèches $\overrightarrow{AB}$ et $\overrightarrow{DC}$ sont parallèles, de même longueur et vont dans le même sens.
+
+> **Erreur fréquente.** Écrire $\overrightarrow{AB} = \overrightarrow{CD}$ pour le parallélogramme $ABCD$. Les flèches $\overrightarrow{AB}$ et $\overrightarrow{CD}$ ont des sens contraires : $\overrightarrow{CD} = -\overrightarrow{AB}$. De même, $AB = CD$ (longueurs égales) ne suffit pas pour avoir des vecteurs égaux.
+
+### 4.2 Somme de deux vecteurs, relation de Chasles [[Programme 2026 · 3e]]
+
+On applique la translation de vecteur $\vec{u}$, puis la translation de vecteur $\vec{v}$. On admet que le résultat est encore une translation.
+
+> **Définition.** La **somme** $\vec{u} + \vec{v}$ est le vecteur de la translation obtenue en **enchaînant** la translation de vecteur $\vec{u}$ puis celle de vecteur $\vec{v}$.
+
+Si $\vec{u} = \overrightarrow{AB}$, on dessine $\vec{v}$ à partir de $B$ : $\vec{v} = \overrightarrow{BC}$. La première translation envoie $A$ sur $B$, la seconde envoie $B$ sur $C$ : l’enchaînement envoie $A$ sur $C$.
+
+> **Propriété (relation de Chasles).** Pour tous points $A$, $B$, $C$ :
+>
+> $$\overrightarrow{AB} + \overrightarrow{BC} = \overrightarrow{AC}$$
+
+![Relation de Chasles : les flèches AB et BC mises bout à bout donnent la flèche AC ; dans un parallélogramme ABCD, vecteur AB plus vecteur AD égale vecteur AC](figures/chasles.svg)
+
+> **Méthode — additionner deux vecteurs.**
+> 1. Mettre les flèches **bout à bout** : l’origine de la seconde à l’extrémité de la première.
+> 2. La somme va de l’origine de la première à l’extrémité de la seconde.
+> 3. Avec des lettres : quand l’extrémité du premier vecteur est l’origine du second (la lettre $B$ dans $\overrightarrow{AB} + \overrightarrow{BC}$), cette lettre « disparaît » : on obtient $\overrightarrow{AC}$.
+
+Conséquences :
+
+- $\overrightarrow{AB} + \overrightarrow{BA} = \overrightarrow{AA} = \vec{0}$ : la somme d’un vecteur et de son opposé est le vecteur nul.
+- **Règle du parallélogramme.** Si $ABCD$ est un parallélogramme, $\overrightarrow{AD} = \overrightarrow{BC}$, donc $\overrightarrow{AB} + \overrightarrow{AD} = \overrightarrow{AB} + \overrightarrow{BC} = \overrightarrow{AC}$.
+
+**Exemple guidé 3 ter.** Simplifier $\vec{w} = \overrightarrow{CA} + \overrightarrow{BC} + \overrightarrow{AB}$.
+
+**Rédaction.**
+
+> On change l’ordre des termes pour mettre les flèches bout à bout : $\vec{w} = \overrightarrow{BC} + \overrightarrow{CA} + \overrightarrow{AB}$.  
+> Relation de Chasles : $\overrightarrow{BC} + \overrightarrow{CA} = \overrightarrow{BA}$, puis $\overrightarrow{BA} + \overrightarrow{AB} = \overrightarrow{BB} = \vec{0}$.  
+> Donc $\vec{w} = \vec{0}$.
+
+**Contrôle.** Partir de $B$, aller en $C$, puis en $A$, puis revenir en $B$ : on est revenu au point de départ.
+
+> **Erreur fréquente.** Confondre vecteurs et longueurs. On a toujours $\overrightarrow{AB} + \overrightarrow{BC} = \overrightarrow{AC}$, mais $AB + BC = AC$ seulement si $B$ est sur le segment $[AC]$ (sinon $AB + BC > AC$, voir chapitre 9, § 3.1).
+
 ---
 
-## 5. La rotation
+## 5. La rotation [[Programme 2020]]
 
 > **À retenir.** La rotation de **centre** $O$, d’**angle** $\alpha$ et de **sens** donné (sens des aiguilles d’une montre, ou sens inverse) envoie $M$ sur $M'$ tel que $OM' = OM$ et $\widehat{MOM'} = \alpha$, en tournant dans le sens indiqué. Le centre $O$ est invariant.
 
@@ -155,7 +225,7 @@ Une rotation conserve les longueurs, les angles, les aires et ne retourne pas la
 
 ---
 
-## 6. L’homothétie
+## 6. L’homothétie [[Programme 2020]]
 
 ### 6.1 Définition
 
@@ -244,6 +314,7 @@ Dans une rosace à $n$ motifs identiques, on passe d’un motif au suivant par u
 > - Symétrie axiale : $(d)$ médiatrice de $[MM']$ ; elle **retourne** la figure.
 > - Symétrie centrale : $O$ milieu de $[MM']$ ; demi-tour ; droite image parallèle.
 > - Translation de $A$ vers $B$ : $ABM'M$ parallélogramme ; glissement.
+> - Vecteurs (3e) : $\overrightarrow{AB} = \overrightarrow{CD}$ si et seulement si $ABDC$ est un parallélogramme ; $\overrightarrow{BA} = -\overrightarrow{AB}$ ; Chasles : $\overrightarrow{AB} + \overrightarrow{BC} = \overrightarrow{AC}$.
 > - Rotation de centre $O$, d’angle $\alpha$ : $OM' = OM$, $\widehat{MOM'} = \alpha$, sens précisé.
 > - Ces quatre transformations conservent longueurs, angles, aires.
 > - Homothétie de rapport $k$ : $O$, $M$, $M'$ alignés ; longueurs $\times k$ (ou $\times(-k)$), aires $\times k^2$, angles conservés.
@@ -293,7 +364,15 @@ Dans une rosace à $n$ motifs identiques, on passe d’un motif au suivant par u
 
 **C5.** ★★ Une translation envoie la droite $(AB)$ sur une droite $(d')$. Que peut-on dire de $(d')$ et $(AB)$ ? Peuvent-elles être sécantes ?
 
-### D. Homothétie (★ → ★★★)
+**C6.** [[Programme 2026 · 3e]] $ABCD$ est un parallélogramme de centre $O$. Compléter avec un vecteur dont les extrémités sont des points de la figure : a) $\overrightarrow{AB} = \overrightarrow{D\ldots}$ ; b) $\overrightarrow{BC} = \overrightarrow{\ldots D}$ ; c) $\overrightarrow{OC} = \overrightarrow{A\ldots}$ ; d) $-\overrightarrow{OB} = \overrightarrow{O\ldots}$.
+
+**C7.** [[Programme 2026 · 3e]] Simplifier : a) $\overrightarrow{AB} + \overrightarrow{BC}$ ; b) $\overrightarrow{MN} + \overrightarrow{NP} + \overrightarrow{PQ}$ ; c) $\overrightarrow{EF} + \overrightarrow{FE}$ ; d) $\overrightarrow{BC} + \overrightarrow{AB}$ ; e) $\overrightarrow{AC} + \overrightarrow{CB} + \overrightarrow{BA}$.
+
+**C8.** ★★ [[Programme 2026 · 3e]] On donne trois points $A$, $B$, $C$ non alignés. a) Construire le point $D$ tel que $\overrightarrow{AD} = \overrightarrow{AB} + \overrightarrow{AC}$. b) Quelle est la nature du quadrilatère $ABDC$ ? Justifier.
+
+**C9.** ★★ [[Programme 2026 · 3e]] Vrai ou faux ? Justifier. a) Si $\overrightarrow{AB} = \overrightarrow{CD}$, alors $AB = CD$. b) Si $AB = CD$, alors $\overrightarrow{AB} = \overrightarrow{CD}$. c) Si $\overrightarrow{AM} = \overrightarrow{MB}$, alors $M$ est le milieu de $[AB]$.
+
+### D. Homothétie (★ → ★★★) [[Programme 2020]]
 
 **D1.** Homothétie de centre $I$ et de rapport $3$. Si $IM = 2\,\mathrm{cm}$, combien vaut $IM'$ ? Lequel des points $M$, $M'$ est entre les deux autres ?
 
@@ -406,6 +485,16 @@ Dans une rosace à $n$ motifs identiques, on passe d’un motif au suivant par u
 
 **C5.** L’image d’une droite par une translation est une droite parallèle : $(d') \parallel (AB)$. Elles ne peuvent pas être sécantes (elles peuvent être confondues si la translation glisse le long de $(AB)$).
 
+**C6.** a) $\overrightarrow{AB} = \overrightarrow{DC}$ ; b) $\overrightarrow{BC} = \overrightarrow{AD}$ ; c) $O$ est le milieu de $[AC]$, donc $\overrightarrow{OC} = \overrightarrow{AO}$ ; d) $-\overrightarrow{OB} = \overrightarrow{BO} = \overrightarrow{OD}$ ($O$ est aussi le milieu de $[BD]$).
+
+**C7.** a) $\overrightarrow{AC}$ ; b) $\overrightarrow{MQ}$ ; c) $\overrightarrow{EE} = \vec{0}$ ; d) on change l’ordre : $\overrightarrow{AB} + \overrightarrow{BC} = \overrightarrow{AC}$ ; e) $\overrightarrow{AC} + \overrightarrow{CB} = \overrightarrow{AB}$, puis $\overrightarrow{AB} + \overrightarrow{BA} = \vec{0}$.
+
+**C8. (modèle)**
+> a) On trace la flèche $\overrightarrow{AC}$ à partir de $B$ : on obtient un point $D$ tel que $\overrightarrow{BD} = \overrightarrow{AC}$. Alors $\overrightarrow{AB} + \overrightarrow{AC} = \overrightarrow{AB} + \overrightarrow{BD} = \overrightarrow{AD}$ (relation de Chasles).  
+> b) $\overrightarrow{BD} = \overrightarrow{AC}$ signifie que $BDCA$ est un parallélogramme ; en partant de $A$, c’est le même quadrilatère que $ABDC$. Donc $ABDC$ est un parallélogramme (non aplati, car $A$, $B$, $C$ ne sont pas alignés).
+
+**C9.** a) Vrai : deux vecteurs égaux ont la même longueur. b) Faux : par exemple $\overrightarrow{BA}$ a la même longueur que $\overrightarrow{AB}$, mais pas le même sens ($\overrightarrow{BA} = -\overrightarrow{AB}$ ; ils ne sont égaux que si $A = B$). c) Vrai : $\overrightarrow{AM}$ et $\overrightarrow{MB}$ ont la même direction, donc $A$, $M$, $B$ sont alignés ; le même sens, donc $M$ est entre $A$ et $B$ ; la même longueur, donc $AM = MB$. Ainsi $M$ est le milieu de $[AB]$.
+
 **D1.** $IM' = 3 \times 2 = 6\,\mathrm{cm}$, sur $[IM)$ : $M$ est entre $I$ et $M'$.
 
 **D2.** $IM' = \dfrac{1}{2} \times 6 = 3\,\mathrm{cm}$, de l’autre côté de $I$ : c’est $I$ qui est entre $M$ et $M'$.
@@ -496,9 +585,11 @@ Dans une rosace à $n$ motifs identiques, on passe d’un motif au suivant par u
 | Construire par symétrie axiale | l’axe est la médiatrice de $[MM']$ | compter les carreaux de part et d’autre de l’axe | série B |
 | Construire par symétrie centrale | $O$ est le milieu de $[MM']$ | de $A$ à $O$ : $6$ à droite, $2$ en bas ; on recommence depuis $O$ | série B |
 | Construire par translation | même déplacement pour tous les points | $11$ carreaux à droite et $2$ vers le bas | série B |
-| Construire par rotation | même distance au centre, même angle, sens précisé | quart de tour dans le sens des aiguilles d’une montre | séries A et C |
+| Vecteurs égaux [[Programme 2026 · 3e]] | $\overrightarrow{AB} = \overrightarrow{CD}$ si et seulement si $ABDC$ est un parallélogramme | $ABCD$ parallélogramme : $\overrightarrow{AB} = \overrightarrow{DC}$ | série C |
+| Relation de Chasles [[Programme 2026 · 3e]] | flèches bout à bout : la lettre du milieu disparaît | $\overrightarrow{MN} + \overrightarrow{NP} = \overrightarrow{MP}$ | série C |
+| Construire par rotation [[Programme 2020]] | même distance au centre, même angle, sens précisé | quart de tour dans le sens des aiguilles d’une montre | séries A et C |
 | Reconnaître une transformation | retournée ? tournée ? simplement glissée ? | retournée et de même taille : symétrie axiale | série A |
-| Utiliser une homothétie | $O$, $M$, $M'$ alignés ; longueurs $\times k$, aires $\times k^2$ | $k = 3$ : un côté de $2$ devient $6$, une aire est multipliée par $9$ | série D |
+| Utiliser une homothétie [[Programme 2020]] | $O$, $M$, $M'$ alignés ; longueurs $\times k$, aires $\times k^2$ | $k = 3$ : un côté de $2$ devient $6$, une aire est multipliée par $9$ | série D |
 
 **Pièges à éviter :** toujours préciser le sens d’une rotation ; une symétrie centrale n’est pas une symétrie axiale ; une homothétie ne conserve pas les longueurs (si $k \neq 1$ et $k \neq -1$).
 

@@ -256,7 +256,7 @@ L’**aire totale** d’un solide est la somme des aires de toutes ses faces : i
 
 ---
 
-## 5. Agrandissement, réduction : $k$, $k^2$, $k^3$
+## 5. Agrandissement, réduction : $k$, $k^2$, $k^3$ [[Programme 2020]]
 
 ![Agrandissement de rapport 2 : les longueurs sont multipliées par 2, les aires par 4, les volumes par 8](figures/agrandissement-k.svg)
 
@@ -387,7 +387,7 @@ L’eau a une masse volumique de $1\,\mathrm{g/cm}^3$, c’est-à-dire $1\,\math
 
 **D3.** Un ballon de basket a un rayon de $12\,\mathrm{cm}$. Calculer l’aire de sa surface.
 
-### E. Agrandissement et réduction (★ → ★★)
+### E. Agrandissement et réduction (★ → ★★) [[Programme 2020]]
 
 **E1.** Un cube de $2\,\mathrm{cm}$ d’arête est agrandi avec le rapport $k = 3$. Calculer le nouveau volume. Par combien le volume a-t-il été multiplié ?
 

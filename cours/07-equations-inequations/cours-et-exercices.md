@@ -192,7 +192,7 @@ On lit aussi : à gauche de $15$, la droite A est **sous** la droite B : le tari
 
 ---
 
-## 6. Inéquations (★★)
+## 6. Inéquations (★★) [[Programme 2026 · 3e]]
 
 ### 6.1 Vocabulaire et représentation
 
@@ -306,7 +306,7 @@ On peut aussi procéder par **combinaison** : dans $\begin{cases} 2x + 3y = 8 \\
 
 a) Quelle équation peut-on résoudre avec ce tableau ? Quelle est sa solution ? b) Le vérifier par le calcul.
 
-### G. Inéquations (★★)
+### G. Inéquations (★★) [[Programme 2026 · 3e]]
 
 **G1.** Les nombres $4$ et $3$ sont-ils solutions de $3x - 2 > 9$ ?
 

@@ -223,7 +223,7 @@ Couper un solide d’un seul coup de scie droit, c’est le couper par un **plan
 
 Pour trouver les dimensions qui manquent, on cherche souvent un triangle rectangle : c’est Pythagore (chapitre 11). Par exemple, si on coupe un pavé de $6\,\mathrm{cm}$ sur $4\,\mathrm{cm}$ sur $5\,\mathrm{cm}$ en suivant une diagonale du dessous, la section est un rectangle dont un côté est la diagonale $\sqrt{6^2 + 4^2} = \sqrt{52} \approx 7{,}2\,\mathrm{cm}$ et l’autre la hauteur $5\,\mathrm{cm}$.
 
-### 5.2 Pyramide et cône : une réduction de la base
+### 5.2 Pyramide et cône : une réduction de la base [[Programme 2020]]
 
 ![Section d’une pyramide et d’un cône par un plan parallèle à la base : une réduction de la base](figures/section-pyramide-cone.svg)
 
@@ -271,7 +271,7 @@ Même raisonnement pour le cône de la figure : hauteur $10\,\mathrm{cm}$, coupe
 
 ---
 
-## 6. Se repérer dans l’espace
+## 6. Se repérer dans l’espace [[Programme 2020]]
 
 ### 6.1 Dans un pavé droit
 
@@ -399,7 +399,7 @@ On assimile la Terre à une sphère. L’**équateur** est le grand cercle à é
 
 **E6.** (★★) On coupe une sphère de rayon $10\,\mathrm{cm}$ par un plan : la section est un cercle de rayon $8\,\mathrm{cm}$. À quelle distance du centre se trouve le plan ?
 
-### F. Repérage (★ → ★★)
+### F. Repérage (★ → ★★) [[Programme 2020]]
 
 **F1.** Dans le pavé du § 6.1 ($A$ origine, $AB = 4$, $AD = 3$, $AE = 2$) : a) donner les coordonnées du milieu $I$ de $[AB]$ ; b) du milieu $J$ de $[EH]$ ; c) quel sommet a pour coordonnées $(4\,;3\,;0)$ ? d) donner les coordonnées du centre $K$ de la face $BCGF$.
 
@@ -615,7 +615,7 @@ b) **(modèle)**
 | Reconnaître un patron | plier mentalement ; dans une rangée, deux carrés séparés par un carré sont opposés | une rangée de $5$ carrés n’est jamais un patron de cube | série C |
 | Lire des vues | plan coté : somme des hauteurs ; vue de face : la plus haute pile de chaque colonne | plan coté $3$, $1$, $2$, $1$ : $3+1+2+1=7$ cubes | série D |
 | Trouver une section | pavé : rectangle ; pyramide : réduction de la base ; sphère : cercle (Pythagore) | sphère de rayon $5$, plan à $3$ du centre : rayon $4$ | série E |
-| Repérer un point | $(x\,;y\,;z)$ dans un pavé ; latitude et longitude sur la Terre | milieu de $[BF]$ : $(4\,;0\,;1)$ | série F |
+| Repérer un point [[Programme 2020]] | $(x\,;y\,;z)$ dans un pavé ; latitude et longitude sur la Terre | milieu de $[BF]$ : $(4\,;0\,;1)$ | série F |
 
 **Pièges à éviter :** en perspective cavalière, seule la face avant est en vraie grandeur ; le rectangle du patron d’un cylindre mesure $2\pi R$ ; la sphère est la surface, la boule le solide plein.
 

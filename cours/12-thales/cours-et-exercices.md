@@ -178,7 +178,11 @@ On l’utilise quand on connaît des **longueurs** et qu’on se demande si deux
 > 1. Calculer **séparément** $\dfrac{AD}{AB}$ et $\dfrac{AE}{AC}$ (sans écrire « $=$ » entre eux avant de savoir).
 > 2. Comparer : valeurs décimales **exactes**, fractions simplifiées, ou produits en croix. Jamais avec des valeurs arrondies.
 > 3. Si les rapports sont égaux **et** les points dans le même ordre : d’après la réciproque du théorème de Thalès, les droites sont parallèles.
-> 4. Si les rapports sont différents : les droites ne sont pas parallèles (sinon, d’après le théorème de Thalès, les rapports seraient égaux).
+> 4. Si les rapports sont différents : d’après la **contraposée** du théorème de Thalès, les droites ne sont pas parallèles.
+
+> **Contraposée du théorème de Thalès.** [[Programme 2026 · 3e]] Soit des points $A$, $D$, $B$ alignés et des points $A$, $E$, $C$ alignés. Si $\dfrac{AD}{AB} \neq \dfrac{AE}{AC}$, alors les droites $(DE)$ et $(BC)$ **ne sont pas** parallèles.
+
+Elle est vraie parce que le théorème est vrai : si les droites étaient parallèles, le théorème de Thalès donnerait des rapports égaux. Une contraposée ne demande pas de vérifier l’ordre des points (contrairement à la réciproque).
 
 ### 3.3 Exemple guidé 4 — les droites sont parallèles
 
@@ -203,7 +207,7 @@ On l’utilise quand on connaît des **longueurs** et qu’on se demande si deux
 
 > D’une part : $\dfrac{AD}{AB} = \dfrac{4}{9}$. D’autre part : $\dfrac{AE}{AC} = \dfrac{5}{11}$.  
 > Produits en croix : $4 \times 11 = 44$ et $9 \times 5 = 45$. Comme $44 \neq 45$, $\dfrac{AD}{AB} \neq \dfrac{AE}{AC}$.  
-> Si les droites $(DE)$ et $(BC)$ étaient parallèles, ces rapports seraient égaux d’après le théorème de Thalès. Donc les droites $(DE)$ et $(BC)$ ne sont **pas** parallèles.
+> D’après la contraposée du théorème de Thalès, les droites $(DE)$ et $(BC)$ ne sont **pas** parallèles (si elles l’étaient, ces rapports seraient égaux).
 
 ### 3.5 Erreurs fréquentes
 
@@ -246,7 +250,7 @@ Exemples : deux poteaux verticaux (perpendiculaires au sol) ; deux barreaux d’
 
 ---
 
-## 5. Agrandissement, réduction et triangles semblables
+## 5. Agrandissement, réduction et triangles semblables [[Programme 2020]]
 
 ### 5.1 Effet sur les longueurs, les aires et les volumes
 
@@ -295,6 +299,7 @@ Dans une configuration de Thalès, les triangles $ADE$ et $ABC$ sont semblables 
 > - Mêmes rapports pour les triangles **emboîtés** et le **papillon**.
 > - Un segment « restant » ($DB$, $EC$) n’entre jamais dans un rapport : calculer d’abord $AB$ ou $AC$.
 > - **Réciproque** (on connaît les longueurs → parallèle ou pas ?) : calculer séparément $\dfrac{AD}{AB}$ et $\dfrac{AE}{AC}$, comparer sans arrondir, vérifier l’ordre des points.
+> - Rapports différents → **contraposée** : les droites ne sont pas parallèles.
 > - Agrandissement ou réduction de rapport $k$ : longueurs $\times k$, aires $\times k^2$, volumes $\times k^3$.
 > - Triangles semblables = mêmes angles = côtés proportionnels.
 
@@ -356,7 +361,7 @@ Dans D1 à D4, $D$ est sur $[AB]$ et $E$ sur $[AC]$. Les longueurs sont en centi
 
 **D5.** Les points $D$, $A$, $B$ sont alignés dans cet ordre, ainsi que $E$, $A$, $C$. $AD = 3$, $AB = 7{,}5$, $AE = 2$ et $AC = 5$. Les droites $(DE)$ et $(BC)$ sont-elles parallèles ?
 
-### E. Agrandissement, réduction, triangles semblables (★ → ★★)
+### E. Agrandissement, réduction, triangles semblables (★ → ★★) [[Programme 2020]]
 
 **E1.** Une maquette est à l’échelle $\dfrac{1}{50}$. Une longueur réelle mesure $20\,\mathrm{m}$. Quelle est sa longueur sur la maquette ?
 
@@ -485,7 +490,7 @@ a) Calculer $AB$. b) Calculer la longueur de la poutre $DE$, puis $AD$.
 **D2. (modèle)**
 > D’une part : $\dfrac{AD}{AB} = \dfrac{5}{8}$. D’autre part : $\dfrac{AE}{AC} = \dfrac{7}{12}$.  
 > Produits en croix : $5 \times 12 = 60$ et $8 \times 7 = 56$. Comme $60 \neq 56$, les rapports sont différents.  
-> Si les droites étaient parallèles, d’après le théorème de Thalès, ces rapports seraient égaux. Donc $(DE)$ et $(BC)$ ne sont pas parallèles.
+> D’après la contraposée du théorème de Thalès, $(DE)$ et $(BC)$ ne sont pas parallèles.
 
 **D3.** $\dfrac{3}{9} = \dfrac{1}{3}$ et $\dfrac{4}{10} = \dfrac{2}{5}$. Produits en croix : $3 \times 10 = 30$ et $9 \times 4 = 36$. Rapports différents : pas parallèles.
 
@@ -586,8 +591,8 @@ Vérification : l’aire de la grande base est $\dfrac{3 \times 135}{9} = 45\,\m
 | Reconnaître une configuration de Thalès | deux sécantes coupées par deux parallèles (emboîtés ou papillon) | $D \in [AB]$, $E \in [AC]$, $(DE) \parallel (BC)$ | série A |
 | Calculer une longueur | trois rapports, petit triangle en haut, puis produit en croix | $\dfrac{3}{9} = \dfrac{DE}{12}$ donne $DE = 4$ | séries B et C |
 | Gérer un segment « restant » | calculer d’abord $AB = AD + DB$ | $AD = 2$, $DB = 3$ : $AB = 5$ | série C |
-| Prouver un parallélisme (ou non) | réciproque : rapports calculés séparément, points dans le même ordre | $\dfrac{4}{10} = \dfrac{6}{15} = 0{,}4$ : parallèles | série D |
-| Agrandir, réduire | longueurs $\times k$, aires $\times k^2$, volumes $\times k^3$ | $k = 3$ : aire $\times 9$, volume $\times 27$ | série E |
+| Prouver un parallélisme (ou non) | réciproque : rapports calculés séparément, points dans le même ordre ; rapports différents : contraposée [[Programme 2026 · 3e]] | $\dfrac{4}{10} = \dfrac{6}{15} = 0{,}4$ : parallèles | série D |
+| Agrandir, réduire [[Programme 2020]] | longueurs $\times k$, aires $\times k^2$, volumes $\times k^3$ | $k = 3$ : aire $\times 9$, volume $\times 27$ | série E |
 
 **Pièges à éviter :** un rapport retourné donne un résultat absurde ; on compare des rapports exacts, jamais des arrondis ; la réciproque exige des points dans le même ordre.
 

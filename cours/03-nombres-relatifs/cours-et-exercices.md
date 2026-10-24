@@ -12,7 +12,7 @@
 À la fin de ce chapitre, je sais :
 
 1. Utiliser les relatifs dans des situations concrètes (températures, altitudes, comptes, années).
-2. Donner l’**opposé** et la **distance à zéro** d’un nombre ; placer et lire des nombres sur une **droite graduée**.
+2. Donner l’**opposé** et la **distance à zéro** (ou **valeur absolue**) d’un nombre ; placer et lire des nombres sur une **droite graduée**.
 3. **Comparer** et ranger des relatifs.
 4. **Additionner** et **soustraire** des relatifs, simplifier une suite d’additions et de soustractions.
 5. **Multiplier** et **diviser** des relatifs (règle des signes).
@@ -20,7 +20,7 @@
 
 > **Prérequis.** Calculs sur les décimaux (chapitre 2, § 3) et sur les fractions (chapitre 1, § 4 et 5) ; priorités opératoires (chapitre 2, § 3.4).
 
-*Calibrage.* Addition, soustraction, comparaison et repérage sont travaillés dès le début du cycle 4 ; multiplication et division de relatifs viennent ensuite. La notation $|a|$ (valeur absolue) n’est pas utilisée au collège : on dit « distance à zéro ».
+*Calibrage.* Addition, soustraction, comparaison et repérage sont travaillés dès le début du cycle 4 ; multiplication et division de relatifs viennent ensuite. Le programme 2026 nomme la distance à zéro **valeur absolue**, notée $|a|$, dès la 5e (§ 1.2).
 
 ---
 
@@ -48,6 +48,7 @@ Le thermomètre est une **droite graduée verticale** : au-dessus de $0$ les pos
 > - Un nombre **positif** est supérieur ou égal à $0$ : $+7$ s’écrit aussi $7$ (le signe $+$ est souvent omis).
 > - Un nombre **négatif** est inférieur ou égal à $0$ : $-3$, $-0{,}4$, $-\dfrac{1}{2}$.
 > - $0$ est le seul nombre à la fois positif et négatif : on l’écrit sans signe.
+> - Un nombre **strictement positif** est supérieur à $0$ (et différent de $0$) ; un nombre **strictement négatif** est inférieur à $0$ (et différent de $0$).
 
 Exemples : la distance à zéro de $-5$ est $5$ ; celle de $+2{,}3$ est $2{,}3$ ; celle de $0$ est $0$.
 
@@ -56,6 +57,15 @@ Exemples : la distance à zéro de $-5$ est $5$ ; celle de $+2{,}3$ est $2{,}3$ 
 L’opposé de $5$ est $-5$ ; l’opposé de $-3$ est $3$ ; l’opposé de $0$ est $0$. Ainsi $-(-3) = 3$ : « l’opposé de l’opposé, c’est le nombre lui-même ».
 
 > **Erreur fréquente.** Croire que $-a$ est toujours négatif. Si $a = -3$, alors $-a = 3$ est positif. Le signe « $-$ » devant une lettre veut dire « l’opposé de », pas « négatif ».
+
+> **Définition (valeur absolue).** [[Programme 2026 · 5e]] La **valeur absolue** d’un nombre $a$ est sa **distance à zéro**. On la note $|a|$ et on lit « valeur absolue de $a$ ».
+> - $|-5| = 5$ ; $|2{,}3| = 2{,}3$ ; $|0| = 0$.
+> - Une valeur absolue est toujours **positive ou nulle**.
+> - Deux nombres opposés ont la même valeur absolue : $|-7| = |7| = 7$.
+
+Les barres $|\;|$ « effacent le signe » d’un **nombre** écrit avec son signe. Attention avec un calcul à l’intérieur : on calcule d’abord, puis on prend la distance à zéro. Par exemple $|3 - 8| = |-5| = 5$, alors que $|3| - |8| = 3 - 8 = -5$.
+
+> **Erreur fréquente.** Écrire $|-5| = -5$. La valeur absolue est une distance : elle n’est **jamais négative**. Les nombres qui ont pour valeur absolue $5$ sont $5$ et $-5$.
 
 ---
 
@@ -162,6 +172,8 @@ Dans une suite d’additions et de soustractions, on transforme chaque soustract
 
 > **Méthode — Distance entre deux points.** Sur une droite graduée, la distance entre deux points est : **la plus grande abscisse moins la plus petite**. Entre $A(-4)$ et $B(3)$ : $3 - (-4) = 7$. Le résultat est toujours positif.
 
+*Avec la valeur absolue* [[Programme 2026 · 5e]] : la distance entre les points d’abscisses $a$ et $b$ est $|b - a|$, dans n’importe quel ordre. Entre $A(-4)$ et $B(3)$ : $|3 - (-4)| = |7| = 7$, et aussi $|-4 - 3| = |-7| = 7$.
+
 ---
 
 ## 5. Multiplier et diviser des relatifs (★★)
@@ -223,6 +235,7 @@ Les priorités sont les mêmes qu’avec les nombres positifs : **parenthèses**
 
 > **À retenir.**
 > - Relatif = signe + distance à zéro. Opposés : même distance à zéro, signes contraires ; $-(-a) = a$.
+> - Valeur absolue = distance à zéro : $|-6| = |6| = 6$ ; elle n’est jamais négative.
 > - Sur la droite, **plus à gauche = plus petit** ; entre deux négatifs, le plus loin de zéro est le plus petit.
 > - **Addition** : même signe → on additionne les distances, signe commun ; signes contraires → on soustrait, signe du « plus loin de zéro ».
 > - **Soustraction** : on ajoute l’opposé, $a - b = a + (-b)$. Distance entre deux points : grande abscisse moins petite.
@@ -244,6 +257,8 @@ Les priorités sont les mêmes qu’avec les nombres positifs : **parenthèses**
 **A3.** Comparer (avec $<$ ou $>$) : a) $-8$ et $-3$ ; b) $-0{,}5$ et $-0{,}05$ ; c) $-12$ et $1$ ; d) $0$ et $-4$.
 
 **A4.** Donner l’opposé et la distance à zéro de : $7$ ; $-2{,}5$ ; $0$ ; $-(-4)$.
+
+**A5.** [[Programme 2026 · 5e]] a) Calculer : $|-9|$ ; $|4{,}2|$ ; $|0|$ ; $|-0{,}03|$. b) Calculer : $|-3| + |5|$ ; $|-3 + 5|$ ; $|2 - 7|$ ; $-|-6|$. c) Quels nombres ont pour valeur absolue $8$ ? Et $0$ ? Et $-2$ ?
 
 ### B. Addition (★)
 
@@ -365,6 +380,10 @@ Les priorités sont les mêmes qu’avec les nombres positifs : **parenthèses**
 
 **A4.** Opposés : $-7$ ; $2{,}5$ ; $0$ ; $-4$ (car $-(-4) = 4$). Distances à zéro : $7$ ; $2{,}5$ ; $0$ ; $4$.
 
+**A5.** a) $|-9| = 9$ ; $|4{,}2| = 4{,}2$ ; $|0| = 0$ ; $|-0{,}03| = 0{,}03$.
+b) $|-3| + |5| = 3 + 5 = 8$ ; $|-3 + 5| = |2| = 2$ (on calcule d’abord l’intérieur) ; $|2 - 7| = |-5| = 5$ ; $-|-6| = -6$ (l’opposé de la valeur absolue).
+c) $8$ et $-8$ ; seulement $0$ ; aucun nombre (une valeur absolue n’est jamais négative).
+
 **B1.** a) $12$ ; b) $-12$ ; c) $-2$ ; d) $2$.
 
 **B2. (modèle)**
@@ -484,6 +503,7 @@ Contrôle : chaque ligne, colonne et diagonale a pour somme $0$.
 
 | Je dois savoir… | Comment | Exemple express | S’entraîner |
 |---|---|---|---|
+| Valeur absolue [[Programme 2026 · 5e]] | distance à zéro, jamais négative | $|-4{,}5| = 4{,}5$ ; $|3 - 8| = 5$ | série A |
 | Comparer deux relatifs | le plus à gauche sur la droite graduée est le plus petit | $-7 < -2$ | série A |
 | Additionner | même signe : on ajoute les distances à zéro ; signes contraires : on les soustrait, signe du plus loin de zéro | $-8 + 5 = -3$ | série B |
 | Soustraire | ajouter l’opposé | $3 - (-4) = 3 + 4 = 7$ | série C |

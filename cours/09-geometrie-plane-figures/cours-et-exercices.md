@@ -15,7 +15,7 @@
 2. Reconnaître des **paires d’angles** (complémentaires, supplémentaires, opposés par le sommet, alternes-internes, correspondants) et m’en servir pour calculer un angle ou prouver un parallélisme.
 3. Savoir si un triangle est **constructible** (inégalité triangulaire) et le construire à la règle et au compas.
 4. Utiliser la **somme des angles** d’un triangle ($180^\circ$) et les propriétés des triangles particuliers.
-5. Construire et utiliser les **droites remarquables** : médiatrice (cercle circonscrit), hauteur, bissectrice, médiane.
+5. Construire et utiliser les **droites remarquables** : médiatrice (cercle circonscrit), hauteur, bissectrice, médiane (qui partage le triangle en deux triangles de même aire) ; utiliser la **droite des milieux**.
 6. Reconnaître un **parallélogramme**, un rectangle, un losange, un carré.
 7. Utiliser le cercle : tangente, triangle inscrit dans un demi-cercle, angle inscrit (★★★).
 8. Rédiger une démonstration courte : « **On sait que** … **Or** … **Donc** … ».
@@ -142,7 +142,7 @@ Une droite $(t)$, la **sécante**, coupe deux droites $(d)$ et $(d')$ en $A$ et 
 
 Le chemin le plus court entre deux points est le segment qui les joint : passer par un troisième point rallonge (ou au mieux ne change pas) le trajet.
 
-> **À retenir — inégalité triangulaire.** Pour trois points $A$, $B$, $C$ : $AB \leqslant AC + CB$. L’égalité $AB = AC + CB$ a lieu **seulement** si $C$ est sur le segment $[AB]$.  
+> **À retenir — inégalité triangulaire.** [[Programme 2020]] Pour trois points $A$, $B$, $C$ : $AB \leqslant AC + CB$. L’égalité $AB = AC + CB$ a lieu **seulement** si $C$ est sur le segment $[AB]$.  
 > **Test pratique.** Un triangle de côtés donnés est constructible si et seulement si le **plus grand** côté est **strictement** inférieur à la somme des deux autres.
 
 ![Construction au compas avec AB = 7 cm : avec 4 et 5 cm c’est possible, avec 2 et 3 cm c’est impossible, avec 3 et 4 cm les points sont alignés](figures/inegalite-triangulaire.svg)
@@ -210,7 +210,7 @@ Conséquences : un triangle a au plus **un** angle droit ou obtus ; dans un tria
 
 > **Erreur fréquente.** Mettre l’angle égal au mauvais endroit. Les deux angles égaux sont ceux de la **base**, opposés aux côtés égaux ; jamais l’angle au sommet principal (sauf si le triangle est équilatéral).
 
-### 3.4 Triangles égaux (★★)
+### 3.4 Triangles égaux (★★) [[Programme 2020]]
 
 Deux triangles sont **égaux** s’ils sont superposables (par glissement ou retournement). Pour l’affirmer, il suffit de l’un des trois cas suivants :
 
@@ -263,6 +263,52 @@ Le point $O$ où se coupent deux médiatrices d’un triangle $ABC$ vérifie $OA
 > **Erreur fréquente.** Confondre médiatrice et médiane. La **médiatrice** de $[BC]$ passe par le milieu de $[BC]$ **perpendiculairement** et ne passe pas forcément par $A$ ; la **médiane** issue de $A$ passe par $A$ et par le milieu de $[BC]$, sans angle droit en général.
 
 > **À retenir — triangle isocèle.** Dans un triangle isocèle en $A$, la médiatrice de la base, la hauteur, la médiane et la bissectrice issues de $A$ sont **une seule et même droite** : l’axe de symétrie du triangle.
+
+> **Propriété — médiane et aires.** [[Programme 2026 · 5e]] Une médiane partage un triangle en **deux triangles de même aire**.
+
+![La médiane [AM] partage le triangle ABC en deux triangles ABM et AMC de même aire : leurs bases BM et MC sont égales et ils ont la même hauteur AH](figures/mediane-aires.svg)
+
+**Démonstration.** Soit $M$ le milieu de $[BC]$ et $H$ le pied de la hauteur issue de $A$.
+
+> On sait que $M$ est le milieu de $[BC]$, donc $BM = MC$.  
+> Les triangles $ABM$ et $AMC$ ont leurs bases $[BM]$ et $[MC]$ sur la même droite $(BC)$ : ils ont donc la **même hauteur** $AH$.  
+> Donc $\mathcal{A}(ABM) = \dfrac{BM \times AH}{2} = \dfrac{MC \times AH}{2} = \mathcal{A}(AMC)$.
+
+**Contrôle.** Avec $BC = 8\,\mathrm{cm}$ et $AH = 5\,\mathrm{cm}$ : $\mathcal{A}(ABC) = 20\,\mathrm{cm}^2$, et chaque moitié mesure $\dfrac{4 \times 5}{2} = 10\,\mathrm{cm}^2$.
+
+> **Erreur fréquente.** Croire que la médiane partage aussi le triangle en deux triangles **superposables** (égaux). C’est faux en général : les deux triangles ont la même aire, mais pas la même forme (sauf si le triangle est isocèle en $A$).
+
+### 4.4 La droite des milieux [[Programme 2026 · 4e]]
+
+Sur les figures, $ABC$ est un triangle, $I$ est un point de $[AB]$ et $J$ un point de $[AC]$.
+
+> **Théorème 1.** Dans un triangle, la droite qui passe par les **milieux de deux côtés** est **parallèle** au troisième côté.
+
+> **Théorème 2.** Dans un triangle, le segment qui joint les **milieux de deux côtés** mesure **la moitié** du troisième côté.
+
+> **Théorème 3.** Dans un triangle, la droite qui passe par le **milieu d’un côté** et qui est **parallèle à un deuxième côté** coupe le troisième côté **en son milieu**.
+
+![Les trois théorèmes de la droite des milieux : si I et J sont les milieux de [AB] et [AC], alors (IJ) est parallèle à (BC) et IJ est la moitié de BC ; si I est le milieu de [AB] et si la droite (d) passant par I est parallèle à (BC), elle coupe [AC] en son milieu J](figures/droite-milieux.svg)
+
+| On sait… | On veut… | Théorème |
+|---|---|---|
+| deux milieux | prouver un parallélisme | 1 |
+| deux milieux | calculer une longueur | 2 |
+| un milieu et une parallèle | prouver qu’un point est un milieu | 3 |
+
+**Exemple guidé 7 bis.** $ABC$ est un triangle avec $BC = 9\,\mathrm{cm}$ ; $I$ et $J$ sont les milieux de $[AB]$ et $[AC]$. Montrer que $(IJ) \parallel (BC)$ et calculer $IJ$.
+
+**Rédaction.**
+
+> On sait que $I$ est le milieu de $[AB]$ et $J$ le milieu de $[AC]$.  
+> Or, dans un triangle, la droite qui passe par les milieux de deux côtés est parallèle au troisième côté, et le segment qui les joint mesure la moitié du troisième côté.  
+> Donc $(IJ) \parallel (BC)$ et $IJ = \dfrac{BC}{2} = \dfrac{9}{2} = 4{,}5\,\mathrm{cm}$.
+
+**Contrôle.** Le « petit » triangle $AIJ$ est une réduction de moitié du triangle $ABC$ : c’est aussi ce que dira le théorème de Thalès (chapitre 12), avec le rapport $\dfrac{AI}{AB} = \dfrac{1}{2}$.
+
+> **Pourquoi (★★★).** Soit $K$ le symétrique de $I$ par rapport à $J$. Les diagonales $[AC]$ et $[IK]$ du quadrilatère $AICK$ ont le même milieu $J$ : $AICK$ est un parallélogramme, donc $(CK) \parallel (AI)$ et $CK = AI = IB$. Le quadrilatère $IBCK$ a deux côtés opposés $[IB]$ et $[CK]$ parallèles et de même longueur : c’est un parallélogramme. Donc $(IK) \parallel (BC)$ et $IK = BC$, d’où $(IJ) \parallel (BC)$ et $IJ = \dfrac{IK}{2} = \dfrac{BC}{2}$.
+
+> **Erreur fréquente.** Utiliser le théorème 1 avec **un seul** milieu. Si l’on sait seulement que $I$ est le milieu de $[AB]$, il faut en plus une parallèle (théorème 3) pour conclure.
 
 ---
 
@@ -383,6 +429,8 @@ Une démonstration enchaîne des étapes de la forme :
 > - Constructible : plus grand côté **<** somme des deux autres ; égalité = points alignés.
 > - Somme des angles d’un triangle : $180^\circ$. Isocèle : angles à la base égaux. Équilatéral : $60^\circ$.
 > - Médiatrice : $MA = MB$ ; les trois médiatrices → centre du cercle circonscrit ; triangle rectangle → milieu de l’hypoténuse.
+> - Une médiane partage un triangle en deux triangles de même aire.
+> - Droite des milieux : deux milieux → parallèle au troisième côté et moitié de sa longueur ; un milieu + une parallèle → le milieu du troisième côté.
 > - Parallélogramme : diagonales qui se coupent en leur milieu. Rectangle : diagonales égales. Losange : diagonales perpendiculaires. Carré : les deux.
 > - Cercle : tangente ⟂ rayon ; diamètre côté d’un triangle inscrit → angle droit ; (★★★) angle au centre = $2 \times$ angle inscrit.
 
@@ -443,6 +491,12 @@ Une démonstration enchaîne des étapes de la forme :
 **D5.** $\widehat{xOy} = 74^\circ$ et $[Oz)$ est sa bissectrice. Calculer $\widehat{xOz}$.
 
 **D6.** ★★ Dans un triangle $ABC$, $BC = 8\,\mathrm{cm}$ et la hauteur issue de $A$ mesure $5\,\mathrm{cm}$. a) Calculer l’aire de $ABC$. b) Sachant que $AB = 10\,\mathrm{cm}$, calculer la hauteur issue de $C$.
+
+**D7.** [[Programme 2026 · 5e]] Un triangle $ABC$ a une aire de $36\,\mathrm{cm}^2$ ; $M$ est le milieu de $[BC]$. a) Quelle est l’aire du triangle $ABM$ ? Justifier. b) $N$ est le milieu de $[BM]$. Quelle est l’aire du triangle $ABN$ ?
+
+**D8.** [[Programme 2026 · 4e]] $ABC$ est un triangle tel que $AB = 7\,\mathrm{cm}$, $AC = 8\,\mathrm{cm}$ et $BC = 10\,\mathrm{cm}$. $I$, $J$ et $K$ sont les milieux de $[AB]$, $[AC]$ et $[BC]$. a) Calculer $IJ$, $JK$ et $IK$. b) Calculer le périmètre du triangle $IJK$ et le comparer à celui de $ABC$.
+
+**D9.** ★★ [[Programme 2026 · 4e]] $ABC$ est un triangle, $I$ est le milieu de $[AB]$. La parallèle à $(BC)$ passant par $I$ coupe $[AC]$ en $J$. On sait que $AC = 11\,\mathrm{cm}$ et $BC = 6\,\mathrm{cm}$. Calculer $AJ$ et $IJ$ en justifiant.
 
 ### E. Quadrilatères (★ → ★★)
 
@@ -574,6 +628,15 @@ Une démonstration enchaîne des étapes de la forme :
 
 **D6.** a) $\mathcal{A} = \dfrac{8 \times 5}{2} = 20\,\mathrm{cm}^2$. b) Avec la base $[AB]$ : $\dfrac{10 \times h}{2} = 20$, donc $h = 4\,\mathrm{cm}$.
 
+**D7.** a) $[AM]$ est une médiane du triangle $ABC$ ; or une médiane partage un triangle en deux triangles de même aire, donc $\mathcal{A}(ABM) = \dfrac{36}{2} = 18\,\mathrm{cm}^2$. b) Dans le triangle $ABM$, $[AN]$ est la médiane issue de $A$ : $\mathcal{A}(ABN) = \dfrac{18}{2} = 9\,\mathrm{cm}^2$.
+
+**D8. (modèle)**
+> a) $I$ et $J$ sont les milieux de $[AB]$ et $[AC]$. Or le segment qui joint les milieux de deux côtés d’un triangle mesure la moitié du troisième côté. Donc $IJ = \dfrac{BC}{2} = 5\,\mathrm{cm}$.  
+> De même, $J$ et $K$ sont les milieux de $[AC]$ et $[BC]$ : $JK = \dfrac{AB}{2} = 3{,}5\,\mathrm{cm}$ ; $I$ et $K$ sont les milieux de $[AB]$ et $[BC]$ : $IK = \dfrac{AC}{2} = 4\,\mathrm{cm}$.  
+> b) Périmètre de $IJK$ : $5 + 3{,}5 + 4 = 12{,}5\,\mathrm{cm}$ ; périmètre de $ABC$ : $7 + 8 + 10 = 25\,\mathrm{cm}$. Le périmètre de $IJK$ est la moitié de celui de $ABC$.
+
+**D9.** $I$ est le milieu de $[AB]$ et $(IJ) \parallel (BC)$. Or, dans un triangle, la droite qui passe par le milieu d’un côté et est parallèle à un deuxième côté coupe le troisième en son milieu : $J$ est le milieu de $[AC]$, donc $AJ = \dfrac{11}{2} = 5{,}5\,\mathrm{cm}$. Alors $I$ et $J$ sont les milieux de deux côtés : $IJ = \dfrac{BC}{2} = 3\,\mathrm{cm}$.
+
 **E1. (modèle)**
 > Dans un parallélogramme, les côtés opposés ont la même longueur : $CD = AB = 7\,\mathrm{cm}$ et $AD = BC = 4\,\mathrm{cm}$.  
 > Les angles opposés sont égaux : $\widehat{C} = \widehat{A} = 65^\circ$. Deux angles consécutifs sont supplémentaires : $\widehat{B} = \widehat{D} = 180^\circ - 65^\circ = 115^\circ$.  
@@ -661,6 +724,8 @@ Une démonstration enchaîne des étapes de la forme :
 | Calculer des angles avec des parallèles | alternes-internes et correspondants sont égaux | $(d) \parallel (d')$ : le correspondant d’un angle de $65^\circ$ mesure $65^\circ$ | série B |
 | Utiliser la somme des angles | $180^\circ$ dans tout triangle | angles de $50^\circ$ et $70^\circ$ : le troisième mesure $60^\circ$ | série C |
 | Savoir si un triangle existe | plus grand côté inférieur à la somme des deux autres | $3$, $4$, $8$ : $8 > 3 + 4$, impossible | série C |
+| Utiliser une médiane [[Programme 2026 · 5e]] | elle partage le triangle en deux triangles de même aire | aire de $ABC$ : $36$ ; aire de $ABM$ : $18$ | série D |
+| Droite des milieux [[Programme 2026 · 4e]] | deux milieux : parallèle et moitié ; un milieu + une parallèle : milieu | $BC = 9$ : $IJ = 4{,}5$ | série D |
 | Médiatrice, cercle circonscrit | $MA = MB$ ; centre à l’intersection des médiatrices | triangle rectangle : centre au milieu de l’hypoténuse | série D |
 | Reconnaître un quadrilatère | regarder les diagonales | diagonales de même milieu et perpendiculaires : losange | série E |
 | Rédiger une démonstration | données, propriété, conclusion | $(d) \perp (\Delta)$ et $(d') \perp (\Delta)$, donc $(d) \parallel (d')$ | séries G et H |

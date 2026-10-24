@@ -14,9 +14,9 @@
 1. Utiliser le vocabulaire : expérience aléatoire, issue, événement, événement contraire, événements incompatibles.
 2. Placer une probabilité sur l’échelle de $0$ (impossible) à $1$ (certain).
 3. Calculer une probabilité dans une situation d’**équiprobabilité** (dé, pièce, urne, cartes, roue).
-4. Utiliser $P(\text{non } A) = 1 - P(A)$ et additionner les probabilités d’événements incompatibles.
+4. Utiliser $P(\text{non } A) = 1 - P(A)$ et additionner les probabilités d’événements incompatibles ; utiliser les notations $\overline{A}$, $A \cap B$, $A \cup B$, $\varnothing$ (4e) et la formule $P(A \cup B) + P(A \cap B) = P(A) + P(B)$ (3e).
 5. Traiter une expérience à **deux épreuves** avec un **arbre** ou un **tableau à double entrée**, avec ou sans remise.
-6. Relier **fréquence** observée et probabilité, et estimer une probabilité par simulation.
+6. Relier **fréquence** observée et probabilité, observer la **fluctuation** des fréquences, et estimer une probabilité par simulation.
 
 > **Prérequis.** Simplifier, additionner et multiplier des fractions (chapitre 1, § 2, 4 et 5) ; pourcentages (chapitre 5, § 4) ; fréquences (chapitre 16, § 1).
 
@@ -119,6 +119,42 @@ Sur une roue bien équilibrée, la probabilité de s’arrêter sur un secteur e
 > c) Les événements ne sont **pas** incompatibles : on compte les cartes. $8$ cœurs, plus les $3$ rois qui ne sont pas des cœurs : $11$ cartes. $P = \dfrac{11}{32}$.
 
 **Contrôle.** En additionnant $\dfrac{8}{32} + \dfrac{4}{32}$ au c), on compterait deux fois le roi de cœur.
+
+### 3.1 Le langage des ensembles [[Programme 2026 · 4e]]
+
+On peut décrire une expérience aléatoire avec des **ensembles** : l’ensemble de toutes les issues est souvent noté $\Omega$ (« oméga »), et un événement est l’ensemble des issues qui le réalisent. Pour un dé : $\Omega = \{1\,;2\,;3\,;4\,;5\,;6\}$, et l’événement $A$ « obtenir un nombre pair » s’écrit $A = \{2\,;4\,;6\}$.
+
+> **Définition.** $A$ et $B$ sont deux événements.
+> - Le **complémentaire** de $A$, noté $\overline{A}$, est formé des issues qui ne sont **pas** dans $A$ : c’est l’événement contraire « non $A$ ».
+> - L’**intersection** $A \cap B$ (« $A$ inter $B$ ») est formée des issues qui sont **à la fois** dans $A$ et dans $B$ : c’est l’événement « $A$ **et** $B$ ».
+> - La **réunion** $A \cup B$ (« $A$ union $B$ ») est formée des issues qui sont dans $A$, dans $B$, **ou dans les deux** : c’est l’événement « $A$ **ou** $B$ ».
+> - L’**ensemble vide**, noté $\varnothing$, ne contient aucune issue : c’est l’événement **impossible**. $A$ et $B$ sont incompatibles quand $A \cap B = \varnothing$.
+
+![Lancer d’un dé, A « nombre pair » = {2 ; 4 ; 6} et B « au moins 4 » = {4 ; 5 ; 6} : l’intersection A ∩ B = {4 ; 6}, la réunion A ∪ B = {2 ; 4 ; 5 ; 6}, le complémentaire de A = {1 ; 3 ; 5}](figures/ensembles.svg)
+
+Avec le dé : $A \cap B = \{4\,;6\}$, $A \cup B = \{2\,;4\,;5\,;6\}$, $\overline{A} = \{1\,;3\,;5\}$. En mathématiques, « ou » est **inclusif** : les issues $4$ et $6$, qui sont dans $A$ et dans $B$, sont aussi dans $A \cup B$.
+
+> **Erreur fréquente.** Confondre $\cap$ et $\cup$. Moyen mnémotechnique : $\cup$ ressemble à un **U**, comme **U**nion (réunion) ; l’intersection est la partie commune, plus petite.
+
+### 3.2 Probabilité d’une réunion [[Programme 2026 · 3e]]
+
+> **Propriété.** Pour deux événements $A$ et $B$ quelconques :
+>
+> $$P(A \cup B) + P(A \cap B) = P(A) + P(B)$$
+>
+> Autrement dit : $P(A \cup B) = P(A) + P(B) - P(A \cap B)$.
+
+**Pourquoi.** Dans $P(A) + P(B)$, les issues de $A \cap B$ sont comptées **deux fois** (une fois dans $A$, une fois dans $B$) ; dans $P(A \cup B)$, elles ne le sont qu’une fois. Avec le dé : $P(A) + P(B) = \dfrac{3}{6} + \dfrac{3}{6} = 1$ et $P(A \cup B) + P(A \cap B) = \dfrac{4}{6} + \dfrac{2}{6} = 1$. Si $A$ et $B$ sont incompatibles, $P(A \cap B) = 0$ et on retrouve $P(A \cup B) = P(A) + P(B)$.
+
+**Exemple guidé 4 bis.** Dans une classe de $30$ élèves, $18$ pratiquent un sport ($S$), $12$ jouent d’un instrument ($M$) et $7$ font les deux. On choisit un élève au hasard. Calculer $P(S \cup M)$, puis la probabilité que l’élève ne fasse ni sport ni musique.
+
+**Rédaction.**
+
+> Les $30$ élèves ont la même chance d’être choisis : $P(S) = \dfrac{18}{30}$, $P(M) = \dfrac{12}{30}$, $P(S \cap M) = \dfrac{7}{30}$.  
+> $P(S \cup M) = P(S) + P(M) - P(S \cap M) = \dfrac{18 + 12 - 7}{30} = \dfrac{23}{30}$.  
+> « Ni sport ni musique » est le contraire de $S \cup M$ : $P = 1 - \dfrac{23}{30} = \dfrac{7}{30}$.
+
+**Contrôle.** $18 - 7 = 11$ élèves font seulement du sport, $12 - 7 = 5$ seulement de la musique, $7$ les deux : $11 + 5 + 7 = 23$ élèves sur $30$ ✓.
 
 ---
 
@@ -230,6 +266,10 @@ Cela permet :
 
 **Contrôle.** On ne peut pas calculer cette probabilité par « cas favorables sur cas possibles » : les deux positions ne sont pas équiprobables.
 
+> **À retenir — fluctuation des fréquences.** [[Programme 2026 · 4e]] Si l’on répète **plusieurs fois** une série d’un **même nombre** d’expériences, on n’obtient pas la même fréquence à chaque fois : la fréquence **fluctue** d’une série à l’autre. Plus les séries sont longues, plus les fréquences obtenues sont resserrées autour de la probabilité.
+
+Par exemple, cinq élèves lancent chacun $50$ fois une pièce équilibrée et notent le nombre de piles : $23$ ; $28$ ; $25$ ; $21$ ; $27$. Les fréquences de pile sont $0{,}46$ ; $0{,}56$ ; $0{,}50$ ; $0{,}42$ ; $0{,}54$ : elles **varient** d’un élève à l’autre, autour de $0{,}5$. Aucun élève ne s’est « trompé » : c’est le hasard. En regroupant les $250$ lancers ($124$ piles), la fréquence $\dfrac{124}{250} = 0{,}496$ est plus proche de $0{,}5$.
+
 > **Erreur fréquente.** Croire que le hasard « compense ». Après cinq piles de suite, la probabilité d’obtenir face au lancer suivant est toujours $\dfrac{1}{2}$ : la pièce n’a pas de mémoire.
 
 ---
@@ -241,10 +281,11 @@ Cela permet :
 > - Équiprobabilité : $P(A) = \dfrac{\text{issues favorables}}{\text{issues possibles}}$ ; compter des **objets** équiprobables (boules, cartes, cases), pas des catégories.
 > - Roue : $P = \dfrac{\text{angle}}{360^\circ}$.
 > - $P(\text{non } A) = 1 - P(A)$ ; incompatibles : $P(A \text{ ou } B) = P(A) + P(B)$.
+> - Ensembles (4e) : $\overline{A}$ (contraire), $A \cap B$ (« et »), $A \cup B$ (« ou »), $\varnothing$ (impossible). Formule (3e) : $P(A \cup B) + P(A \cap B) = P(A) + P(B)$.
 > - Arbre : produit sur un chemin, somme des chemins ; sans remise, le deuxième niveau change.
 > - Deux dés : tableau de $36$ cases équiprobables.
 > - « Au moins un » : $1 - P(\text{aucun})$.
-> - Fréquence $\approx$ probabilité sur un grand nombre d’essais.
+> - Fréquence $\approx$ probabilité sur un grand nombre d’essais ; sur des séries de même taille, la fréquence fluctue.
 
 ---
 
@@ -294,6 +335,12 @@ a) Calculer $P(6)$. b) Calculer $P(\text{pair})$.
 
 **C4.** ★★ Peut-on avoir deux événements incompatibles $A$ et $B$ avec $P(A) = 0{,}6$ et $P(B) = 0{,}5$ ? Justifier.
 
+**C5.** [[Programme 2026 · 4e]] On tire une carte au hasard parmi dix cartes numérotées de $1$ à $10$. $A$ : « le numéro est pair » ; $B$ : « le numéro est un multiple de $3$ ». Écrire avec des accolades : $A$, $B$, $\overline{A}$, $A \cap B$, $A \cup B$. Puis donner $P(A \cap B)$ et $P(A \cup B)$.
+
+**C6.** [[Programme 2026 · 3e]] $P(A) = 0{,}5$, $P(B) = 0{,}4$ et $P(A \cap B) = 0{,}15$. Calculer $P(A \cup B)$ et $P(\overline{A \cup B})$.
+
+**C7.** ★★ [[Programme 2026 · 3e]] Jeu de $32$ cartes. Retrouver le résultat de l’exemple guidé 4 c) avec la formule $P(A \cup B) + P(A \cap B) = P(A) + P(B)$, pour $A$ « cœur » et $B$ « roi ».
+
 ### D. Deux épreuves (★★)
 
 **D1.** On lance deux pièces équilibrées. Construire l’arbre, puis calculer : a) $P(\text{deux faces})$ ; b) $P(\text{au moins un pile})$.
@@ -315,6 +362,8 @@ a) Calculer $P(6)$. b) Calculer $P(\text{pair})$.
 **E3.** Dans un tableur, que fait la formule `=ALEA.ENTRE.BORNES(1;6)` ? Comment simuler $500$ lancers d’un dé et calculer la fréquence du $6$ ?
 
 **E4.** ★★ Une punaise est lancée $1\,000$ fois ; elle tombe $613$ fois pointe en haut. a) Estimer la probabilité de « pointe en bas ». b) Pourquoi ne peut-on pas dire que cette probabilité vaut $\dfrac{1}{2}$ ?
+
+**E5.** [[Programme 2026 · 4e]] Quatre groupes lancent chacun $60$ fois un dé équilibré et comptent les $6$ obtenus : $8$ ; $13$ ; $10$ ; $6$. a) Calculer la fréquence du $6$ pour chaque groupe (arrondir au centième). b) Les fréquences sont différentes : un groupe a-t-il forcément mal compté ? c) Calculer la fréquence du $6$ sur l’ensemble des lancers et la comparer à $\dfrac{1}{6} \approx 0{,}17$.
 
 ---
 
@@ -406,6 +455,12 @@ a) Calculer $P(6)$. b) Calculer $P(\text{pair})$.
 
 **C4.** Non : on aurait $P(A \text{ ou } B) = 0{,}6 + 0{,}5 = 1{,}1 > 1$, impossible pour une probabilité.
 
+**C5.** $A = \{2\,;4\,;6\,;8\,;10\}$ ; $B = \{3\,;6\,;9\}$ ; $\overline{A} = \{1\,;3\,;5\,;7\,;9\}$ ; $A \cap B = \{6\}$ ; $A \cup B = \{2\,;3\,;4\,;6\,;8\,;9\,;10\}$. Les $10$ cartes sont équiprobables : $P(A \cap B) = \dfrac{1}{10}$ et $P(A \cup B) = \dfrac{7}{10}$.
+
+**C6.** $P(A \cup B) = 0{,}5 + 0{,}4 - 0{,}15 = 0{,}75$ ; $P(\overline{A \cup B}) = 1 - 0{,}75 = 0{,}25$.
+
+**C7.** $P(A) = \dfrac{8}{32}$, $P(B) = \dfrac{4}{32}$ et $A \cap B$ = « roi de cœur », $P(A \cap B) = \dfrac{1}{32}$. Donc $P(A \cup B) = \dfrac{8 + 4 - 1}{32} = \dfrac{11}{32}$ : c’est bien le résultat obtenu en comptant les cartes.
+
 **D1.** a) Chemin FF : $\dfrac{1}{4}$. b) Contraire de « deux faces » : $1 - \dfrac{1}{4} = \dfrac{3}{4}$.
 
 **D2.** a) $\dfrac{4}{10} \times \dfrac{4}{10} = \dfrac{16}{100} = \dfrac{4}{25}$. b) $\dfrac{16}{100} + \dfrac{6}{10} \times \dfrac{6}{10} = \dfrac{16 + 36}{100} = \dfrac{52}{100} = \dfrac{13}{25}$.
@@ -428,6 +483,8 @@ a) Calculer $P(6)$. b) Calculer $P(\text{pair})$.
 **E4. (modèle)**
 > a) La fréquence de « pointe en haut » est $0{,}613$, donc celle de « pointe en bas » est $1 - 0{,}613 = 0{,}387$. Sur $1\,000$ lancers, on peut estimer $P(\text{pointe en bas}) \approx 0{,}39$.  
 > b) Deux positions possibles ne signifient pas deux issues équiprobables : la forme de la punaise favorise l’une des positions, et l’expérience le montre.
+
+**E5.** a) $\dfrac{8}{60} \approx 0{,}13$ ; $\dfrac{13}{60} \approx 0{,}22$ ; $\dfrac{10}{60} \approx 0{,}17$ ; $\dfrac{6}{60} = 0{,}10$. b) Non : sur $60$ lancers, la fréquence fluctue naturellement d’une série à l’autre. c) $8 + 13 + 10 + 6 = 37$ six sur $240$ lancers : $\dfrac{37}{240} \approx 0{,}15$, assez proche de $\dfrac{1}{6} \approx 0{,}17$ ; avec beaucoup plus de lancers, la fréquence aurait tendance à se stabiliser autour de $\dfrac{1}{6}$.
 
 ### Exercices atypiques
 
@@ -491,6 +548,8 @@ a) Calculer $P(6)$. b) Calculer $P(\text{pair})$.
 | Utiliser le vocabulaire | issue, événement, contraire, incompatibles | contraire de « obtenir $6$ » : obtenir $1$, $2$, $3$, $4$ ou $5$ | série A |
 | Calculer une probabilité | équiprobabilité : issues favorables $\div$ issues possibles (compter des objets) | $3$ rouges sur $10$ boules : $0{,}3$ | série B |
 | Contraire, incompatibles | $1 - P(A)$ ; $P(A) + P(B)$ si incompatibles | $P(\text{pas d’as}) = 1 - \dfrac{4}{32} = \dfrac{7}{8}$ | série C |
+| Notations des ensembles [[Programme 2026 · 4e]] | $\overline{A}$ : non $A$ ; $A \cap B$ : $A$ et $B$ ; $A \cup B$ : $A$ ou $B$ ; $\varnothing$ : impossible | dé : pair $\cap$ « au moins 4 » $= \{4\,;6\}$ | série C |
+| Probabilité d’une réunion [[Programme 2026 · 3e]] | $P(A \cup B) = P(A) + P(B) - P(A \cap B)$ | $0{,}5 + 0{,}4 - 0{,}15 = 0{,}75$ | série C |
 | Deux épreuves | arbre (produit sur un chemin, somme des chemins) ou tableau | sans remise : $\dfrac{4}{10} \times \dfrac{3}{9} = \dfrac{2}{15}$ | série D |
 | « Au moins un » | $1 - P(\text{aucun})$ | deux dés, au moins un $6$ : $1 - \dfrac{25}{36} = \dfrac{11}{36}$ | séries D et G |
 | Relier fréquence et probabilité | sur beaucoup d’essais, la fréquence se stabilise | $613$ fois sur $1\,000$ : $P \approx 0{,}61$ | série E |
