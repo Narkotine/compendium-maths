@@ -165,9 +165,19 @@ Le sommet de l’angle droit est **en face du plus grand côté**.
 | | On sait… | On veut… | Outil |
 |---|---|---|---|
 | Cas 1 | le triangle est rectangle | calculer une longueur | Théorème de Pythagore |
-| Cas 2 | les trois longueurs | savoir s’il est rectangle | Réciproque (ou sa conséquence ci-dessous) |
+| Cas 2 | les trois longueurs | savoir s’il est rectangle | Réciproque (égalité vraie) ou contraposée (égalité fausse) |
 
-**Et si l’égalité est fausse ?** Si $BC^2 \neq AB^2 + AC^2$ (avec $[BC]$ le plus grand côté), alors le triangle **n’est pas** rectangle. En effet, s’il l’était, le théorème de Pythagore donnerait l’égalité.
+**Et si l’égalité est fausse ?** On utilise alors la **contraposée** du théorème.
+
+> **Contraposée du théorème de Pythagore.** [[Programme 2026 · 4e]] Si, dans un triangle $ABC$, $BC^2 \neq AB^2 + AC^2$, alors le triangle $ABC$ **n’est pas** rectangle en $A$.
+
+Comme l’hypoténuse est toujours le plus grand côté, il suffit de tester le **plus grand côté** : si $[BC]$ est le plus grand côté et $BC^2 \neq AB^2 + AC^2$, le triangle n’est rectangle en **aucun** sommet.
+
+> **Pourquoi — théorème, réciproque, contraposée.** [[Programme 2026 · 4e]] Un théorème s’écrit « si **P**, alors **Q** ». Ici, **P** : « $ABC$ est rectangle en $A$ » ; **Q** : « $BC^2 = AB^2 + AC^2$ ».
+> - La **réciproque** échange les rôles : « si **Q**, alors **P** ». Elle peut être vraie ou fausse : il faut la démontrer à part (pour Pythagore, elle est vraie).
+> - La **contraposée** s’écrit « si **non Q**, alors **non P** ». Elle est **toujours vraie** quand le théorème est vrai : si $ABC$ était rectangle en $A$, le théorème donnerait l’égalité ; comme l’égalité est fausse, $ABC$ n’est pas rectangle en $A$.
+>
+> Exemple hors des maths : « s’il pleut, alors le sol est mouillé ». Contraposée (vraie) : « si le sol n’est pas mouillé, alors il ne pleut pas ». Réciproque (fausse) : « si le sol est mouillé, alors il pleut » (on a pu l’arroser).
 
 ![Organigramme : théorème de Pythagore ou réciproque ?](figures/quel-outil.svg)
 
@@ -179,8 +189,8 @@ Le sommet de l’angle droit est **en face du plus grand côté**.
 > 2. Calculer **son carré** d’un côté.
 > 3. Calculer **la somme des carrés** des deux autres côtés, de l’autre côté.
 > 4. **Comparer** les deux résultats et conclure :
->    - égaux → le triangle est rectangle, l’angle droit est face au plus grand côté ;
->    - différents → le triangle n’est pas rectangle.
+>    - égaux → d’après la réciproque, le triangle est rectangle, l’angle droit est face au plus grand côté ;
+>    - différents → d’après la contraposée, le triangle n’est pas rectangle.
 
 ### 4.3 Exemple guidé 4 — le triangle est rectangle
 
@@ -204,7 +214,7 @@ Le sommet de l’angle droit est **en face du plus grand côté**.
 > D’une part : $EF^2 = 9^2 = 81$.  
 > D’autre part : $DE^2 + DF^2 = 6^2 + 7^2 = 36 + 49 = 85$.
 >
-> On constate que $EF^2 \neq DE^2 + DF^2$. Le triangle $DEF$ n’est donc pas rectangle (s’il l’était, d’après le théorème de Pythagore, on aurait l’égalité).
+> On constate que $EF^2 \neq DE^2 + DF^2$. D’après la contraposée du théorème de Pythagore, le triangle $DEF$ n’est pas rectangle (s’il l’était, d’après le théorème de Pythagore, on aurait l’égalité).
 
 ### 4.5 Erreurs fréquentes
 
@@ -297,6 +307,7 @@ Formule générale (vue au lycée) : $AB^2 = (x_B - x_A)^2 + (y_B - y_A)^2$. Un 
 > - **Théorème** (on sait que c’est rectangle → on calcule une longueur) : hypoténuse² = côté² + côté².
 > - On cherche l’hypoténuse → on **additionne** ; on cherche un autre côté → on **soustrait**. Puis on prend la **racine carrée**.
 > - **Réciproque** (on connaît les 3 côtés → rectangle ou pas ?) : carré du plus grand côté d’une part, somme des deux autres carrés d’autre part, puis on compare.
+> - Égalité fausse → **contraposée** : le triangle n’est pas rectangle. Une contraposée est vraie dès que le théorème l’est ; une réciproque doit être démontrée à part.
 > - Dans un problème : schéma, angle droit, triangle nommé, puis méthode.
 > - Triplets utiles : $3$-$4$-$5$ ; $5$-$12$-$13$ ; $8$-$15$-$17$ ; $7$-$24$-$25$, et leurs multiples ($6$-$8$-$10$, $9$-$12$-$15$…).
 
@@ -398,6 +409,10 @@ b) Trouver un triangle rectangle à côtés entiers dont l’hypoténuse mesure 
 a) Calculer $a$, $b$, $c$ pour $n = 2$, $n = 3$, $n = 4$, et vérifier que $c^2 = a^2 + b^2$.  
 b) Démontrer que c’est vrai pour tout $n$, en développant $a^2 + b^2$ et $c^2$.
 
+**G5.** [[Programme 2026 · 4e]] a) On considère la propriété vraie : « Si un triangle est équilatéral, alors ses trois angles mesurent $60^\circ$. » Écrire sa réciproque et sa contraposée. Sont-elles vraies ?  
+b) Même question avec la propriété vraie : « Si un nombre entier se termine par $5$, alors il est divisible par $5$. »  
+c) Rédiger avec la contraposée du théorème de Pythagore : le triangle $RST$ tel que $RS = 5$, $ST = 6$ et $RT = 8$ (en cm) est-il rectangle ?
+
 ### H. Plusieurs étapes (★★★)
 
 **H1.** $ABCD$ est un quadrilatère. Le triangle $ABC$ est rectangle en $B$, avec $AB = 6\,\mathrm{cm}$ et $BC = 8\,\mathrm{cm}$. Le triangle $ACD$ est rectangle en $C$, avec $CD = 24\,\mathrm{cm}$. Calculer $AD$.
@@ -473,7 +488,7 @@ c) Hypoténuse $[RT]$ : $RT^2 = RS^2 + ST^2$.
 > Le plus grand côté est $[DF]$.  
 > D’une part : $DF^2 = 11^2 = 121$.  
 > D’autre part : $DE^2 + EF^2 = 7^2 + 9^2 = 49 + 81 = 130$.  
-> On constate que $DF^2 \neq DE^2 + EF^2$. Le triangle $DEF$ n’est donc pas rectangle (sinon, d’après le théorème de Pythagore, on aurait l’égalité).
+> On constate que $DF^2 \neq DE^2 + EF^2$. D’après la contraposée du théorème de Pythagore, le triangle $DEF$ n’est pas rectangle.
 
 **C3.** Plus grand côté $[GI]$ : $GI^2 = 28{,}09$ et $GH^2 + HI^2 = 7{,}84 + 20{,}25 = 28{,}09$. Égalité : rectangle en $H$.
 
@@ -525,6 +540,10 @@ b) $26 = 2 \times 13$ : on double $5$-$12$-$13$, ce qui donne $10$-$24$-$26$. V�
 b) $a^2 + b^2 = (n^2 - 1)^2 + (2n)^2 = n^4 - 2n^2 + 1 + 4n^2 = n^4 + 2n^2 + 1$.  
 Et $c^2 = (n^2 + 1)^2 = n^4 + 2n^2 + 1$. Les deux sont égaux : c’est vrai pour tout $n$.
 
+**G5.** a) Réciproque : « Si les trois angles d’un triangle mesurent $60^\circ$, alors il est équilatéral. » Vraie : ses angles sont égaux deux à deux, donc il est isocèle en chacun de ses sommets, et ses trois côtés sont égaux. Contraposée : « Si les angles d’un triangle ne mesurent pas tous $60^\circ$, alors il n’est pas équilatéral. » Vraie, comme toute contraposée d’une propriété vraie.  
+b) Réciproque : « Si un entier est divisible par $5$, alors il se termine par $5$. » Fausse : $10$ est divisible par $5$ et se termine par $0$. Contraposée : « Si un entier n’est pas divisible par $5$, alors il ne se termine pas par $5$. » Vraie.  
+c) Le plus grand côté est $[RT]$. D’une part : $RT^2 = 8^2 = 64$. D’autre part : $RS^2 + ST^2 = 25 + 36 = 61$. On constate que $RT^2 \neq RS^2 + ST^2$. D’après la contraposée du théorème de Pythagore, le triangle $RST$ n’est pas rectangle.
+
 **H1.** Dans $ABC$ rectangle en $B$ : $AC^2 = 36 + 64 = 100$, donc $AC = 10$. Dans $ACD$ rectangle en $C$ : $AD^2 = AC^2 + CD^2 = 100 + 576 = 676$, donc $AD = 26\,\mathrm{cm}$.
 
 **H2.** a) Plus grand côté $25$ : $25^2 = 625$ et $7^2 + 24^2 = 49 + 576 = 625$. Égalité : rectangle (angle droit entre les côtés $7$ et $24$).  
@@ -567,7 +586,7 @@ c) Avec l’hypoténuse comme base : $\dfrac{25 \times h}{2} = 84$, donc $h = \d
 | Repérer l’hypoténuse | côté face à l’angle droit, le plus long | $ABC$ rectangle en $A$ : hypoténuse $[BC]$ | série A |
 | Calculer l’hypoténuse | additionner les carrés, puis prendre la racine carrée | côtés $3$ et $4$ : $\sqrt{9 + 16} = 5$ | série B |
 | Calculer un côté de l’angle droit | soustraire les carrés, puis prendre la racine carrée | hypoténuse $13$, côté $5$ : $\sqrt{169 - 25} = 12$ | série B |
-| Rectangle ou pas ? | carré du plus grand côté d’une part, somme des deux autres carrés d’autre part | $6$, $8$, $10$ : $100 = 36 + 64$, rectangle | série C |
+| Rectangle ou pas ? | carré du plus grand côté d’une part, somme des deux autres carrés d’autre part ; égalité : réciproque, sinon contraposée [[Programme 2026 · 4e]] | $6$, $8$, $10$ : $100 = 36 + 64$, rectangle | série C |
 | Trouver le triangle rectangle caché | diagonale, hauteur, échelle contre un mur… | rectangle de $5$ sur $12$ : diagonale $13$ | séries D et E |
 
 **Pièges à éviter :** $\sqrt{9 + 16} = 5$, pas $3 + 4$ ; quand on cherche un côté de l’angle droit, on soustrait ; on arrondit seulement à la fin.

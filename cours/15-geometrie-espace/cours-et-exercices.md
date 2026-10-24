@@ -223,7 +223,7 @@ Couper un solide d’un seul coup de scie droit, c’est le couper par un **plan
 
 Pour trouver les dimensions qui manquent, on cherche souvent un triangle rectangle : c’est Pythagore (chapitre 11). Par exemple, si on coupe un pavé de $6\,\mathrm{cm}$ sur $4\,\mathrm{cm}$ sur $5\,\mathrm{cm}$ en suivant une diagonale du dessous, la section est un rectangle dont un côté est la diagonale $\sqrt{6^2 + 4^2} = \sqrt{52} \approx 7{,}2\,\mathrm{cm}$ et l’autre la hauteur $5\,\mathrm{cm}$.
 
-### 5.2 Pyramide et cône : une réduction de la base
+### 5.2 Pyramide et cône : une réduction de la base [[Programme 2020]]
 
 ![Section d’une pyramide et d’un cône par un plan parallèle à la base : une réduction de la base](figures/section-pyramide-cone.svg)
 
@@ -271,7 +271,7 @@ Même raisonnement pour le cône de la figure : hauteur $10\,\mathrm{cm}$, coupe
 
 ---
 
-## 6. Se repérer dans l’espace
+## 6. Se repérer dans l’espace [[Programme 2020]]
 
 ### 6.1 Dans un pavé droit
 
@@ -393,13 +393,13 @@ On assimile la Terre à une sphère. L’**équateur** est le grand cercle à é
 
 **E3.** Un cylindre a pour rayon $3\,\mathrm{cm}$ et pour hauteur $8\,\mathrm{cm}$. a) Section par un plan perpendiculaire à l’axe : nature et aire ? b) Section par un plan qui contient l’axe : nature et dimensions ?
 
-**E4.** Une pyramide a pour base un carré de côté $8\,\mathrm{cm}$ et pour hauteur $12\,\mathrm{cm}$. On la coupe par un plan parallèle à la base, à $3\,\mathrm{cm}$ du sommet. Calculer le côté et l’aire de la section.
+**E4.** [[Programme 2020]] Une pyramide a pour base un carré de côté $8\,\mathrm{cm}$ et pour hauteur $12\,\mathrm{cm}$. On la coupe par un plan parallèle à la base, à $3\,\mathrm{cm}$ du sommet. Calculer le côté et l’aire de la section.
 
 **E5.** (★★) Une boule de centre $O$ a pour rayon $13\,\mathrm{cm}$. On la coupe par un plan situé à $5\,\mathrm{cm}$ de $O$. Calculer le rayon de la section, puis son aire.
 
 **E6.** (★★) On coupe une sphère de rayon $10\,\mathrm{cm}$ par un plan : la section est un cercle de rayon $8\,\mathrm{cm}$. À quelle distance du centre se trouve le plan ?
 
-### F. Repérage (★ → ★★)
+### F. Repérage (★ → ★★) [[Programme 2020]]
 
 **F1.** Dans le pavé du § 6.1 ($A$ origine, $AB = 4$, $AD = 3$, $AE = 2$) : a) donner les coordonnées du milieu $I$ de $[AB]$ ; b) du milieu $J$ de $[EH]$ ; c) quel sommet a pour coordonnées $(4\,;3\,;0)$ ? d) donner les coordonnées du centre $K$ de la face $BCGF$.
 
@@ -421,9 +421,9 @@ On assimile la Terre à une sphère. L’**équateur** est le grand cercle à é
 
 **G2.** Sur un dessin en perspective cavalière (coefficient $0{,}5$), Emma mesure une fuyante d’un cube : $3\,\mathrm{cm}$. Elle écrit : « L’arête du cube mesure $3\,\mathrm{cm}$. Et la face de droite n’est pas un carré, puisque ses angles mesurent $45^\circ$ et $135^\circ$. » Corriger ses deux affirmations.
 
-**G3.** Yanis affirme : « Quand on coupe un cône par un plan parallèle à sa base, on obtient un triangle. » Qu’en penser ? Dans quel cas obtient-on un triangle ?
+**G3.** [[Programme 2020]] Yanis affirme : « Quand on coupe un cône par un plan parallèle à sa base, on obtient un triangle. » Qu’en penser ? Dans quel cas obtient-on un triangle ?
 
-**G4.** Une pyramide a pour base un carré de côté $6\,\mathrm{cm}$. Léa la coupe à mi-hauteur par un plan parallèle à la base et écrit : « L’aire de la section est la moitié de l’aire de la base, soit $18\,\mathrm{cm}^2$. » Trouver l’erreur.
+**G4.** [[Programme 2020]] Une pyramide a pour base un carré de côté $6\,\mathrm{cm}$. Léa la coupe à mi-hauteur par un plan parallèle à la base et écrit : « L’aire de la section est la moitié de l’aire de la base, soit $18\,\mathrm{cm}^2$. » Trouver l’erreur.
 
 ### H. Comprendre et raisonner (★★ → ★★★)
 
@@ -441,7 +441,7 @@ On assimile la Terre à une sphère. L’**équateur** est le grand cercle à é
 
 **I2.** Un cône a pour rayon de base $6\,\mathrm{cm}$ et pour hauteur $8\,\mathrm{cm}$. a) Calculer sa génératrice $g$. b) Calculer la longueur de l’arc du secteur de son patron. c) Calculer l’angle de ce secteur.
 
-**I3.** Une pyramide a pour base un carré de côté $9\,\mathrm{cm}$ et pour hauteur $12\,\mathrm{cm}$. On la coupe par un plan parallèle à la base, à $4\,\mathrm{cm}$ du sommet. a) Donner le coefficient de réduction et les dimensions de la petite pyramide. b) Calculer le volume de la grande et de la petite pyramide (rappel : $V = \dfrac{\text{aire de la base} \times \text{hauteur}}{3}$, chapitre 14). c) En déduire le volume du tronc de pyramide restant.
+**I3.** [[Programme 2020]] Une pyramide a pour base un carré de côté $9\,\mathrm{cm}$ et pour hauteur $12\,\mathrm{cm}$. On la coupe par un plan parallèle à la base, à $4\,\mathrm{cm}$ du sommet. a) Donner le coefficient de réduction et les dimensions de la petite pyramide. b) Calculer le volume de la grande et de la petite pyramide (rappel : $V = \dfrac{\text{aire de la base} \times \text{hauteur}}{3}$, chapitre 14). c) En déduire le volume du tronc de pyramide restant.
 
 **I4.** (avec le chapitre 13) Le tour de la Terre en suivant l’équateur mesure $40\,000\,\mathrm{km}$. On considère le parallèle de latitude $60^\circ$ N. a) Faire un schéma en coupe : le centre $O$ de la Terre, un point $M$ du parallèle et le centre $H$ de ce parallèle. b) Montrer que le rayon du parallèle est la moitié du rayon de la Terre. c) En déduire la longueur du parallèle.
 
@@ -615,7 +615,7 @@ b) **(modèle)**
 | Reconnaître un patron | plier mentalement ; dans une rangée, deux carrés séparés par un carré sont opposés | une rangée de $5$ carrés n’est jamais un patron de cube | série C |
 | Lire des vues | plan coté : somme des hauteurs ; vue de face : la plus haute pile de chaque colonne | plan coté $3$, $1$, $2$, $1$ : $3+1+2+1=7$ cubes | série D |
 | Trouver une section | pavé : rectangle ; pyramide : réduction de la base ; sphère : cercle (Pythagore) | sphère de rayon $5$, plan à $3$ du centre : rayon $4$ | série E |
-| Repérer un point | $(x\,;y\,;z)$ dans un pavé ; latitude et longitude sur la Terre | milieu de $[BF]$ : $(4\,;0\,;1)$ | série F |
+| Repérer un point [[Programme 2020]] | $(x\,;y\,;z)$ dans un pavé ; latitude et longitude sur la Terre | milieu de $[BF]$ : $(4\,;0\,;1)$ | série F |
 
 **Pièges à éviter :** en perspective cavalière, seule la face avant est en vraie grandeur ; le rectangle du patron d’un cylindre mesure $2\pi R$ ; la sphère est la surface, la boule le solide plein.
 

@@ -22,11 +22,12 @@
    - ✅ 13 : passages en anglais (« Mnemonic », « Opposite/Hyp », « complementary angles »). ✅ 15 : « Prisme triangular ».
    - ✅ 05 A1/A2 et 08 B1 : tableaux sans ligne d’en-tête (non rendus en HTML). ✅ 10 § 6 : `|k|` dans un tableau (casse les colonnes).
    - ✅ 12 § 1.2 : paragraphe confus sur $\frac{AD}{DB}=\frac{AE}{EC}$ ; § 2.1 : condition de la réciproque mal dite (il faut des points **alignés dans le même ordre**, pas « du même côté ») → chapitre réécrit en v0.2.
-   - ✅ 16 et 17 : « Lycée » avec majuscule ; 17 utilisait $\Omega$, $\mathrm{Card}$, $\cup$, $\cap$ et une probabilité conditionnelle, notations de lycée → retirées en v0.2 (« $A$ ou $B$ », « non $A$ », comptage).
+   - ✅ 16 et 17 : « Lycée » avec majuscule ; 17 utilisait $\Omega$, $\mathrm{Card}$, $\cup$, $\cap$ et une probabilité conditionnelle, notations de lycée → retirées en v0.2 (« $A$ ou $B$ », « non $A$ », comptage). **v0.11 :** le programme 2026 introduit $\cup$, $\cap$, $\overline{A}$ en 4e et $P(A \cup B)$ en 3e → réintroduits en 17 § 3.1–3.2 avec la pastille « Programme 2026 » ($\mathrm{Card}$ et conditionnelle restent hors collège).
 5. **Calibrage programme.** En octobre 2026, les **4e et 3e suivent encore le programme de 2020** (BO n° 31 du 30 juillet 2020). Un **nouveau programme de cycle 4** (BO du 5 mars 2026) s’applique en 5e à la rentrée 2026, en 4e en 2027, en 3e en 2028. Conséquences :
-   - contenus présentés comme du cours alors qu’ils sont hors programme 2020 : systèmes $2\times2$ et inéquations (07), angle inscrit (09), $\cos^2+\sin^2=1$ et valeurs exactes (13), notations ensemblistes (17) → à garder, mais étiquetés **★★★ « Pour aller plus loin »** ;
+   - contenus présentés comme du cours alors qu’ils sont hors programme 2020 : systèmes $2\times2$ et inéquations générales (07), angle inscrit (09), $\cos^2+\sin^2=1$ et valeurs exactes (13), notations ensemblistes (17) → à garder, mais étiquetés **★★★ « Pour aller plus loin »** ;
+   - inéquations (07) : absentes du programme 2020, elles **reviennent en 3e** dans le programme 2026 (BO n° 10 du 5 mars 2026, en 3e à la rentrée 2028) : « Résoudre analytiquement et graphiquement une inéquation du premier degré du type $ax \geqslant b$ » (calcul littéral) et « Résoudre graphiquement des équations et des inéquations linéaires » (fonctions). Les **inéquations générales** et les **systèmes** restent hors programme du collège ;
    - notions absentes : **racine carrée** (utilisée en 11, 13, 14 mais jamais définie — rappel provisoire ajouté en 11 § 1), **nombres premiers et décomposition** (02), **triangles semblables / égaux** (09 ou 12), **repérage** dans le plan, dans le pavé et sur la sphère (latitude, longitude), **sections** de cylindre, cône, pyramide (15), **programmes de calcul** comme outil de preuve (06), lecture graphique de fonctions (08) ;
-   - action : lire le programme 2026 (20 pages, éduscol) avant la vague 3 et noter ajouts et suppressions par chapitre.
+   - ✅ action : lire le programme 2026 (20 pages, éduscol) avant la vague 3 et noter ajouts et suppressions par chapitre — programme lu en entier le 20 octobre 2026 (annexe 2 du BO n° 10 du 5 mars 2026) ; ✅ ajouts et suppressions reportés dans les chapitres en **v0.11** (24 octobre 2026, § 11).
 6. **Forme.** Apostrophes droites `'` dans 09–17, typographiques `’` dans 01–08. « € » placé dans les formules ($120\,€$) : KaTeX le rend mal (avertissement de police).
 7. **Build — ✅ corrigé le 7 octobre 2026** (sauvegarde : `compendium-build/build-compendium.js.bak`).
    - Règle `$...$` en ligne ajoutée **après** `$$...$$` et **avant** `marked`. Les `\$` échappés sont protégés avant tout traitement et rendus comme un « $ » littéral ; les montants en € restent dans des formules normales (avertissement de police KaTeX, sans effet sur le rendu).
@@ -45,7 +46,7 @@ Lignes = total du fichier (cours seul entre parenthèses). Densité du cours : 1
 |---|---|---|---|---|---|---|---|---|
 | 01 | Fractions | ~~396 (224)~~ → **475** | 42 | **100 %** | **7** | ~~3~~ → **4–5** | **v0.2 fait** (vague 4) : barres de partage (3/8, 7/4), demi-droite en quarts, fractions égales par recoupage, comparaison (même numérateur, dénominateur commun), addition en douzièmes, modèle d’aire du produit, fraction d’une quantité et « combien de quarts dans 3 » pour la division ; simplification par décomposition (renvoi au 02) ; corrigés L, G, K complétés ; reste : relecture humaine | ✅ |
 | 02 | Entiers, décimaux | ~~361 (210)~~ → **466** | 41 | **100 %** | **6** | ~~3~~ → **4–5** | **v0.2 fait** (vague 4) : tableau de numération (et × 10), zoom dixièmes / centièmes sur la droite graduée, arrondi et troncature sur la droite, division euclidienne (œufs en boîtes), crible d’Ératosthène, arbre de décomposition ; **nombres premiers et décomposition en facteurs premiers ajoutés** (problèmes de partage) ; « € » sortis des formules ; reste : relecture humaine | ✅ |
-| 03 | Relatifs | ~~388 (241)~~ → **484** | 41 | **100 %** | **6** | ~~3~~ → **4–5** | **v0.2 fait** (vague 4) : thermomètre (écart), droite graduée (opposés, distance à zéro, ordre), additions en déplacements, jetons pour l’addition et pour la soustraction (« ajouter l’opposé »), règle des signes justifiée par une régularité ; ancien § 3.4 confus supprimé ; notation $\vert a \vert$ retirée (hors collège) ; reste : relecture humaine | ✅ |
+| 03 | Relatifs | ~~388 (241)~~ → **484** | 41 | **100 %** | **6** | ~~3~~ → **4–5** | **v0.2 fait** (vague 4) : thermomètre (écart), droite graduée (opposés, distance à zéro, ordre), additions en déplacements, jetons pour l’addition et pour la soustraction (« ajouter l’opposé »), règle des signes justifiée par une régularité ; ancien § 3.4 confus supprimé ; notation $\vert a \vert$ retirée (hors collège ; **réintroduite en v0.11** : valeur absolue au programme 2026 de 5e) ; reste : relecture humaine | ✅ |
 | 04 | Puissances | ~~367 (218)~~ → **457** | 40 | **100 %** | **6** | ~~3–4~~ → **4–5** | **v0.2 fait** (vague 4) : carré et cube en figures, suites de puissances (÷ 10, ÷ 2) pour justifier $10^0$ et les exposants négatifs (ancien § 4.2 confus remplacé), règles en comptant les facteurs, échelle des longueurs avec préfixes nano → giga, déplacement de la virgule pour la notation scientifique ; **racine carrée définie ici (§ 6)**, renvoi depuis le 11 ; reste : relecture humaine | ✅ |
 | 05 | Proportionnalité | ~~328 (169)~~ → **551** | 47 | **100 %** | **7** | ~~3~~ → **4–5** | **v0.2 fait** (vague 3) : graphiques proportionnel / non proportionnel, tableau à flèches, double droite graduée des pourcentages, coefficient multiplicateur en barres, ratio et partage (programme 2026), plan à l’échelle ; reste : relecture humaine | ✅ |
 | 06 | Calcul littéral | ~~375 (225)~~ → **517** | 42 | **100 %** | **7** | ~~3~~ → **4–5** | **v0.2 fait** (vague 3) : motif d’allumettes, tuiles pour réduire, modèles d’aire (distributivité simple et double, $(a+b)^2$, découpage de $a^2-b^2$), programmes de calcul et preuves, contre-exemple ; reste : relecture humaine | ✅ |
@@ -413,3 +414,38 @@ Nguhma a délégué l’arbitrage. Les décisions ci-dessous sont appliquées, a
 Correspondance pour les relecteurs qui utilisent d’anciens numéros (10, 16, 17) : ancienne série G = nouvelle F, H = G, I = H, J = I. Exemples : 10 I3 → H3, 17 H4 → G4. Les étiquettes des scripts `check-10.py`, `check-16.py` et `check-17.py` gardent l’ancienne numérotation.
 
 Contrôles : `verifier-chapitre.js` à 0 point, build OK, aucune `katex-error`. Instantané : `/workspace/releases/compendium-v0.3.1-20261008-0021.tar.gz`. Paquet utilisateur hors ligne : `/workspace/releases/compendium-maths-v0.3.zip` (ouvrir `apercu/index.html`).
+
+## 11. Alignement sur le programme 2026 (v0.11, 24 octobre 2026)
+
+Source : annexe 2 du BO n° 10 du 5 mars 2026 (cycle 4), comparée au programme 2020 (BO n° 31 du 30 juillet 2020).
+Calendrier : programme 2026 en 5e à la rentrée 2026, en 4e à la rentrée 2027, en 3e à la rentrée 2028.
+
+**Repères visibles** (syntaxe `[[Programme 2026 · 5e]]` / `[[Programme 2020]]` dans le `.md`, rendue en pastille avec infobulle,
+reprise dans le sommaire, ignorée par la recherche ; mêmes pastilles sur les cartes « S’entraîner », `src/practice/engine/prog.ts`) :
+
+- **Programme 2026 · Ne** : notion ajoutée ou déplacée, avec le niveau où le programme 2026 la place.
+- **Programme 2020** : notion absente du programme 2026, **conservée** (encore au programme des 4e jusqu’en juin 2027 et des 3e jusqu’en juin 2028). Explication dans l’appli (accueil, « Repères de programme ») et dans `README.md` du dossier `cours/`.
+
+| Ch. | Ajouté (pastille 2026) | Repéré « Programme 2020 » |
+|---|---|---|
+| 03 | valeur absolue $\lvert a \rvert$ (5e), distance $\lvert b - a \rvert$, exercice A5 ; type « Valeur absolue » | — |
+| 05 | nuage de points (5e), figure, exercice A5 | — |
+| 07 | (repère seul) inéquations $ax \geqslant b$ (3e), étoiles inchangées | — |
+| 09 | médiane et aires égales (5e), droite des milieux (4e, trois énoncés, preuve ★★★), D7–D9 | inégalité triangulaire (et C1), triangles égaux § 3.4 |
+| 10 | vecteurs, vecteurs égaux, relation de Chasles, règle du parallélogramme (3e), C6–C9 ; type « Vecteurs » | rotation § 5 et ses exercices (B3, C2, G5, H1, H3, I2), homothétie § 6 et série D |
+| 11 | contraposée du théorème de Pythagore (4e), G5 | — |
+| 12 | contraposée du théorème de Thalès (3e) | agrandissement-réduction, triangles semblables § 5, série E |
+| 14 | — | agrandissement-réduction § 5, série E |
+| 15 | — | sections de pyramide et de cône § 5.2 (E4, G3, G4, I3), repérage dans le pavé et sur la sphère § 6, série F |
+| 16 | quartiles, boîte à moustaches (3e), D6–D8 ; type « Quartiles » | histogramme § 2.3 (B3, H4) |
+| 17 | notations $\Omega$, $\cup$, $\cap$, $\overline{A}$ (4e), $P(A \cup B) + P(A \cap B) = P(A) + P(B)$ (3e), fluctuation des fréquences (4e), C5–C7, E5 ; type « Réunion, intersection » | — |
+
+**Automatismes** (appli, `#/automatismes`) : 39 types de questions flash (14 en 5e, 12 en 4e, 13 en 3e) tirés des listes
+d’automatismes du programme 2026 ; 6 séances fixes de 10 questions par niveau + séance au hasard ; version papier
+imprimable (corrigé sur page à part) et version en ligne (chronomètre facultatif de 12 min, sans calculatrice, score).
+Aucun contenu d’algorithmique ; vocabulaire (« barres / bâtons », « évènement ») laissé tel quel.
+
+**Reste à faire / à trancher par Nguhma :** relecture humaine des ajouts ; convention des quartiles (rang $\lceil N/4 \rceil$,
+celle des manuels de collège ; les tableurs donnent parfois d’autres valeurs, remarque ajoutée en 16 § 4.4) ;
+suppression effective des notions « Programme 2020 » après juin 2028.
+

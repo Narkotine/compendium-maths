@@ -14,7 +14,7 @@
 1. Utiliser le vocabulaire : population, individu, caractère, effectif, fréquence.
 2. Organiser des données dans un **tableau** d’effectifs et de fréquences (y compris effectifs cumulés).
 3. Lire et construire un diagramme en **bâtons**, un diagramme **circulaire**, un **histogramme**, un graphique d’**évolution**.
-4. Calculer et interpréter la **moyenne** (simple ou pondérée), la **médiane** et l’**étendue**.
+4. Calculer et interpréter la **moyenne** (simple ou pondérée), la **médiane** et l’**étendue** ; en 3e, les **quartiles** et la **boîte à moustaches**.
 5. Choisir entre moyenne et médiane, et repérer un **graphique trompeur**.
 6. Utiliser un tableur pour ces calculs.
 
@@ -74,7 +74,7 @@ Pour montrer la **répartition** d’un tout en parts. L’angle de chaque secte
 
 > **Erreur fréquente.** Confondre pourcentage et angle : « $40\,\%$ donne un angle de $40^\circ$ ». Non : $40\,\%$ de $360^\circ$, c’est $0{,}4 \times 360 = 144^\circ$.
 
-### 2.3 Histogramme
+### 2.3 Histogramme [[Programme 2020]]
 
 Quand le caractère prend beaucoup de valeurs (tailles, durées), on les regroupe en **classes** : $[150\,;160[$ contient les tailles de $150\,\mathrm{cm}$ (compris) à $160\,\mathrm{cm}$ (non compris). L’**amplitude** de cette classe est $160 - 150 = 10\,\mathrm{cm}$. Dans un histogramme, les rectangles sont **accolés** ; quand toutes les classes ont la même amplitude, la hauteur de chaque rectangle est proportionnelle à l’effectif.
 
@@ -183,6 +183,63 @@ Dans cet exemple, la moyenne vaut $\dfrac{19\,200}{7} \approx 2\,743$ € alors 
 
 **Contrôle.** Moyenne et médiane ne suffisent pas à décrire une série : il faut aussi un indicateur de dispersion.
 
+### 4.4 Quartiles [[Programme 2026 · 3e]]
+
+La médiane coupe la série rangée en deux moitiés. Les **quartiles** la coupent, à peu près, en **quatre quarts**.
+
+> **Définition.** On range la série dans l’ordre croissant ; $N$ est l’effectif total.
+> - Le **premier quartile** $Q_1$ est la plus petite valeur de la série telle qu’**au moins un quart** ($25\,\%$) des valeurs lui soient inférieures ou égales.
+> - Le **troisième quartile** $Q_3$ est la plus petite valeur de la série telle qu’**au moins trois quarts** ($75\,\%$) des valeurs lui soient inférieures ou égales.
+
+> **Méthode — trouver les quartiles.**
+> 1. Ranger la série (ou utiliser les effectifs cumulés croissants).
+> 2. $Q_1$ : calculer $\dfrac{N}{4}$ et l’arrondir **à l’entier supérieur** (s’il n’est pas entier) : on obtient le **rang** de $Q_1$.
+> 3. $Q_3$ : calculer $\dfrac{3N}{4}$ et l’arrondir **à l’entier supérieur** : on obtient le rang de $Q_3$.
+
+Contrairement à la médiane, un quartile est **toujours une valeur de la série** : on ne fait jamais la moyenne de deux valeurs.
+
+**Exemple guidé 7.** Notes de $12$ élèves, rangées : $4$ ; $6$ ; $8$ ; $9$ ; $10$ ; $11$ ; $11$ ; $12$ ; $14$ ; $15$ ; $17$ ; $19$. Trouver $Q_1$, la médiane et $Q_3$.
+
+**Rédaction.**
+
+> $N = 12$. $\dfrac{N}{4} = 3$ : $Q_1$ est la $3^\text{e}$ valeur, $Q_1 = 8$.  
+> $N$ est pair : la médiane est la moyenne des $6^\text{e}$ et $7^\text{e}$ valeurs, $\dfrac{11 + 11}{2} = 11$.  
+> $\dfrac{3N}{4} = 9$ : $Q_3$ est la $9^\text{e}$ valeur, $Q_3 = 14$.
+
+**Contrôle.** $3$ notes sur $12$ (un quart) sont inférieures ou égales à $8$ ; $9$ notes sur $12$ (trois quarts) sont inférieures ou égales à $14$.
+
+**Exemple guidé 8.** Avec un tableau d’effectifs : pointures de $25$ élèves (exercice D4).
+
+| Pointure | $36$ | $37$ | $38$ | $39$ | $40$ |
+|---|---|---|---|---|---|
+| Effectif | $2$ | $5$ | $8$ | $6$ | $4$ |
+| Effectif cumulé croissant | $2$ | $7$ | $15$ | $21$ | $25$ |
+
+**Rédaction.**
+
+> $\dfrac{N}{4} = \dfrac{25}{4} = 6{,}25$, arrondi à $7$ : $Q_1$ est la $7^\text{e}$ valeur. L’effectif cumulé atteint $7$ pour la pointure $37$ : $Q_1 = 37$.  
+> $\dfrac{3N}{4} = 18{,}75$, arrondi à $19$ : $Q_3$ est la $19^\text{e}$ valeur. L’effectif cumulé passe de $15$ à $21$ pour la pointure $39$ : $Q_3 = 39$.  
+> La médiane est la $13^\text{e}$ valeur : $38$.
+
+**Contrôle.** $7$ élèves sur $25$ ($28\,\%$, au moins un quart) chaussent du $37$ ou moins ; $21$ sur $25$ ($84\,\%$, au moins trois quarts) du $39$ ou moins.
+
+> **Erreur fréquente.** Arrondir $\dfrac{N}{4}$ à l’entier le plus proche : avec $N = 25$, $6{,}25$ donne le rang $7$, pas $6$. Autre piège : chercher les quartiles sans ranger la série.
+
+*Remarque.* Les tableurs et certaines calculatrices utilisent d’autres conventions de calcul des quartiles et peuvent donner des résultats un peu différents ; au collège, on utilise la définition ci-dessus.
+
+### 4.5 Boîte à moustaches [[Programme 2026 · 3e]]
+
+Une **boîte à moustaches** (ou diagramme en boîte) résume une série avec cinq nombres placés sur un axe gradué : le **minimum**, $Q_1$, la **médiane**, $Q_3$ et le **maximum**.
+
+![Boîte à moustaches des 12 notes de l’exemple guidé 7 : moustache de 4 à 8, boîte de 8 à 14 coupée par la médiane 11, moustache de 14 à 19 ; chaque partie contient environ un quart des notes](figures/boite-moustaches.svg)
+
+> **Méthode — construire une boîte à moustaches.**
+> 1. Tracer un axe gradué qui contient le minimum et le maximum.
+> 2. Dessiner une **boîte** (rectangle) de $Q_1$ à $Q_3$, coupée par un trait à la **médiane**.
+> 3. Tracer les **moustaches** : de la boîte jusqu’au minimum et jusqu’au maximum.
+
+Lecture : environ un quart des valeurs dans chaque moustache, environ la moitié des valeurs dans la boîte. Plus la boîte est **longue**, plus les valeurs centrales sont dispersées. Deux boîtes tracées sur le même axe permettent de **comparer** deux séries d’un coup d’œil.
+
 ---
 
 ## 5. Avec un tableur
@@ -223,6 +280,7 @@ Avec un axe qui commence à $100$, le rectangle de 2025 paraît quatre fois plus
 > - Moyenne $= \dfrac{\text{somme des valeurs}}{\text{nombre de valeurs}}$ ; avec effectifs ou coefficients : moyenne pondérée.
 > - Médiane : **ranger** d’abord ; valeur du milieu (ou moyenne des deux du milieu). Elle résiste aux valeurs extrêmes.
 > - Étendue $=$ max $-$ min : dispersion.
+> - Quartiles (3e) : rang de $Q_1$ = $\dfrac{N}{4}$, rang de $Q_3$ = $\dfrac{3N}{4}$, arrondis à l’entier supérieur ; boîte à moustaches : min, $Q_1$, médiane, $Q_3$, max.
 > - Graphique : vérifier l’axe vertical et l’effectif total.
 
 ---
@@ -252,7 +310,7 @@ Avec un axe qui commence à $100$, le rectangle de 2025 paraît quatre fois plus
 
 **B2.** Dans un diagramme circulaire, un secteur mesure $90^\circ$. a) Quelle fraction de la population représente-t-il ? b) La population compte $60$ personnes : quel est l’effectif de ce secteur ?
 
-**B3.** Avec l’histogramme du § 2.3 : a) combien d’élèves mesurent entre $160$ et $170\,\mathrm{cm}$ ? b) Quel pourcentage des élèves mesure moins de $160\,\mathrm{cm}$ ?
+**B3.** [[Programme 2020]] Avec l’histogramme du § 2.3 : a) combien d’élèves mesurent entre $160$ et $170\,\mathrm{cm}$ ? b) Quel pourcentage des élèves mesure moins de $160\,\mathrm{cm}$ ?
 
 **B4.** Le diagramme donne le nombre de buts marqués par une équipe lors de ses $20$ matchs. a) Dresser le tableau des effectifs. b) Quelle est la fréquence des matchs avec exactement $2$ buts ?
 
@@ -283,6 +341,18 @@ Avec un axe qui commence à $100$, le rectangle de 2025 paraît quatre fois plus
 **D4.** Pointures de $25$ élèves : $36$ (2 élèves), $37$ (5), $38$ (8), $39$ (6), $40$ (4). Calculer la moyenne et la médiane.
 
 **D5.** ★★ Deux classes ont la même moyenne, $12$, à un contrôle. L’étendue des notes est $6$ dans la classe A et $14$ dans la classe B. Que peut-on en dire ?
+
+**D6.** [[Programme 2026 · 3e]] Série : $13$ ; $7$ ; $18$ ; $3$ ; $10$ ; $15$ ; $8$ ; $12$. Déterminer $Q_1$, la médiane et $Q_3$.
+
+**D7.** [[Programme 2026 · 3e]] Durée du trajet domicile-collège (en minutes) de $20$ élèves :
+
+| Durée (min) | $5$ | $10$ | $15$ | $20$ | $30$ |
+|---|---|---|---|---|---|
+| Effectif | $3$ | $6$ | $5$ | $4$ | $2$ |
+
+a) Déterminer la médiane et les quartiles. b) Construire la boîte à moustaches. c) Vrai ou faux : « au moins trois quarts des élèves mettent au plus $20$ minutes » ?
+
+**D8.** ★★ [[Programme 2026 · 3e]] Deux classes ont passé le même contrôle. Classe A : minimum $6$, $Q_1 = 9$, médiane $11$, $Q_3 = 13$, maximum $17$. Classe B : minimum $2$, $Q_1 = 8$, médiane $12$, $Q_3 = 15$, maximum $19$. a) Tracer les deux boîtes sur un même axe. b) Quelle classe a la plus grande médiane ? La plus grande étendue ? c) Dans la classe B, au moins un quart des élèves ont-ils obtenu $15$ ou plus ? Justifier.
 
 ### E. Interpréter (★★)
 
@@ -326,7 +396,7 @@ Avec un axe qui commence à $100$, le rectangle de 2025 paraît quatre fois plus
 
 **H3.** ★★★ Classe A : $8$, $9$, $10$, $11$, $12$, $13$, $14$. Classe B : $4$, $6$, $11$, $11$, $12$, $16$, $17$. Calculer pour chaque classe la moyenne, la médiane et l’étendue, puis comparer.
 
-**H4.** ★★★ Avec l’histogramme du § 2.3 : a) plus de la moitié des élèves mesurent-ils moins de $160\,\mathrm{cm}$ ? b) Dans quelle classe se trouve la médiane ? c) Peut-on connaître la taille exacte du plus grand élève ?
+**H4.** [[Programme 2020]] ★★★ Avec l’histogramme du § 2.3 : a) plus de la moitié des élèves mesurent-ils moins de $160\,\mathrm{cm}$ ? b) Dans quelle classe se trouve la médiane ? c) Peut-on connaître la taille exacte du plus grand élève ?
 
 ### I. Situations ouvertes (★★)
 
@@ -408,6 +478,18 @@ Médiane : $13^\text{e}$ valeur ; cumulés $2$, $7$, $15$ : la médiane est $38$
 
 **D5.** En moyenne, les deux classes ont réussi de la même façon, mais les notes de la classe B sont beaucoup plus dispersées (des notes très basses et très hautes) ; la classe A est plus homogène.
 
+**D6.** Rangée : $3$ ; $7$ ; $8$ ; $10$ ; $12$ ; $13$ ; $15$ ; $18$ ($N = 8$). $\dfrac{8}{4} = 2$ : $Q_1$ est la $2^\text{e}$ valeur, $Q_1 = 7$. Médiane : $\dfrac{10 + 12}{2} = 11$. $\dfrac{3 \times 8}{4} = 6$ : $Q_3$ est la $6^\text{e}$ valeur, $Q_3 = 13$.
+
+**D7. (modèle)**
+> a) $N = 20$. Effectifs cumulés croissants : $3$ ; $9$ ; $14$ ; $18$ ; $20$.  
+> $\dfrac{20}{4} = 5$ : $Q_1$ est la $5^\text{e}$ valeur ; l’effectif cumulé passe de $3$ à $9$ pour $10$ min, donc $Q_1 = 10$.  
+> Médiane : moyenne des $10^\text{e}$ et $11^\text{e}$ valeurs, toutes deux égales à $15$ (rangs $10$ à $14$) : médiane $15$.  
+> $\dfrac{3 \times 20}{4} = 15$ : $Q_3$ est la $15^\text{e}$ valeur ; l’effectif cumulé passe de $14$ à $18$ pour $20$ min, donc $Q_3 = 20$.  
+> b) Axe de $0$ à $30$ ; moustache de $5$ à $10$, boîte de $10$ à $20$ coupée à $15$, moustache de $20$ à $30$.  
+> c) Vrai : $Q_3 = 20$, donc au moins $75\,\%$ des élèves mettent au plus $20$ minutes (ici $18$ sur $20$, soit $90\,\%$).
+
+**D8.** a) Sur un axe de $0$ à $20$, boîte A de $9$ à $13$ (trait à $11$), moustaches de $6$ à $17$ ; boîte B de $8$ à $15$ (trait à $12$), moustaches de $2$ à $19$. b) Médiane : classe B ($12 > 11$). Étendue : A, $17 - 6 = 11$ ; B, $19 - 2 = 17$ : classe B. c) Oui : moins de trois quarts des notes sont strictement inférieures à $Q_3 = 15$ (sinon $Q_3$ serait une note plus petite), donc plus d’un quart des élèves ont obtenu $15$ ou plus.
+
 **E1.** a) Moyenne $\dfrac{19\,200}{7} \approx 2\,742{,}86$ € ; médiane : $4^\text{e}$ valeur, $1\,800$ €. b) La médiane : la moyenne est tirée vers le haut par le salaire de $9\,000$ €, alors que six salaires sur sept sont inférieurs à $2\,300$ €.
 
 **E2.** `=MOYENNE(B2:B31)` ; `=MEDIANE(B2:B31)` ; `=MAX(B2:B31)-MIN(B2:B31)`.
@@ -475,6 +557,7 @@ Médiane : $13^\text{e}$ valeur ; cumulés $2$, $7$, $15$ : la médiane est $38$
 | Angles d’un diagramme circulaire | fréquence $\times 360^\circ$ | $12$ sur $30$ : $144^\circ$ | série B |
 | Calculer une moyenne pondérée | somme des « valeur $\times$ effectif », divisée par l’effectif total | $14$ (coef. $3$), $11$ (coef. $2$), $16$ (coef. $1$) : $\dfrac{80}{6} \approx 13{,}3$ | série C |
 | Trouver la médiane | ranger, puis valeur du milieu (ou moyenne des deux du milieu) | $2$, $5$, $5$, $8$, $9$, $11$ : $6{,}5$ | série D |
+| Quartiles, boîte à moustaches [[Programme 2026 · 3e]] | $Q_1$ : rang $\dfrac{N}{4}$ arrondi au-dessus ; $Q_3$ : rang $\dfrac{3N}{4}$ arrondi au-dessus | $N = 12$ : $Q_1$ = $3^\text{e}$ valeur, $Q_3$ = $9^\text{e}$ valeur | série D |
 | Calculer l’étendue | plus grande valeur moins plus petite | notes de $4$ à $20$ : $16$ | série D |
 | Interpréter, critiquer | valeurs extrêmes : préférer la médiane ; vérifier où commence l’axe | salaires : médiane $1\,800$ €, moyenne $\approx 2\,743$ € | série E |
 

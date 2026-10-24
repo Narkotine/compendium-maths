@@ -7,7 +7,7 @@
 export const NO_CALC: Record<string, string[]> = {
   '01-fractions-rationnels': ['egales', 'simplifier', 'comparer', 'ranger', 'addition', 'produit', 'quantite', 'division', 'priorites', 'ecritures', 'erreur'],
   '02-entiers-et-decimaux': ['numeration', 'comparer', 'operations', 'calculs', 'arrondir', 'euclide', 'divisibilite', 'premiers', 'decomposer', 'erreur'],
-  '03-nombres-relatifs': ['comparer', 'ranger', 'addition', 'soustraction', 'distance', 'produit', 'signe', 'priorites'],
+  '03-nombres-relatifs': ['valeur-absolue', 'comparer', 'ranger', 'addition', 'soustraction', 'distance', 'produit', 'signe', 'priorites'],
   '04-puissances-notation-scientifique': ['calcul', 'dix', 'regles', 'negatifs', 'prefixes', 'scientifique', 'calculsci', 'racine', 'erreur'],
   '06-calcul-litteral': ['valeur'],
   '08-fonctions': ['image'],

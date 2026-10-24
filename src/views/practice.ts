@@ -18,6 +18,7 @@ import { renderNotFound } from './notfound';
 import { attachDock, type DockHandle } from '../practice/ui/dock';
 import { calcAllowed } from '../practice/calc/policy';
 import { getSettings } from '../store';
+import { progBadge } from '../practice/engine/prog';
 
 type PRoute = { slug: string; mode: 'setup' | 'serie' | 'exo'; params: Record<string, string> };
 
@@ -109,7 +110,7 @@ function renderSetup(app: HTMLElement, ch: ChapterPractice, num: number, short: 
         <button type="button" class="pt-card-main" data-start="${g.id}">
           <span class="pt-card-title">${rich(g.title)} <span class="pt-card-stars" aria-label="Cours : ${g.stars} étoile${g.stars > 1 ? 's' : ''}">${STARS(g.stars)}</span></span>
           <span class="pt-card-ex" aria-hidden="true">${tex(g.example)}</span>
-          <span class="pt-card-desc">${rich(g.desc)}</span>
+          <span class="pt-card-desc">${rich(g.desc)}</span>${progBadge(ch.slug, g.id) ? `<span class="pt-card-prog">${progBadge(ch.slug, g.id)}</span>` : ''}
         </button>
         <div class="pt-card-meta">${stat}<a href="${g.course.href}">Cours</a><a href="${exoHash(ch.slug, g.id, levelFor(g, level), randomSeed())}" data-one="${g.id}">Un seul exercice</a></div>
       </li>`;
@@ -408,7 +409,7 @@ function renderSingle(app: HTMLElement, ch: ChapterPractice, r: PRoute, level: L
 
 // =================================================================== boîte de confirmation (hors historique)
 let dlg: { el: HTMLElement; done: (v: boolean) => void } | null = null;
-function closeDialog(v = false) {
+export function closeDialog(v = false) {
   if (!dlg) return;
   const d = dlg;
   dlg = null;
@@ -416,7 +417,7 @@ function closeDialog(v = false) {
   document.getElementById('app')!.inert = false;
   d.done(v);
 }
-function confirmDialog(o: { title: string; text: string; stay: string; leave: string }): Promise<boolean> {
+export function confirmDialog(o: { title: string; text: string; stay: string; leave: string }): Promise<boolean> {
   closeDialog();
   return new Promise((resolve) => {
     const opener = document.activeElement as HTMLElement | null;

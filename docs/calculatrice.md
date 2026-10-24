@@ -16,9 +16,9 @@
 - **Accessibilité** : panneau `role="dialog"` non modal étiqueté, `aria-expanded`/`aria-controls` sur le bouton, chaque touche et chaque ligne ont un libellé (« Utiliser le résultat environ 10,39… », « Supprimer la ligne … »), résultats annoncés (région live), poignée `role="slider"`. Thèmes clair et sombre.
 - **Hors ligne** : dans le module « entraînement » déjà pré-caché par le service worker.
 
-## Types sans calculatrice (41 sur 167)
+## Types sans calculatrice (42 sur 171)
 
-Critère : l’exercice porte sur le calcul lui-même (calcul mental, opérations, priorités, signes, puissances, écritures, comparaisons, divisibilité, conversions) ; la calculatrice donnerait la réponse sans le raisonnement. Partout ailleurs (problèmes, proportionnalité, géométrie, Pythagore, Thalès, trigonométrie, grandeurs, statistiques, probabilités, équations, calcul littéral), elle est proposée : elle ne fait pas le travail demandé. La liste est dans `src/practice/calc/policy.ts` ; `tests/calc.test.ts` vérifie que chaque identifiant existe et que les 167 types sont couverts.
+Critère : l’exercice porte sur le calcul lui-même (calcul mental, opérations, priorités, signes, puissances, écritures, comparaisons, divisibilité, conversions) ; la calculatrice donnerait la réponse sans le raisonnement. Partout ailleurs (problèmes, proportionnalité, géométrie, Pythagore, Thalès, trigonométrie, grandeurs, statistiques, probabilités, équations, calcul littéral), elle est proposée : elle ne fait pas le travail demandé. La liste est dans `src/practice/calc/policy.ts` ; `tests/calc.test.ts` vérifie que chaque identifiant existe et que les 171 types sont couverts.
 
 ### 01-fractions-rationnels — 11 / 13 sans calculatrice
 
@@ -49,8 +49,9 @@ Critère : l’exercice porte sur le calcul lui-même (calcul mental, opération
 - `erreur` Trouver l’erreur
 - (avec calculatrice : `partage`)
 
-### 03-nombres-relatifs — 8 / 10 sans calculatrice
+### 03-nombres-relatifs — 9 / 11 sans calculatrice
 
+- `valeur-absolue` Valeur absolue
 - `comparer` Comparer deux relatifs
 - `ranger` Ranger dans l’ordre croissant
 - `addition` Additionner des relatifs

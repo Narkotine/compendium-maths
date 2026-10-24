@@ -103,6 +103,7 @@
       "practice": {
         "enabled": true,
         "generators": [
+          "valeur-absolue",
           "abscisse",
           "comparer",
           "ranger",
@@ -241,6 +242,7 @@
           "image",
           "conserve",
           "quadrilatere",
+          "vecteurs",
           "rotation",
           "homothetie",
           "erreur"
@@ -350,6 +352,7 @@
           "moyenne",
           "rebours",
           "mediane",
+          "quartiles",
           "classes",
           "interpreter",
           "erreur"
@@ -368,6 +371,7 @@
           "cartes",
           "roue",
           "contraire",
+          "ensembles",
           "arbre",
           "tableau",
           "frequence",

@@ -1,0 +1,71 @@
+/* ===================================================================== automatismes */
+.au-main .pt-intro { margin-bottom: 14px; }
+.au-tabs { margin: 6px 0 8px; }
+.au-tabs .seg { text-decoration: none; font-size: 1.05rem; }
+.au-tabs .seg[aria-selected='true'] { background: var(--surface); color: var(--text); box-shadow: var(--shadow-1); }
+:root[data-theme='dark'] .au-tabs .seg[aria-selected='true'] { background: var(--surface-3); }
+.btn--small { min-height: 40px; padding: 6px 12px; font-size: 0.92rem; gap: 6px; }
+.btn--small .ic { width: 18px; height: 18px; }
+.au-random { margin: 14px 0 6px; padding: 12px 14px; border-radius: var(--radius); background: var(--hue-soft); }
+.au-random .pt-h2 { margin-top: 0; }
+.au-random p { margin: 4px 0 10px; }
+.au-cards { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.au-card { border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); padding: 12px 14px; }
+.au-card-t { margin: 0 0 4px; font-size: 1.05rem; }
+.au-card-themes { margin: 0 0 10px; color: var(--text-2); font-size: 0.9rem; }
+.au-card-acts { display: flex; flex-wrap: wrap; gap: 8px; }
+.au-fixed-note { margin-top: 0; }
+.au-types { margin: 18px 0 8px; }
+.au-types summary { cursor: pointer; font-weight: 700; min-height: 44px; display: flex; align-items: center; }
+.au-types ul { padding-left: 1.2em; }
+.au-types li { margin: 6px 0; }
+.au-ex { color: var(--text-2); margin-left: 4px; }
+
+/* ----- version papier */
+.au-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin: 4px 0 14px; }
+.au-check { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; cursor: pointer; }
+.au-check input { width: 20px; height: 20px; }
+.au-sheet, .au-key { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 18px; }
+.au-sheet-head { border-bottom: 1px solid var(--border); margin-bottom: 8px; }
+.au-sheet-t { font-size: 1.2rem; margin: 0 0 4px; }
+.au-sheet-meta { margin: 0; color: var(--text-2); font-size: 0.9rem; }
+.au-sheet-name { margin: 8px 0 10px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 6px; }
+.au-blank { display: inline-block; min-width: 6.5em; border-bottom: 1px dotted currentColor; height: 1.2em; vertical-align: baseline; }
+.au-qs { list-style: none; margin: 0; padding: 0; columns: 2 300px; column-gap: 28px; }
+.au-q { break-inside: avoid; padding: 8px 0 10px; border-bottom: 1px solid var(--border); }
+.au-q-t { margin: 0; font-weight: 700; }
+.au-num { display: inline-block; min-width: 1.6em; color: var(--hue-text); }
+.au-q-st p, .au-q-p { margin: 4px 0; }
+.au-q-d { overflow-x: auto; }
+.au-q-d .katex-display { margin: 4px 0; }
+.au-fields { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 6px; }
+.au-field { display: inline-flex; align-items: baseline; gap: 4px; }
+.au-opts { list-style: none; margin: 6px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 16px; }
+.au-opts li { display: inline-flex; align-items: center; gap: 6px; }
+.au-box { display: inline-block; width: 0.9em; height: 0.9em; border: 1.5px solid currentColor; border-radius: 2px; }
+.au-key { display: none; margin-top: 16px; }
+.au-show-key .au-key { display: block; }
+.au-key-list { margin: 0; padding-left: 1.6em; }
+.au-key-list li { margin: 8px 0; break-inside: avoid; }
+.au-key-list p { margin: 2px 0; }
+.au-key-a { color: var(--hue-text); }
+
+/* ----- en ligne */
+.au-live-bar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 6px 12px; margin: 0 0 10px; font-size: 0.9rem; color: var(--text-2); }
+.au-live-mode { display: inline-flex; align-items: center; gap: 6px; }
+.au-live-mode .ic { width: 18px; height: 18px; }
+.au-clock { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 1.05rem; color: var(--text); }
+.au-clock--low { color: #b3261e; }
+.au-sol summary { cursor: pointer; color: var(--accent); }
+.au-sol p { margin: 2px 0; }
+
+@media print {
+  .page--auto-print .appbar, .au-toolbar, .dock { display: none !important; }
+  .page--auto-print .au-main { max-width: none; padding: 0; }
+  .au-sheet, .au-key { border: 0; padding: 0; background: none; }
+  .au-qs { columns: 2; column-gap: 1cm; }
+  .au-q { padding: 4px 0 8px; }
+  .au-key { break-before: page; }
+  .au-show-key .au-key { display: block; }
+  .au-blank { min-width: 3.5cm; }
+}

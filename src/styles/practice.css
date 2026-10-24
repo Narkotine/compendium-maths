@@ -545,3 +545,7 @@ html.dock-on .pt-figure svg { max-height: 30dvh; width: auto; max-width: 100%; }
   .pt-pin { display: none !important; }
 }
 .dock-vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* Repère de programme sur une carte de type */
+.pt-card-prog { display: block; margin-top: 0.35rem; }
+.pt-card-prog .prog { margin-left: 0; }

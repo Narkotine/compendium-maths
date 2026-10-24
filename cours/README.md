@@ -30,6 +30,22 @@ Chaque dossier contient en général :
 
 Convention maths : $a,b$ entiers pour les fractions / rationnels ; KaTeX dans les `.md`.
 
+## Repères de programme (v0.11)
+
+Le nouveau programme de cycle 4 (BO n° 10 du 5 mars 2026) s’applique en **5e à la rentrée 2026**, en **4e à la rentrée 2027**
+et en **3e à la rentrée 2028**. Les **4e et 3e restent sur le programme 2020 jusqu’en 2027 et 2028**. D’où deux pastilles :
+
+- `[[Programme 2026 · 4e]]` → **Programme 2026 · 4e** : notion ajoutée (ou déplacée) par le programme 2026, avec son niveau
+  (valeur absolue, nuage de points, médiane et aires, droite des milieux, vecteurs et relation de Chasles, contraposées de
+  Pythagore et de Thalès, inéquations $ax \geqslant b$, quartiles et boîte à moustaches, notations ensemblistes,
+  $P(A \cup B)$, fluctuation des fréquences) ;
+- `[[Programme 2020]]` → **Programme 2020** : notion absente du programme 2026 mais **conservée**, car encore étudiée (et
+  évaluable au brevet) par les élèves qui suivent le programme 2020 : rotation, homothétie, agrandissement-réduction et
+  triangles semblables, triangles égaux, inégalité triangulaire, repérage dans le pavé et sur la sphère, sections de
+  pyramide et de cône, histogramme.
+
+Détail par chapitre : `PLAN-REVISION.md`, § 11.
+
 ## Révision en cours
 
 Le plan de révision (audit des 17 chapitres, standard éditorial, priorités, conventions, checklist des figures) est dans [`PLAN-REVISION.md`](PLAN-REVISION.md).

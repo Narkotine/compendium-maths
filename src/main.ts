@@ -19,7 +19,9 @@ import { setupPWA } from './pwa';
 
 const app = document.getElementById('app')!;
 let practiceMod: typeof import('./views/practice') | null = null;
+let autoMod: typeof import('./views/automatismes') | null = null;
 const leavePracticeView = () => practiceMod?.leavePractice();
+const leaveAutoView = () => autoMod?.leaveAuto();
 applySettings();
 
 let lastView = '';
@@ -29,6 +31,7 @@ async function onRoute(route: Route, how: 'push' | 'pop' | 'init', st: HState) {
   viewReady = false;
   if (route.name !== 'chapter') leaveChapter();
   if (route.name !== 'practice') leavePracticeView();
+  if (route.name !== 'auto') leaveAutoView();
   const view = route.name === 'chapter' ? `ch:${route.slug}` : route.name;
   const changed = view !== lastView;
   lastView = view;
@@ -58,6 +61,17 @@ async function onRoute(route: Route, how: 'push' | 'pop' | 'init', st: HState) {
       .catch((err) => {
         console.error(err);
         app.innerHTML = `<main class="narrow" id="main" tabindex="-1"><h1>S’entraîner</h1><p>Le module d’exercices n’a pas pu être chargé. Vérifiez la connexion puis rechargez la page.</p><p><button class="btn" onclick="location.reload()">Recharger</button></p></main>`;
+      });
+  } else if (route.name === 'auto') {
+    // automatismes : module chargé à la demande (questions flash + KaTeX)
+    ready = import('./views/automatismes')
+      .then((m) => {
+        autoMod = m;
+        return m.renderAuto(app, route);
+      })
+      .catch((err) => {
+        console.error(err);
+        app.innerHTML = `<main class="narrow" id="main" tabindex="-1"><h1>Automatismes</h1><p>Le module n’a pas pu être chargé. Vérifiez la connexion puis rechargez la page.</p><p><button class="btn" onclick="location.reload()">Recharger</button></p></main>`;
       });
   } else if (route.name === 'progress') {
     ready = import('./views/progress').then((m) => m.renderProgress(app));

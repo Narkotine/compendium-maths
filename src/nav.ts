@@ -7,6 +7,9 @@
  *  #/entrainement/<slug>                         s'entraîner : choix du type et du niveau
  *  #/entrainement/<slug>/serie?t=…&niv=…&n=…&g=…  série d'exercices générés (graine g : rejouable)
  *  #/entrainement/<slug>/exo?t=…&niv=…&g=…        un exercice seul (adresse partageable)
+ *  #/automatismes[/<niveau>]                      automatismes : séances par niveau (5e, 4e, 3e)
+ *  #/automatismes/<niveau>/<n>                    séance n, version papier (imprimable, corrigé)
+ *  #/automatismes/<niveau>/<n>/en-ligne?chrono=1  séance n en ligne (n = « hasard » : graine g)
  *
  * Chaque entrée d'historique porte une clé `k` ; la position de lecture est mémorisée par clé
  * (ancre + décalage), ce qui permet au bouton « retour » (navigateur ou Android) de revenir
@@ -21,6 +24,7 @@ export type Route =
   | { name: 'chapter'; slug: string; id: string | null }
   | { name: 'practice'; slug: string; mode: 'setup' | 'serie' | 'exo'; params: Record<string, string> }
   | { name: 'progress' }
+  | { name: 'auto'; cls: string | null; k: string | null; mode: 'index' | 'print' | 'live'; params: Record<string, string> }
   | { name: 'notfound'; hash: string };
 
 export interface HState {
@@ -44,6 +48,11 @@ export function parseHash(hash: string): Route {
   if (parts[0] === 'progres' && parts.length === 1) return { name: 'progress' };
   if (parts[0] === 'recherche') return { name: 'search', q: new URLSearchParams(query).get('q') || '' };
   if (parts[0] === 'ch' && parts[1]) return { name: 'chapter', slug: parts[1], id: parts[2] || null };
+  if (parts[0] === 'automatismes') {
+    if (parts.length > 4 || (parts[3] && parts[3] !== 'en-ligne')) return { name: 'notfound', hash };
+    const mode = parts[3] ? 'live' : parts[2] ? 'print' : 'index';
+    return { name: 'auto', cls: parts[1] ?? null, k: parts[2] ?? null, mode, params: Object.fromEntries(new URLSearchParams(query)) };
+  }
   if (parts[0] === 'entrainement' && parts[1]) {
     const mode = parts[2] === 'serie' || parts[2] === 'exo' ? parts[2] : 'setup';
     if (parts[2] && mode === 'setup') return { name: 'notfound', hash };

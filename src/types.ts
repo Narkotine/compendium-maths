@@ -8,6 +8,8 @@ export interface TocEntry {
   /** Titre avec formules pré-rendues (si le titre contient du KaTeX). */
   html?: string;
   part: Part;
+  /** Étiquette de programme du titre (« Programme 2026 · 3e », « Programme 2020 »). */
+  prog?: string;
 }
 
 /** Exercices générés (« S'entraîner ») : actif pour les chapitres qui le déclarent. */

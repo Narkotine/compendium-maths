@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 350" width="840" height="350" font-family="Arial, Helvetica, sans-serif">
+<title>Les trois théorèmes de la droite des milieux : (IJ) parallèle à (BC), IJ égal à la moitié de BC, et la parallèle à (BC) passant par le milieu I de [AB] coupe [AC] en son milieu</title>
+<rect x="0" y="0" width="840" height="350" fill="white"/>
+<polygon points="115.0,40.0 35.0,250.0 255.0,250.0" fill="#dbe8f5" stroke="#222" stroke-width="2.2" stroke-linejoin="round"/>
+<line x1="101.5" y1="95.0" x2="88.5" y2="90.0" stroke="#222" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="61.5" y1="200.0" x2="48.5" y2="195.0" stroke="#222" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="154.2" y1="86.1" x2="142.5" y2="93.9" stroke="#222" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="157.5" y1="91.1" x2="145.8" y2="98.9" stroke="#222" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="224.2" y1="191.1" x2="212.5" y2="198.9" stroke="#222" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="227.5" y1="196.1" x2="215.8" y2="203.9" stroke="#222" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="75.0" y1="145.0" x2="185.0" y2="145.0" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+<circle cx="75.0" cy="145.0" r="4" fill="#222"/>
+<circle cx="185.0" cy="145.0" r="4" fill="#222"/>
+<text x="115.0" y="30.0" font-size="20" fill="#222" text-anchor="middle" font-weight="bold">A</text>
+<text x="21.0" y="258.0" font-size="20" fill="#222" text-anchor="middle" font-weight="bold">B</text>
+<text x="269.0" y="258.0" font-size="20" fill="#222" text-anchor="middle" font-weight="bold">C</text>
+<text x="59.0" y="145.0" font-size="20" fill="#222" text-anchor="middle" font-weight="bold">I</text>
+<text x="201.0" y="135.0" font-size="20" fill="#222" text-anchor="middle" font-weight="bold">J</text>
+<text x="145.0" y="290.0" font-size="17" fill="#222" text-anchor="middle" font-weight="bold">Théorème 1</text>
+<text x="145.0" y="313.0" font-size="15.5" fill="#222" text-anchor="middle" font-weight="normal">I et J milieux</text>
+<text x="145.0" y="336.0" font-size="15.5" fill="#c0392b" text-anchor="middle" font-weight="bold">donc (IJ) // (BC)</text>
+<polygon points="395.0,40.0 315.0,250.0 535.0,250.0" fill="#dbe8f5" stroke="#222" stroke-width="2.2" stroke-linejoin="round"/>
+<line x1="381.5" y1="95.0" x2="368.5" y2="90.0" stroke="#222" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="341.5" y1="200.0" x2="328.5" y2="195.0" stroke="#222" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="434.2" y1="86.1" x2="422.5" y2="93.9" stroke="#222" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="437.5" y1="91.1" x2="425.8" y2="98.9" stroke="#222" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="504.2" y1="191.1" x2="492.5" y2="198.9" stroke="#222" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="507.5" y1="196.1" x2="495.8" y2="203.9" stroke="#222" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="355.0" y1="145.0" x2="465.0" y2="145.0" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+<line x1="315.0" y1="250.0" x2="535.0" y2="250.0" stroke="#1f4e79" stroke-width="4" stroke-linecap="round"/>
+<text x="410.0" y="135.0" font-size="15" fill="#c0392b" text-anchor="middle" font-weight="bold">BC ÷ 2</text>
+<circle cx="355.0" cy="145.0" r="4" fill="#222"/>
+<circle cx="465.0" cy="145.0" r="4" fill="#222"/>
+<text x="395.0" y="30.0" font-size="20" fill="#222" text-anchor="middle" font-weight="bold">A</text>
+<text x="301.0" y="258.0" font-size="20" fill="#222" text-anchor="middle" font-weight="bold">B</text>
+<text x="549.0" y="258.0" font-size="20" fill="#222" text-anchor="middle" font-weight="bold">C</text>
+<text x="339.0" y="145.0" font-size="20" fill="#222" text-anchor="middle" font-weight="bold">I</text>
+<text x="481.0" y="135.0" font-size="20" fill="#222" text-anchor="middle" font-weight="bold">J</text>
+<text x="425.0" y="290.0" font-size="17" fill="#222" text-anchor="middle" font-weight="bold">Théorème 2</text>
+<text x="425.0" y="313.0" font-size="15.5" fill="#222" text-anchor="middle" font-weight="normal">I et J milieux</text>
+<text x="425.0" y="336.0" font-size="15.5" fill="#c0392b" text-anchor="middle" font-weight="bold">donc IJ = BC ÷ 2</text>
+<polygon points="675.0,40.0 595.0,250.0 815.0,250.0" fill="#dbe8f5" stroke="#222" stroke-width="2.2" stroke-linejoin="round"/>
+<line x1="661.5" y1="95.0" x2="648.5" y2="90.0" stroke="#222" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="621.5" y1="200.0" x2="608.5" y2="195.0" stroke="#222" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="714.2" y1="86.1" x2="702.5" y2="93.9" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="717.5" y1="91.1" x2="705.8" y2="98.9" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="784.2" y1="191.1" x2="772.5" y2="198.9" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="787.5" y1="196.1" x2="775.8" y2="203.9" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="605.0" y1="145.0" x2="785.0" y2="145.0" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<text x="797.0" y="139.0" font-size="16" fill="#c0392b" text-anchor="middle" font-weight="bold">(d)</text>
+<circle cx="635.0" cy="145.0" r="4" fill="#222"/>
+<circle cx="745.0" cy="145.0" r="4" fill="#c0392b"/>
+<text x="675.0" y="30.0" font-size="20" fill="#222" text-anchor="middle" font-weight="bold">A</text>
+<text x="581.0" y="258.0" font-size="20" fill="#222" text-anchor="middle" font-weight="bold">B</text>
+<text x="829.0" y="258.0" font-size="20" fill="#222" text-anchor="middle" font-weight="bold">C</text>
+<text x="619.0" y="145.0" font-size="20" fill="#222" text-anchor="middle" font-weight="bold">I</text>
+<text x="759.0" y="135.0" font-size="20" fill="#222" text-anchor="middle" font-weight="bold">J</text>
+<text x="705.0" y="290.0" font-size="17" fill="#222" text-anchor="middle" font-weight="bold">Théorème 3</text>
+<text x="705.0" y="313.0" font-size="15.5" fill="#222" text-anchor="middle" font-weight="normal">I milieu et (d) // (BC)</text>
+<text x="705.0" y="336.0" font-size="15.5" fill="#c0392b" text-anchor="middle" font-weight="bold">donc J milieu de [AC]</text>
+</svg>
