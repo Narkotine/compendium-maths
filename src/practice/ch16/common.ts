@@ -9,7 +9,7 @@ const sec = (id: string, label: string): CourseLink => ({ href: `#/ch/${CH}/${id
 export const LINKS = {
   s1: sec('s1', '§ 1 · Vocabulaire et tableaux'), s21: sec('s2-1', '§ 2.1 · Diagramme en bâtons'), s22: sec('s2-2', '§ 2.2 · Diagramme circulaire'),
   s23: sec('s2-3', '§ 2.3 · Histogramme'), s24: sec('s2-4', '§ 2.4 · Choisir un graphique'), s31: sec('s3-1', '§ 3.1 · Moyenne'), s32: sec('s3-2', '§ 3.2 · Moyenne par classes'),
-  s41: sec('s4-1', '§ 4.1 · Médiane'), s42: sec('s4-2', '§ 4.2 · Moyenne ou médiane ?'), s43: sec('s4-3', '§ 4.3 · Étendue'), s5: sec('s5', '§ 5 · Tableur'), s6: sec('s6', '§ 6 · Graphique trompeur'),
+  s41: sec('s4-1', '§ 4.1 · Médiane'), s42: sec('s4-2', '§ 4.2 · Moyenne ou médiane ?'), s43: sec('s4-3', '§ 4.3 · Étendue'), s44: sec('s4-4', '§ 4.4 · Quartiles'), s45: sec('s4-5', '§ 4.5 · Boîte à moustaches'), s5: sec('s5', '§ 5 · Tableur'), s6: sec('s6', '§ 6 · Graphique trompeur'),
 };
 export const m = (s: string) => `$${s}$`;
 const grp = (s: string) => s.replace(/^(-?)(\d+)/, (_, sg, d) => sg + (d.length >= 5 ? d.replace(/\B(?=(\d{3})+(?!\d))/g, '\\,') : d));

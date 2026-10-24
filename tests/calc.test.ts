@@ -98,7 +98,7 @@ console.log('Types sans calculatrice');
   for (const d of dirs) { const c = (await import(`../src/practice/${d}/index.ts`)).default; all.set(c.slug, c.generators.map((g: { id: string }) => g.id)); }
   for (const [slug, ids] of Object.entries(NO_CALC)) for (const id of ids) ok(all.get(slug)?.includes(id), `type sans calculatrice existant : ${slug} / ${id}`);
   const n = [...all.values()].reduce((s, v) => s + v.length, 0), off = Object.values(NO_CALC).flat().length;
-  ok(n === 167, `167 types passés en revue (${n})`); console.log(`  ${off} types sans calculatrice, ${n - off} avec`);
+  ok(n === 171, `171 types passés en revue (${n})`); console.log(`  ${off} types sans calculatrice, ${n - off} avec`);
 }
 {
   const S = (i: string, ap: boolean, e: string) => ok(short4(i, ap) === e, `affichage court ${i} → ${e} (${short4(i, ap)})`);

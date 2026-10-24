@@ -4,10 +4,11 @@ import { CH } from './common';
 import { comparer, ranger, abscisse, distance } from './droite';
 import { addition, soustraction, produit, signe, priorites } from './operations';
 import { probleme } from './problemes';
+import { absolue } from './absolue';
 
 const chapter: ChapterPractice = {
   slug: CH,
   title: 'Nombres relatifs',
-  generators: [abscisse, comparer, ranger, addition, soustraction, distance, produit, signe, priorites, probleme],
+  generators: [absolue, abscisse, comparer, ranger, addition, soustraction, distance, produit, signe, priorites, probleme],
 };
 export default chapter;

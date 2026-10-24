@@ -5,7 +5,7 @@ export const CH = '03-nombres-relatifs';
 const sec = (id: string, label: string): CourseLink => ({ href: `#/ch/${CH}/${id}`, label });
 export const LINKS = {
   s11: sec('s1-1', '§ 1.1 · Situations de la vie courante'),
-  s12: sec('s1-2', '§ 1.2 · Opposé, distance à zéro'),
+  s12: sec('s1-2', '§ 1.2 · Opposé, distance à zéro, valeur absolue'),
   s21: sec('s2-1', '§ 2.1 · Se repérer sur une droite graduée'),
   s22: sec('s2-2', '§ 2.2 · Comparer'),
   s32: sec('s3-2', '§ 3.2 · Addition : les règles'),

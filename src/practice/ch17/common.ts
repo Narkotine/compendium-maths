@@ -8,7 +8,7 @@ export const CH = '17-probabilites';
 const sec = (id: string, label: string): CourseLink => ({ href: `#/ch/${CH}/${id}`, label });
 export const LINKS = {
   s1: sec('s1', '§ 1 · Vocabulaire'), s21: sec('s2-1', '§ 2.1 · Échelle des probabilités'), s22: sec('s2-2', '§ 2.2 · Équiprobabilité'), s23: sec('s2-3', '§ 2.3 · Roue'),
-  s3: sec('s3', '§ 3 · Règles de calcul'), s41: sec('s4-1', '§ 4.1 · Arbre'), s42: sec('s4-2', '§ 4.2 · Avec ou sans remise'), s43: sec('s4-3', '§ 4.3 · Tableau à double entrée'),
+  s3: sec('s3', '§ 3 · Règles de calcul'), s31: sec('s3-1', '§ 3.1 · Le langage des ensembles'), s32: sec('s3-2', '§ 3.2 · Probabilité d’une réunion'), s41: sec('s4-1', '§ 4.1 · Arbre'), s42: sec('s4-2', '§ 4.2 · Avec ou sans remise'), s43: sec('s4-3', '§ 4.3 · Tableau à double entrée'),
   s5: sec('s5', '§ 5 · « Au moins un »'), s6: sec('s6', '§ 6 · Fréquence et probabilité'),
 };
 export const m = (s: string) => `$${s}$`;

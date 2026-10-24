@@ -7,7 +7,7 @@ export const CH = '10-transformations-plan';
 const sec = (id: string, label: string): CourseLink => ({ href: `#/ch/${CH}/${id}`, label });
 export const LINKS = {
   s1: sec('s1', '§ 1 · Transformer une figure'), s2: sec('s2', '§ 2 · Symétrie axiale'), s23: sec('s2-3', '§ 2.3 · Axes de symétrie'),
-  s3: sec('s3', '§ 3 · Symétrie centrale'), s4: sec('s4', '§ 4 · Translation'), s5: sec('s5', '§ 5 · Rotation'),
+  s3: sec('s3', '§ 3 · Symétrie centrale'), s4: sec('s4', '§ 4 · Translation'), s41: sec('s4-1', '§ 4.1 · Vecteurs'), s42: sec('s4-2', '§ 4.2 · Somme, relation de Chasles'), s5: sec('s5', '§ 5 · Rotation'),
   s6: sec('s6', '§ 6 · Homothétie'), s62: sec('s6-2', '§ 6.2 · Propriétés de l’homothétie'), s71: sec('s7-1', '§ 7.1 · Ce qui est conservé'), s72: sec('s7-2', '§ 7.2 · Frises, rosaces'),
 };
 export const m = (s: string) => `$${s}$`;
