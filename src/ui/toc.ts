@@ -14,8 +14,9 @@ export function tocHtml(ch: ChapterMeta) {
   const byPart = new Map<Part, string[]>();
   for (const t of ch.toc) {
     const label = t.html ?? esc(t.title);
+    const prog = t.prog ? ` <span class="prog prog--${t.prog.includes('2026') ? '2026' : '2020'}">${esc(t.prog)}</span>` : '';
     const num = t.num ? `<span class="toc-num">${esc(t.num)}</span>` : '';
-    const item = `<li><a class="toc-item lvl${t.lvl}" href="#/ch/${ch.slug}/${t.id}" data-id="${t.id}">${num}<span class="toc-text">${label}</span></a></li>`;
+    const item = `<li><a class="toc-item lvl${t.lvl}" href="#/ch/${ch.slug}/${t.id}" data-id="${t.id}">${num}<span class="toc-text">${label}${prog}</span></a></li>`;
     if (!byPart.has(t.part)) byPart.set(t.part, []);
     byPart.get(t.part)!.push(item);
   }

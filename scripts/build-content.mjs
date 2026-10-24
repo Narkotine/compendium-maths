@@ -100,12 +100,23 @@ function mdToHtml(md) {
   text = text.replace(/\\\(([\s\S]+?)\\\)/g, (_, tex) => put(renderTex(tex.trim(), false)));
   text = text.replace(/(?<![\\$])\$(?!\$)([^$\n]+?)(?<!\\)\$/g, (_, tex) => put(renderTex(tex.trim(), false)));
   text = text.replace(/@@DOLLAR@@/g, '&#36;');
+  // Étiquettes de programme : [[Programme 2026 · 3e]] (notion ajoutée), [[Programme 2020]] (notion retirée en 2026)
+  text = text.replace(/\[\[(Programme (2020|2026)[^\]]*)\]\]/g, (_, label, year) => put(progBadge(label, year)));
   let html = marked.parse(text, { gfm: true, breaks: false });
   html = html.replace(/@@M(\d+)@@/g, (_, n) => slots[Number(n)]);
   // <p> qui ne contient qu'une formule en bloc → on retire le <p>
   html = html.replace(/<p>\s*((?:<span class="katex-display">[\s\S]*?<\/span><\/span><\/span>\s*)+)<\/p>/g, (m, inner) =>
     /<\/?p>/.test(inner) ? m : inner);
   return html;
+}
+
+/** Étiquette discrète « Programme 2026 · 3e » ou « Programme 2020 » (explication : cours/README.md, accueil). */
+const PROG_TITLE = {
+  2026: 'Notion du programme 2026 (BO n° 10 du 5 mars 2026) : en vigueur en 5e à la rentrée 2026, en 4e à la rentrée 2027, en 3e à la rentrée 2028.',
+  2020: 'Notion du programme 2020, absente du programme 2026 : encore étudiée en 4e jusqu’en juin 2027 et en 3e jusqu’en juin 2028.',
+};
+function progBadge(label, year) {
+  return `<span class="prog prog--${year}" title="${PROG_TITLE[year]}">${label.replace(/\s+/g, ' ').trim()}</span>`;
 }
 
 // Texte brut d'un nœud (formules → TeX simplifié) pour la recherche et les titres.
@@ -130,7 +141,7 @@ function plainText(node) {
       out += ' ' + texToPlain(ann ? ann.textContent : n.textContent) + ' ';
       return;
     }
-    if (/\b(cor-toggle|cor-inline|callout-icon|sr-only)\b/.test(cls)) return;
+    if (/\b(cor-toggle|cor-inline|callout-icon|sr-only|prog)\b/.test(cls)) return;
     for (const c of n.childNodes) walk(c);
     if (/^(P|LI|TD|TH|H2|H3|DIV|BLOCKQUOTE|TR|FIGCAPTION)$/.test(n.tagName)) out += ' ';
   };
@@ -155,7 +166,7 @@ const icon = (k) => `<svg class="callout-icon" viewBox="0 0 24 24" aria-hidden="
 function calloutKind(label) {
   if (/^Prérequis/i.test(label)) return 'prereq';
   if (/^Définition/i.test(label)) return 'def';
-  if (/^(Propriété|Théorème|Réciproque|Formules?|Règles?|Triangle rectangle)/i.test(label)) return 'prop';
+  if (/^(Propriété|Théorème|Réciproque|Contraposée|Formules?|Règles?|Triangle rectangle)/i.test(label)) return 'prop';
   if (/^(Méthode|Test pratique)/i.test(label)) return 'method';
   if (/^Erreur/i.test(label)) return 'pitfall';
   if (/^À retenir/i.test(label)) return 'retenir';
@@ -239,12 +250,15 @@ for (const slug of slugs) {
       }
     }
     const entry = { id, lvl: h.tagName === 'H2' ? 2 : 3, num: num_, title: label, part };
+    const badge = h.querySelector('.prog');
+    if (badge) entry.prog = badge.textContent;
     // Titre riche (formules) si le titre contient du KaTeX
     if (h.querySelector('.katex')) {
       const clone = h.cloneNode(true);
       // retire le numéro du début (texte) pour l'affichage riche
       const first = clone.firstChild;
       if (first && first.nodeType === 3) first.textContent = first.textContent.replace(/^\s*(\d+(\.\d+)?|[A-Z])\.?\s+/, '');
+      clone.querySelectorAll('.prog').forEach((b) => b.remove());
       entry.html = clone.innerHTML;
     }
     toc.push(entry);
