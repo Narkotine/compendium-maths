@@ -110,7 +110,7 @@ await p.click('[data-size-v="2"]');
 await p.click('[data-opencor]');
 await wait(200);
 t((await p.evaluate(() => document.documentElement.dataset.theme)) === 'dark', 'thème sombre appliqué');
-t((await p.$$eval('details.corrige[open]', (d) => d.length)) === 44, 'option « déplier tous les corrigés » appliquée immédiatement (44)');
+t((await p.$$eval('details.corrige[open]', (d) => d.length)) === 45, 'option « déplier tous les corrigés » appliquée immédiatement (45)');
 await p.keyboard.press('Escape');
 await wait(400);
 t(!(await p.$('.sheet-layer')) && (await hash()) === '#/ch/11-pythagore', 'Échap ferme les réglages');
